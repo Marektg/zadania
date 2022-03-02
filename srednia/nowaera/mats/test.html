@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="pl">
+	<head>
+		<link rel="icon" href="logo.png"> <meta charset="utf-8" />
+		<title>Liczby całkowite. Liczby wymierne</title>
+						<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+							integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+						
+						<!-- <link rel="stylesheet" type="text/css" href="../../../css/bootstrap.css"> -->
+						<link rel="stylesheet" type="text/css" href="../../../css/styl.css" />
+						<!--[if lt IE 9]>
+						      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+						      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+						    <![endif]-->
+						<script type="text/javascript" id="MathJax-script" async
+							src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+							</script>
+						<!-- <script src="../../../MathJax/MathJax.js?config=default"></script> 
+						 <script id="MathJax-script" async src="../../../MathJax/es5/tex-mml-chtml.js"></script> -->
+	</head>
+	<body>
+		<div id="caly_blok">
+			<div id="gora">
+				<div id="gl"><h1 class="ag"><a href="../../../podstawowa/podstawowa.html">Podstawówka</a></h1></div>
+		  		<div id="gs"><h1 class="ag"><a href="../../../index.html">Strona główna</a></h1></div>
+		  		<div id="gp"><h1 class="ag"><a href="../../../matura/matura.html">Matura</a></h1></div>
+<div id="gpp"><h1 class="ag"><a href="../../../studia/studia.html">Studia</a></h1></div>
+			</div>
+			<div id="lewa">
+<h3>Przydatne linki</h3>
+<a class="link" href="https://www.naukowiec.org/mendelejew.html">Układ okresowy pierwiastków</a>
+			
+
+			<ul><h3>Szkoła średnia</h3>
+
+<li class="fiz"><h4>Fizyka</h4></i>
+<ul class="fiz">
+<li>Mechanika</li>
+<li>Mechanika bryły sztywnej <b>R</b></li>
+<li>Grawitacja i elementy astronomii</li>
+<li>Drgania</li>
+<li>Termodynamika</li>
+<li>Elektrostatyka</li>
+<li>Prąd elektryczny</li>
+<li>Magnetyzm</li>
+<li>Fale i optyka</li>
+<li>Fizyka atomowa</li>
+<li>Elementy fizyki relatywistycznej<b>R</b></li>
+<li>Fizyka jądrowa</li>
+</ul>
+<li class="mat"><h4>Matematyka</h4></li>
+<ul class="mat">
+<li><a href="liczby.html">Liczby rzeczywiste</a></li>
+<li> Wyrażenia algebraiczne</li>
+<li>Rwnania i nierwnoci</li>
+<li>Układy równań</li>
+<li>Funkcje</li>
+<li>Ciągi</li>
+<li>Trygonometria</li>
+<li>Planimetria</li>
+<li>Geometria analityczna</li>
+<li>Stereometria</li>
+<li>Kombinatoryka</li>
+<li>Rachunek prawdopodobieństwa i ststystyka</li>
+<li>Optymalizacja i rachunek różniczkowy</li>
+</ul>
+<li class="chem"><h4>Chemia</h4></li>
+<ul class="chem">
+<li>Atomy, cząsteczki i stechiometria chemiczna</li>
+<li>Budowa atomu</li>
+<li>Wiązania chemiczne</li>
+<li>Oddziaływania międzycząteczkowe</li>
+<li>Kinetyka i statyka chemiczna</li>
+<li>Energetyka reakcji chemicznych<b>R</b></li>
+<li>Roztwory</li>
+<li>Reakcje w roztworach wodnych</li>
+<li>Systematyka związków nieorganichnych</li>
+<li>Reakcje utleniania i redukcji</li>
+<li>Elektrochemia. Ogniwa i elektroliza</li>
+<li>Metale, niemetale i ich związki</li>
+<li>Zastosowanie niektórych związków nieorganicznych</li>
+<li>Wstęp do chemii organicznej</li>
+<li>Węglowodory</li>
+<li>Hydroksylowe pochodne węglowodorów</li>
+<li>Związki karbonylowe</li>
+<li>Kwasy karboksylowe</li>
+<li>Estry i tłuszcze</li>
+<li>Związki organiczne zawierające azot</li>
+<li>Białka</li>
+<li>Cukry</li>
+</ul>
+
+</ul>
+ 
+			</div>
+			<div id="prawa">
+			 <ol class="powt"><p class="rodzajzad">Liczby całkowite. Liczby wymierne</p>
+						  <li class="numer" id="1"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Uporządkuj od najmniejszej do największej liczby \(x, y, z \) zaznaczone na osiach liczbowych.</p>
+<div class="odp">
+<div class="o3" onload="linia('linia')"><canvas id="linia" width="300" height="100" ></canvas>
+<!-- <script>
+var c=document.getElementById("linia");
+var ctx=c.getContext("2d");
+var s=linia.getAttribute("width");
+ctx.beginPath();
+ctx.moveTo(10,10);
+ctx.lineTo(s-20,10);
+ctx.lineTo(10,10);
+ctx.stroke();
+var k=9;/* ile kresek wpisać o 1 więcej niż ma być*/
+var y=(s-20)/k;
+for (var x = y+0.5; x < s-40; x += y ) {
+  ctx.moveTo(x,5);
+  ctx.lineTo(x,15);
+  ctx.lineTo(x,5);
+}
+ctx.stroke();
+ctx.moveTo(s-20,10);
+ctx.lineTo(s-30,5);
+ctx.lineTo(s-30,15);
+ctx.lineTo(s-20,10);
+ctx.fillStyle="#000000";
+ctx.fill();
+ctx.stroke();
+ctx.font = "15px Tahoma";
+textAlign = "center";
+ctx.shadowColor = "#888";
+ctx.shadowBlur = "15";
+ctx.fillText("5", y-4, 30);
+ctx.strokeStyle="#000000";
+ctx.moveTo(y-9,33);
+ctx.lineTo(y+9,33);
+ctx.lineTo(y-9,33);
+ctx.font = "15px Tahoma";
+textAlign = "center";
+ctx.shadowColor = "#888";
+ctx.shadowBlur = "15";
+ctx.fillText("12", y-8, 48);
+ctx.strokeStyle="#000000";
+ctx.font = "15px Tahoma";
+textAlign = "center";
+ctx.shadowColor = "#888";
+ctx.shadowBlur = "15";
+ctx.fillText("x", 4*y-4, 30);
+ctx.strokeStyle="#000000";
+ctx.font = "15px Tahoma";
+ctx.shadowColor = "#888";
+ctx.shadowBlur = "15";
+ctx.fillText("5", 7*y-4, 30);
+ctx.strokeStyle="#000000";
+ctx.moveTo(7*y-5,33);
+ctx.lineTo(7*y+5,33);
+ctx.lineTo(7*y-5,33);
+ctx.font = "15px Tahoma";
+ctx.shadowColor = "#888";
+ctx.shadowBlur = "15";
+ctx.fillText("6", 7*y-4, 48);
+ctx.strokeStyle="#000000";
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(4*y,10,3,0,10*Math.PI);
+ctx.strokeStyle="red";
+ctx.fillStyle="red";
+ctx.fill();
+ctx.stroke();
+</script> -->
+</div>
+<div class="o3"><canvas id="linia2" width="300" height="100"onload="linia('linia2')"></canvas>
+<!-- <script>
+var c=document.getElementById("linia2");
+var ctx=c.getContext("2d");
+var s=linia2.getAttribute("width");
+ctx.beginPath();
+ctx.moveTo(10,10);
+ctx.lineTo(s-20,10);
+ctx.lineTo(10,10);
+ctx.stroke();
+var k=11;/* ile kresek wpisać o 1 więcej niż ma być*/
+var y=(s-20)/k;
+for (var x = y+0.5; x < s-40; x += y ) {
+  ctx.moveTo(x,5);
+  ctx.lineTo(x,15);
+  ctx.lineTo(x,5);
+}
+ctx.stroke();
+ctx.moveTo(s-20,10);
+ctx.lineTo(s-30,5);
+ctx.lineTo(s-30,15);
+ctx.lineTo(s-20,10);
+ctx.fillStyle="#000000";
+ctx.fill();
+ctx.stroke();
+ctx.font = "15px Tahoma";
+textAlign = "center";
+ctx.shadowColor = "#888";
+ctx.shadowBlur = "15";
+ctx.fillText("2", y-4, 30);/* jeśli jednocyfrowa to -4, dla dwucyfrowej -8*/
+ctx.strokeStyle="#000000";
+ctx.moveTo(y-5,33);
+ctx.lineTo(y+5,33);
+ctx.lineTo(y-5,33);
+ctx.font = "15px Tahoma";
+textAlign = "center";
+ctx.shadowColor = "#888";
+ctx.shadowBlur = "15";
+ctx.fillText("5", y-4, 48);
+ctx.strokeStyle="#000000";
+ctx.font = "15px Tahoma";
+textAlign = "center";
+ctx.shadowColor = "#888";
+ctx.shadowBlur = "15";
+ctx.fillText("y", 7*y-4, 30);
+ctx.strokeStyle="#000000";
+ctx.font = "15px Tahoma";
+ctx.shadowColor = "#888";
+ctx.shadowBlur = "15";
+ctx.fillText("19", 9*y-8, 30);
+ctx.strokeStyle="#000000";
+ctx.moveTo(9*y-9,33);
+ctx.lineTo(9*y+9,33);
+ctx.lineTo(9*y-9,33);
+ctx.font = "15px Tahoma";
+ctx.shadowColor = "#888";
+ctx.shadowBlur = "15";
+ctx.fillText("30", 9*y-8, 48);
+ctx.strokeStyle="#000000";
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(7*y,10,3,0,10*Math.PI);
+ctx.strokeStyle="red";
+ctx.fillStyle="red";
+ctx.fill();
+ctx.stroke();
+</script> -->
+</div>
+<div class="o3"><canvas id="linia3" width="300" height="100"onload="linia('linia3')"></canvas>
+<!-- <script>
+var c=document.getElementById("linia3");
+var ctx=c.getContext("2d");
+var s=linia3.getAttribute("width");
+ctx.beginPath();
+ctx.moveTo(10,10);
+ctx.lineTo(s-20,10);
+ctx.lineTo(10,10);
+ctx.stroke();
+var k=9;/* ile kresek wpisać o 1 więcej niż ma być*/
+var y=(s-20)/k;
+for (var x = y+0.5; x < s-40; x += y ) {
+  ctx.moveTo(x,5);
+  ctx.lineTo(x,15);
+  ctx.lineTo(x,5);
+}
+ctx.stroke();
+ctx.moveTo(s-20,10);
+ctx.lineTo(s-30,5);
+ctx.lineTo(s-30,15);
+ctx.lineTo(s-20,10);
+ctx.fillStyle="#000000";
+ctx.fill();
+ctx.stroke();
+ctx.font = "15px Tahoma";
+textAlign = "center";
+ctx.shadowColor = "#888";
+ctx.shadowBlur = "15";
+ctx.fillText("9", y-4, 30);/* jeśli jednocyfrowa to -4, dla dwucyfrowej -8*/
+ctx.strokeStyle="#000000";
+ctx.moveTo(y-9,33);
+ctx.lineTo(y+9,33);
+ctx.lineTo(y-9,33);
+ctx.font = "15px Tahoma";
+textAlign = "center";
+ctx.shadowColor = "#888";
+ctx.shadowBlur = "15";
+ctx.fillText("20", y-8, 48);
+ctx.strokeStyle="#000000";
+ctx.font = "15px Tahoma";
+textAlign = "center";
+ctx.shadowColor = "#888";
+ctx.shadowBlur = "15";
+ctx.fillText("z", 3*y-4, 30);
+ctx.strokeStyle="#000000";
+ctx.font = "15px Tahoma";
+ctx.shadowColor = "#888";
+ctx.shadowBlur = "15";
+ctx.fillText("3", 7*y-4, 30);
+ctx.strokeStyle="#000000";
+ctx.moveTo(7*y-5,33);
+ctx.lineTo(7*y+5,33);
+ctx.lineTo(7*y-5,33);
+ctx.font = "15px Tahoma";
+ctx.shadowColor = "#888";
+ctx.shadowBlur = "15";
+ctx.fillText("4", 7*y-4, 48);
+ctx.strokeStyle="#000000";
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(3*y,10,3,0,10*Math.PI);
+ctx.strokeStyle="red";
+ctx.fillStyle="red";
+ctx.fill();
+ctx.stroke();
+</script> -->
+</div>
+</div></li></ol></div></div>
+<script src="./linia.js"></script>
+</body></html>

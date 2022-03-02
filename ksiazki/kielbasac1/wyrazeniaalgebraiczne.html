@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="pl">
+	<head>
+		<link rel="icon" href="../../logo.png"> <meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Wyrażenia algebraiczne. Równania i nierówności algebraiczne</title>
+						<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+							integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+		<!-- <link rel="stylesheet" type="text/css" href="../../css/bootstrap.css"> -->
+		<link rel="stylesheet" type="text/css" href="../../css/styl.css" />
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+		<script type="text/javascript" id="MathJax-script" async
+			src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+			</script>
+		<!-- <script src="../../MathJax/MathJax.js?config=default"></script> 
+ <script id="MathJax-script" async src="../../MathJax/es5/tex-mml-chtml.js"></script> -->
+	</head>
+	<body>
+		<div class="container">
+			<div class="row" id="gora">
+				<div class="col-xs-12 col-md-6 col-lg-3"><h1 class="ag"><a href="../../podstawowa/podstawowa.html">Podstawówka</a></h1></div>
+		  		<div class="col-xs-12 col-md-6 col-lg-3"><h1 class="ag"><a href="../../srednia/srednia.html">Średnia</a></h1></div>
+		  		<div class="col-xs-12 col-md-6 col-lg-3"><h1 class="ag"><a href="../../index.html">Strona główna</a></h1></div>
+				<div class="col-xs-12 col-md-6 col-lg-3"><h1 class="ag"><a href="../../studia/studia.html">Studia</a></h1></div>
+			</div>
+			<div class="row">
+			<div class="col-xs-12 col-md-5 col-lg-3" id="lewa">
+<h3>Przydatne linki</h3>
+<a class="link" href="https://www.naukowiec.org/mendelejew.html">Układ okresowy pierwiastków</a>
+			<ul class="nav nav-pills nav-stacked list-group">
+<li class="list-group-item"><h3><a href="../podstawowa/podstawowa.html">Podstawówka</a></h3></li>
+<li class="list-group-item"><h3><a href="../../srednia/srednia.html">Średnia</a></h3></li>
+<li class="list-group-item"><h3><a class="link" href="../matura/matura.html">Matura</a></h3></li>
+<li class="list-group-item"><h3><a href="../studia/studia.html">Studia</a></h3></li>
+<li class="list-group-item"><h4>Książki</h4>
+<ul>
+<li class="mat"><h5>Matematyka</h5>
+<ul class="list-group mat">
+<li class="list-group mat"><h5><a href="kielbasac1.html">Kiełbasa od 2018 część I</a></h5>
+<ul class="list-group mat">
+<li class="list-group-item active"><a href="kielbasac1/wyrazeniaalgebraiczne.html">Wyrażenia algebraiczne. Równania i nierówności algebraiczne</a></li>
+<li class="list-group-item"><a href="kielbasac1/liczbyrzecz.html">Liczby rzeczywiste</a></li>
+<li class="list-group-item"><a href="kielbasac1/funkcje.html">Funkcje</a></li>
+<li class="list-group-item"><a href="kielbasac1/funkcjaliniowa.html">Funkcja liniowa</a></li>
+<li class="list-group-item"><a href="kielbasac1/funkcjakwadratowa.html">Funkcja kwadratowa</a></li>
+<li class="list-group-item"><a href="kielbasac1/wielomiany.html">Wielomiany</a></li>
+<li class="list-group-item"><a href="kielbasac1/funkcjewymierne.html">Funkcje wymierne</a></li>
+<li class="list-group-item"><a href="kielbasac1/funkcjalogarytmiczna.html">Funkcja logarytmiczna</a></li>
+<li class="list-group-item"><a href="kielbasac1/trygonometria.html">Trygonometria</a></li>
+<li class="list-group-item"><a href="kielbasac1/ciagi.html">Ciągi</a></li></ul></li>
+<li><a href="kielbasac2.html">Kiełbasa od 2018 część II</a></li>
+<li><a href="terazmaturarozszzd.html">Teraz matura rozszerzenie zbiór zadań</a></li>
+</ul></li></ul></li>
+</ul>
+			</div>
+			<div class="col-xs-12 col-md-8 col-lg-9" id="prawa">
+			<div class="row"><div class="col-4 znaki">poziom rozszerzony - \(&#174;\)</div><div class="col-4 znaki">zadanie trudniejsze - \(&#9733;\)</div><div class="col-4 znaki">zadanie na dowodzenie - \(&#8517;\)</div></div><div class="row odp">
+				<p class="tytul podmenu1"><b>Kiełbasa od 2018 część I</b> </p>
+						<ul class="podmenu1">
+<li class="podmenu" id="aktualne"><a href="wyrazeniaalgebraiczne.html">Wyrażenia algebraiczne. Równania i nierówności algebraiczne</a></li>
+<li class="podmenu"><a href="liczbyrzecz.html">Liczby rzeczywiste</a></li>
+<li class="podmenu"><a href="funkcje.html">Funkcje</a></li>
+<li class="podmenu"><a href="funkcjaliniowa.html">Funkcja liniowa</a></li>
+<li class="podmenu"><a href="funkcjakwadratowa.html">Funkcja kwadratowa</a></li>
+<li class="podmenu"><a href="wielomiany.html">Wielomiany</a></li>
+<li class="podmenu"><a href="funkcjewymierne.html">Funkcje wymierne</a></li>
+<li class="podmenu"><a href="funkcjalogarytmiczna.html">Funkcja logarytmiczna</a></li>
+<li class="podmenu"><a href="trygonometria.html">Trygonometria</a></li>
+<li class="podmenu"><a href="ciagi.html">Ciągi</a></li>
+			</ul></div>s
+   <p class="rodzajzad">Wyrażenia algebraiczne. Równania i nierówności algebraiczne</p>
+   <ol  class="list-group powt">
+<li class="numer" id="1_1"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Sprowadź do najprostszej postaci wyrażenia.</p>
+<div class="row odp"><div class="col-xs-12 col-md-6 col-lg-4">a) \(3x^2+2x^2 \)</div><div class="col-xs-12 col-md-6 col-lg-4">b) \((3x)^2+(2x)^2 \)</div></div><div class="row odp"><div class="col-xs-12 col-md-6 col-lg-12">c) \(x^4+3x^3+x^2-x-(x^3-2x^2-x) \)</div></div><div class="row odp"><div class="col-xs-12 col-md-6 col-lg-6">d) \((x+2)(x+3)-5(x-2) \)</div><div class="col-xs-12 col-md-6 col-lg-6">e) \((x^2+3x+2)(x^2-3x+2) \)</div></div><button class="butt" id="g1_1" onclick="pokaz1_1()">Rozwiązanie</button>
+<script>
+function pokaz1_1(){
+var d1_1=document.getElementById("r-1_1");
+var r1_1=document.createElement("img");
+r1_1.setAttribute('src','roz/1_1.png');
+r1_1.setAttribute("class","img-fluid");
+d1_1.appendChild(r1_1);
+var u1_1=document.getElementById("g1_1");
+u1_1.innerHTML="Ukryj rozwiązanie";
+u1_1.setAttribute("onclick","usun1_1()");}
+function usun1_1(){
+var d1_1=document.getElementById("r-1_1");
+d1_1.innerHTML=null;
+var u1_1a=document.getElementById("g1_1");
+u1_1a.innerHTML="Rozwiązanie";
+u1_1a.setAttribute("onclick","pokaz1_1()");}
+</script>
+<div id="r-1_1"></div>
+</li>
+<li class="numer" id="1_2"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Wykonaj potęgowanie</p>
+<div class="row odp"><div class="col-xs-12 col-md-6 col-lg-4">a) \((2x+3y)^2 \)</div><div class="col-xs-12 col-md-6 col-lg-4">b) \((5a-2b)^2 \)</div><div class="col-xs-12 col-md-6 col-lg-4">c) \((-7x-4y)^2 \)</div></div><div class="row odp"><div class="col-xs-12 col-md-6 col-lg-4">d) \((\sqrt{6}p+\sqrt{15}q)^2 \)</div><div class="col-xs-12 col-md-6 col-lg-4"><span style="color:red">\(&#174;\) e)</span> \((m+1)^3 \)</div><div class="col-xs-12 col-md-6 col-lg-4">f) \((a+b+1)^2 \)</div></div><button class="butt" id="g1_2" onclick="pokaz1_2()">Rozwiązanie</button>
+<script>
+function pokaz1_2(){
+var d1_2=document.getElementById("r-1_2");
+var r1_2=document.createElement("img");
+r1_2.setAttribute('src','roz/1_2.png');
+r1_2.setAttribute("class","img-fluid");
+d1_2.appendChild(r1_2);
+var u1_2=document.getElementById("g1_2");
+u1_2.innerHTML="Ukryj rozwiązanie";
+u1_2.setAttribute("onclick","usun1_2()");}
+function usun1_2(){
+var d1_2=document.getElementById("r-1_2");
+d1_2.innerHTML=null;
+var u1_2a=document.getElementById("g1_2");
+u1_2a.innerHTML="Rozwiązanie";
+u1_2a.setAttribute("onclick","pokaz1_2()");}
+</script>
+<div id="r-1_2"></div>
+</li>
+<li class="numer" id="1_3"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Sprowadź do najprostszej postaci wyrażenie</p>
+<div class="row odp"><div class="col-xs-12 col-md-12 col-lg-12">a) \((\sqrt{7}a+\sqrt{7}a+\sqrt{2}b)(\sqrt{7}a-\sqrt{2}b) \)</div></div><div class="row odp"><div class="col-xs-12 col-md-12 col-lg-12">b) \((y-\sqrt{5})(y^2+5)(y+\sqrt{5}) \)</div></div><div class="row odp"><div class="col-xs-12 col-md-12 col-lg-12">c) \((a+3b)^2-(a-3b)^2 \)</div></div><button class="butt" id="g1_3" onclick="pokaz1_3()">Rozwiązanie</button>
+<script>
+function pokaz1_3(){
+var d1_3=document.getElementById("r-1_3");
+var r1_3=document.createElement("img");
+r1_3.setAttribute('src','roz/1_3.png');
+r1_3.setAttribute("class","img-fluid");
+d1_3.appendChild(r1_3);
+var u1_3=document.getElementById("g1_3");
+u1_3.innerHTML="Ukryj rozwiązanie";
+u1_3.setAttribute("onclick","usun1_3()");}
+function usun1_3(){
+var d1_3=document.getElementById("r-1_3");
+d1_3.innerHTML=null;
+var u1_3a=document.getElementById("g1_3");
+u1_3a.innerHTML="Rozwiązanie";
+u1_3a.setAttribute("onclick","pokaz1_3()");}
+</script>
+<div id="r-1_3"></div>
+</li>
+<li class="numer" id="1_4"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Rozłóż na czynniki wyrażenie</p>
+<div class="row odp"><div class="col-xs-12 col-md-6 col-lg-3">a) \(x^2-25 \)</div><div class="col-xs-12 col-md-6 col-lg-3">b) \(x^2-3 \)</div><div class="col-xs-12 col-md-6 col-lg-3">c) \(4x^2-1 \)</div><div class="col-xs-12 col-md-6 col-lg-3">d) \(9-2x^2 \)</div></div><div class="row odp"><div class="col-xs-12 col-md-6 col-lg-4">e) \(x^2+6x+9 \)</div><div class="col-xs-12 col-md-6 col-lg-4">f) \(25x^2-20x+4 \)</div><div class="col-xs-12 col-md-6 col-lg-4">g) \((3x+4)^2-4 \)</div></div><div class="row odp"><div class="col-xs-12 col-md-12 col-lg-6">h) \((x^2+x-4)^2-(x+5)^2 \)</div><div class="col-xs-12 col-md-6 col-lg-3">i) \(a^4-b^4 \)</div></div><div class="row odp"><div class="col-xs-12 col-md-12 col-lg-6">j) \(a^2+b^2-c^2-2ab \)</div><div class="col-xs-12 col-md-6 col-lg-3"><span style="color:red">\(&#174;\) k) </span>\(x^3-8 \)</div><div class="col-xs-12 col-md-6 col-lg-3"><span style="color:red">\(&#174;\) l) </span>\(a^3+1 \)</div></div><div class="row odp"><div class="col-xs-12 col-md-12 col-lg-6"><span style="color:red">\(&#174;\) m) </span>\((x+1)^3-(x-1)^3 \)</div><div class="col-xs-12 col-md-12 col-lg-6"><span style="color:red">\(&#174;\) n) </span> \(a^4+b^4 \) </div></div><button class="butt" id="g1_4" onclick="pokaz1_4()">Rozwiązanie</button>
+<script>
+function pokaz1_4(){
+var d1_4=document.getElementById("r-1_4");
+var r1_4=document.createElement("img");
+r1_4.setAttribute('src','roz/1_4.png');
+r1_4.setAttribute("class","img-fluid");
+d1_4.appendChild(r1_4);
+var u1_4=document.getElementById("g1_4");
+u1_4.innerHTML="Ukryj rozwiązanie";
+u1_4.setAttribute("onclick","usun1_4()");}
+function usun1_4(){
+var d1_4=document.getElementById("r-1_4");
+d1_4.innerHTML=null;
+var u1_4a=document.getElementById("g1_4");
+u1_4a.innerHTML="Rozwiązanie";
+u1_4a.setAttribute("onclick","pokaz1_4()");}
+</script>
+<div id="r-1_4"></div>
+</li>
+<li class="numer" id="1_5"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Rozłóż na czynniki wyrażenie</p>
+<div class="row odp"><div class="col-xs-12 col-md-6 col-lg-4">a) \(x^2+4x \)</div><div class="col-xs-12 col-md-6 col-lg-4">b) \(x^3-9x \)</div><div class="col-xs-12 col-md-6 col-lg-4">c) \(x^4+4x^3+4x^2 \)</div></div><div class="row odp"><div class="col-xs-12 col-md-12 col-lg-6">d) \(x^2(x-3)+9(x-3) \)</div><div class="col-xs-12 col-md-12 col-lg-6">e) \((x^2-2)(x+2)-2(x+2) \)</div></div><button class="butt" id="g1_5" onclick="pokaz1_5()">Rozwiązanie</button>
+<script>
+function pokaz1_5(){
+var d1_5=document.getElementById("r-1_5");
+var r1_5=document.createElement("img");
+r1_5.setAttribute('src','roz/1_5.png');
+r1_5.setAttribute("class","img-fluid");
+d1_5.appendChild(r1_5);
+var u1_5=document.getElementById("g1_5");
+u1_5.innerHTML="Ukryj rozwiązanie";
+u1_5.setAttribute("onclick","usun1_5()");}
+function usun1_5(){
+var d1_5=document.getElementById("r-1_5");
+d1_5.innerHTML=null;
+var u1_5a=document.getElementById("g1_5");
+u1_5a.innerHTML="Rozwiązanie";
+u1_5a.setAttribute("onclick","pokaz1_5()");}
+</script>
+<div id="r-1_5"></div>
+</li>
+<li class="numer" id="1_6"><p class="tresc"><a href="#" class="up">\(&#8657;\)<span style="color:red">\(&#174;\)</span></a>Rozłóż na czynniki wielomian</p>
+<div class="row odp"><div class="col-xs-12 col-md-6 col-lg-4"><span style="color:red">\(&#174;\) a)</span>\(x^3-2x^2+x-2 \)</div></div><div class="row odp"><div class="col-xs-12 col-md-6 col-lg-6"><span style="color:red">\(&#174;\) b) </span>\(x^3+7x^2-2x-14 \)</div></div><div class="row odp"><div class="col-xs-12 col-md-6 col-lg-6"><span style="color:red">\(&#174;\) c) </span>\(x^3+x^2+4x+64 \)</div></div><button class="butt" id="g1_6" onclick="pokaz1_6()">Rozwiązanie</button>
+<script>
+function pokaz1_6(){
+var d1_6=document.getElementById("r-1_6");
+var r1_6=document.createElement("img");
+r1_6.setAttribute('src','roz/1_6.png');
+r1_6.setAttribute("class","img-fluid");
+d1_6.appendChild(r1_6);
+var u1_6=document.getElementById("g1_6");
+u1_6.innerHTML="Ukryj rozwiązanie";
+u1_6.setAttribute("onclick","usun1_6()");}
+function usun1_6(){
+var d1_6=document.getElementById("r-1_6");
+d1_6.innerHTML=null;
+var u1_6a=document.getElementById("g1_6");
+u1_6a.innerHTML="Rozwiązanie";
+u1_6a.setAttribute("onclick","pokaz1_6()");}
+</script>
+<div id="r-1_6"></div>
+</li>
+<li class="numer" id="1_7"><p class="tresc"><a href="#" class="up">\(&#8657;\)<span style="color:red">\(&#174;\)</span></a>Wielomian \(W(x) \)jest podzielny przez dwumian \(P(x) \). Znajdź wynik dzielenia wielomianu \(W(x) \) przez \(P(x) \), jeśli</p>
+<div class="row odp"><div class="col-xs-12 col-md-12 col-lg-12"><span style="color:red">a)</span> \(W(x)=x^3-10x^2+2x+7,\ \ P(x)=x-1 \)</div></div><div class="row odp"><div class="col-xs-12 col-md-12 col-lg-12"><span style="color:red">b)</span> \(W(x)=2x^3+x^2-x+10,\ \ P(x)=x+2 \)</div></div><div class="row odp"><div class="col-xs-12 col-md-12 col-lg-12"><span style="color:red">c)</span> \(W(x)=x^4+3x^3-4x^2-5x+1,\ \ P(x)=x+1 \)</div></div><div class="row odp"><div class="col-xs-12 col-md-12 col-lg-12"><span style="color:red">d)</span> \(W(x)=x^3-6x+4,\ \ P(x)=x-2 \)</div></div><button class="butt" id="g1_7" onclick="pokaz1_7()">Rozwiązanie</button>
+<script>
+function pokaz1_7(){
+var d1_7=document.getElementById("r-1_7");
+var r1_7=document.createElement("img");
+r1_7.setAttribute('src','roz/1_7.png');
+r1_7.setAttribute("class","img-fluid");
+d1_7.appendChild(r1_7);
+var u1_7=document.getElementById("g1_7");
+u1_7.innerHTML="Ukryj rozwiązanie";
+u1_7.setAttribute("onclick","usun1_7()");}
+function usun1_7(){
+var d1_7=document.getElementById("r-1_7");
+d1_7.innerHTML=null;
+var u1_7a=document.getElementById("g1_7");
+u1_7a.innerHTML="Rozwiązanie";
+u1_7a.setAttribute("onclick","pokaz1_7()");}
+</script>
+<div id="r-1_7"></div>
+</li>
+<li class="numer" id="1_8"><p class="tresc"><a href="#" class="up">\(&#8657;\)<span style="color:red">\(&#174;\)</span></a>Rozłóż na czynniki wielomian \(W(x) \) wiedząc, że liczba \(p \) jest pierwiastkiem wielomianu \(W(x) \).</p>
+<div class="row odp"><div class="col-xs-12 col-md-12 col-lg-12"><span style="color:red">a)</span> \(W(x)=x^3+4x^2+x-6,\ \ p=1 \)</div></div><div class="row odp"><div class="col-xs-12 col-md-12 col-lg-12"><span style="color:red">b)</span> \(W(x)=x^3+x^2-7x-3,\ \ p=-3 \)</div></div><div class="row odp"><div class="col-xs-12 col-md-12 col-lg-12"><span style="color:red">c)</span> \(W(x)=4x^3+4x^2+3x-3,\ \ p=0,5 \)</div></div><div class="row odp"><div class="col-xs-12 col-md-12 col-lg-12"><span style="color:red">d)</span> \(W(x)=9x^4-12x^3-11x^2-2x,\ \ p=2 \)</div></div><button class="butt" id="g1_8" onclick="pokaz1_8()">Rozwiązanie</button>
+<script>
+function pokaz1_8(){
+var d1_8=document.getElementById("r-1_8");
+var r1_8=document.createElement("img");
+r1_8.setAttribute('src','roz/1_8.png');
+r1_8.setAttribute("class","img-fluid");
+d1_8.appendChild(r1_8);
+var u1_8=document.getElementById("g1_8");
+u1_8.innerHTML="Ukryj rozwiązanie";
+u1_8.setAttribute("onclick","usun1_8()");}
+function usun1_8(){
+var d1_8=document.getElementById("r-1_8");
+d1_8.innerHTML=null;
+var u1_8a=document.getElementById("g1_8");
+u1_8a.innerHTML="Rozwiązanie";
+u1_8a.setAttribute("onclick","pokaz1_8()");}
+</script>
+<div id="r-1_8"></div>
+</li>
+<li class="numer" id="1_9"><p class="tresc"><a href="#" class="up">\(&#8657;\)<span style="color:red">\(&#174;\)</span></a>Rozłóż na czynniki wielomian \(W(x) \).</p>
+<div class="row odp"><div class="col-xs-12 col-md-12 col-lg-6"><span style="color:red">a)</span> \(W(x)=x^3+2x^2-7x+4 \)</div><div class="col-xs-12 col-md-12 col-lg-6"><span style="color:red">b)</span> \(W(x)=3x^3-13x^2+7x+1 \)</div></div><button class="butt" id="g1_9" onclick="pokaz1_9()">Rozwiązanie</button>
+<script>
+function pokaz1_9(){
+var d1_9=document.getElementById("r-1_9");
+var r1_9=document.createElement("img");
+r1_9.setAttribute('src','roz/1_9.png');
+r1_9.setAttribute("class","img-fluid");
+d1_9.appendChild(r1_9);
+var u1_9=document.getElementById("g1_9");
+u1_9.innerHTML="Ukryj rozwiązanie";
+u1_9.setAttribute("onclick","usun1_9()");}
+function usun1_9(){
+var d1_9=document.getElementById("r-1_9");
+d1_9.innerHTML=null;
+var u1_9a=document.getElementById("g1_9");
+u1_9a.innerHTML="Rozwiązanie";
+u1_9a.setAttribute("onclick","pokaz1_9()");}
+</script>
+<div id="r-1_9"></div>
+</li>
+<li class="numer" id="1_10"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Zapisz (o ile to możliwe) za pomocą przedziału lub sumy przedziałów zbiór liczb \(x \) spełniających podane warunki.</p>
+<div class="row odp"><div class="col-xs-12 col-md-6 col-lg-4">a) \(x>3 \)</div><div class="col-xs-12 col-md-6 col-lg-4">b) \(x\leq2 \)</div><div class="col-xs-12 col-md-6 col-lg-4">c) \(x>0,1\ i\ x&lt;5 \)</div></div><div class="row odp"><div class="col-xs-12 col-md-6 col-lg-4">d) \(x&lt;-2\ lub\ x\geq4 \)</div><div class="col-xs-12 col-md-6 col-lg-4">e) \(x\leq3\ lub\ x&lt;6 \)</div><div class="col-xs-12 col-md-6 col-lg-4">f) \(x\leq3\ i\ x&lt;6 \)</div></div><div class="row odp"><div class="col-xs-12 col-md-6 col-lg-4">g) \(x\geq3\ lub\ x&lt;6 \)</div><div class="col-xs-12 col-md-6 col-lg-4">h) \(x&lt;3\ i\ x\geq6 \)</div></div><button class="butt" id="g1_10" onclick="pokaz1_10()">Rozwiązanie</button>
+<script>
+function pokaz1_10(){
+var d1_10=document.getElementById("r-1_10");
+var r1_10=document.createElement("img");
+r1_10.setAttribute('src','roz/1_10.png');
+r1_10.setAttribute("class","img-fluid");
+d1_10.appendChild(r1_10);
+var u1_10=document.getElementById("g1_10");
+u1_10.innerHTML="Ukryj rozwiązanie";
+u1_10.setAttribute("onclick","usun1_10()");}
+function usun1_10(){
+var d1_10=document.getElementById("r-1_10");
+d1_10.innerHTML=null;
+var u1_10a=document.getElementById("g1_10");
+u1_10a.innerHTML="Rozwiązanie";
+u1_10a.setAttribute("onclick","pokaz1_10()");}
+</script>
+<div id="r-1_10"></div>
+</li>
+<li class="numer" id="1_11"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Wyznacz wszystkie liczby rzeczywiste \(m \) takie, że</p>
+<div class="row odp"><div class="col-xs-12 col-md-12 col-lg-6">a) \(5m-2\in(-\infty;2> \)</div><div class="col-xs-12 col-md-12 col-lg-6">b) \(5m-2\in(-1;1) \)</div></div><div class="row odp"><div class="col-xs-12 col-md-12 col-lg-6">c) \(5m-2\in&lt;1;13> \)</div></div><button class="butt" id="g1_11" onclick="pokaz1_11()">Rozwiązanie</button>
+<script>
+function pokaz1_11(){
+var d1_11=document.getElementById("r-1_11");
+var r1_11=document.createElement("img");
+r1_11.setAttribute('src','roz/1_11.png');
+r1_11.setAttribute("class","img-fluid");
+d1_11.appendChild(r1_11);
+var u1_11=document.getElementById("g1_11");
+u1_11.innerHTML="Ukryj rozwiązanie";
+u1_11.setAttribute("onclick","usun1_11()");}
+function usun1_11(){
+var d1_11=document.getElementById("r-1_11");
+d1_11.innerHTML=null;
+var u1_11a=document.getElementById("g1_11");
+u1_11a.innerHTML="Rozwiązanie";
+u1_11a.setAttribute("onclick","pokaz1_11()");}
+</script>
+<div id="r-1_11"></div>
+</li>
+<li class="numer" id="1_12"><p class="tresc"><a href="#" class="up">\(&#8657;\)<span style="color:red">\(&#174;\)</span></a>Wyznacz sumę zbiorów \(A \) i \(B \), jeśli</p>
+<div class="row odp"><div class="col-xs-12 col-md-12 col-lg-12"><span style="color:red">a) </span> \(A=\{1,2,3,4,5\},\ B=\{0,2,4,6\} \)</div></div><div class="row odp"><div class="col-xs-12 col-md-12 col-lg-12"><span style="color:red">b)</span> \(A=(1,5),\ B=&lt;2,6> \)</div></div><div class="row odp"><div class="col-xs-12 col-md-12 col-lg-12"><span style="color:red">c)</span> \(A=(-\infty,2),\ B=&lt;2,+\infty) \)</div></div><div class="row odp"><div class="col-xs-12 col-md-12 col-lg-12"><span style="color:red">d)</span> \(A=\{x:\ x=2n\ i\ n\in C\},\ B=\{x:\ x=2n+1\ i\ n\in C\} \)</div></div><button class="butt" id="g1_12" onclick="pokaz1_12()">Rozwiązanie</button>
+<script>
+function pokaz1_12(){
+var d1_12=document.getElementById("r-1_12");
+var r1_12=document.createElement("img");
+r1_12.setAttribute('src','roz/1_12.png');
+r1_12.setAttribute("class","img-fluid");
+d1_12.appendChild(r1_12);
+var u1_12=document.getElementById("g1_12");
+u1_12.innerHTML="Ukryj rozwiązanie";
+u1_12.setAttribute("onclick","usun1_12()");}
+function usun1_12(){
+var d1_12=document.getElementById("r-1_12");
+d1_12.innerHTML=null;
+var u1_12a=document.getElementById("g1_12");
+u1_12a.innerHTML="Rozwiązanie";
+u1_12a.setAttribute("onclick","pokaz1_12()");}
+</script>
+<div id="r-1_12"></div>
+</li>
+<li class="numer" id="1_13"><p class="tresc"><a href="#" class="up">\(&#8657;\) <span style="color:red">\(&#174;\)</span></a>Wyznacz część wspólną (iloczyn) zbiorów \(A \) i \(B \), jeśli</p>
+<div class="row odp"><div class="col-xs-12 col-md-12 col-lg-12"><span style="color:red">a)</span> \(A=\{1,2,3,4,5\},\ B=\{0,2,4,6\} \)</div></div><div class="row odp"><div class="col-xs-12 col-md-12 col-lg-12"><span style="color:red">b)</span>  \(A=(1,5),\ B=&lt;2,6> \)</div></div><div class="row odp"><div class="col-xs-12 col-md-12 col-lg-12"><span style="color:red">c)</span> \(A=(-\infty,2),\ B=&lt;2,+\infty) \)</div></div><div class="row odp"><div class="col-xs-12 col-md-12 col-lg-12"><span style="color:red">d)</span> \(A=(-\infty,-1)\cup (1,+\infty),\ B=&lt;-2;2> \)</div></div><div class="row odp"><div class="col-xs-12 col-md-12 col-lg-12"><span style="color:red">e)</span> \(A=\{x\in \mathbf{R}:\ x\geq2\},\ B=\{x\in \mathbf{R}:\ x>3\} \)</div></div><button class="butt" id="g1_13" onclick="pokaz1_13()">Rozwiązanie</button>
+<script>
+function pokaz1_13(){
+var d1_13=document.getElementById("r-1_13");
+var r1_13=document.createElement("img");
+r1_13.setAttribute('src','roz/1_13.png');
+r1_13.setAttribute("class","img-fluid");
+d1_13.appendChild(r1_13);
+var u1_13=document.getElementById("g1_13");
+u1_13.innerHTML="Ukryj rozwiązanie";
+u1_13.setAttribute("onclick","usun1_13()");}
+function usun1_13(){
+var d1_13=document.getElementById("r-1_13");
+d1_13.innerHTML=null;
+var u1_13a=document.getElementById("g1_13");
+u1_13a.innerHTML="Rozwiązanie";
+u1_13a.setAttribute("onclick","pokaz1_13()");}
+</script>
+<div id="r-1_13"></div>
+</li>
+<li class="numer" id="1_14"><p class="tresc"><a href="#" class="up">\(&#8657;\)<span style="color:red">\(&#174;\)</span></a>Wyznacz zbiory \(A-B \) i \(B-A \), jeśli</p>
+<div class="row odp"><div class="col-xs-12 col-md-12 col-lg-12"><span style="color:red">a) </span> \(A=\{1,2,3,4,5\},\ B=\{0,2,4,6\} \)</div></div><div class="row odp"><div class="col-xs-12 col-md-12 col-lg-12"><span style="color:red">b)</span> \(A=(1,5),\ B=&lt;2,6> \)</div></div><div class="row odp"><div class="col-xs-12 col-md-12 col-lg-12"><span style="color:red">c)</span> \(A=(-\infty,2),\ B=&lt;2,+\infty) \)</div></div><div class="row odp"><div class="col-xs-12 col-md-12 col-lg-12"><span style="color:red">d)</span> \(A=(-\infty,4>,\ B=(1;4) \)</div></div><button class="butt" id="g1_14" onclick="pokaz1_14()">Rozwiązanie</button>
+<script>
+function pokaz1_14(){
+var d1_14=document.getElementById("r-1_14");
+var r1_14=document.createElement("img");
+r1_14.setAttribute('src','roz/1_14.png');
+r1_14.setAttribute("class","img-fluid");
+d1_14.appendChild(r1_14);
+var u1_14=document.getElementById("g1_14");
+u1_14.innerHTML="Ukryj rozwiązanie";
+u1_14.setAttribute("onclick","usun1_14()");}
+function usun1_14(){
+var d1_14=document.getElementById("r-1_14");
+d1_14.innerHTML=null;
+var u1_14a=document.getElementById("g1_14");
+u1_14a.innerHTML="Rozwiązanie";
+u1_14a.setAttribute("onclick","pokaz1_14()");}
+</script>
+<div id="r-1_14"></div>
+</li>
+<li class="numer" id="1_15"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Rozwiąż równanie</p>
+<div class="row odp"><div class="col-xs-12 col-md-12 col-lg-6">a) \((x+3)^2=(x-1)^2 \)</div><div class="col-xs-12 col-md-12 col-lg-6">b) \(x-\frac{x-3}{2}=2x-9 \)</div></div><div class="row odp"><div class="col-xs-12 col-md-12 col-lg-6">c) \(\frac{y-5}{4}-\frac{2y+1}{3}=2\frac{1}{2}-y \)</div><div class="col-xs-12 col-md-12 col-lg-6">d) \(x\sqrt{3}+\sqrt{3}=x+3 \)</div></div><div class="row odp"><div class="col-xs-12 col-md-12 col-lg-6">e) \(6x+4=5(x-2)+x+12 \)</div></div><div class="row odp"><div class="col-xs-12 col-md-12 col-lg-12">f) \(4(x+1)=x(x+4)-(x-2)(x+2) \)</div></div><button class="butt" id="g1_15" onclick="pokaz1_15()">Rozwiązanie</button>
+<script>
+function pokaz1_15(){
+var d1_15=document.getElementById("r-1_15");
+var r1_15=document.createElement("img");
+r1_15.setAttribute('src','roz/1_15.png');
+r1_15.setAttribute("class","img-fluid");
+d1_15.appendChild(r1_15);
+var u1_15=document.getElementById("g1_15");
+u1_15.innerHTML="Ukryj rozwiązanie";
+u1_15.setAttribute("onclick","usun1_15()");}
+function usun1_15(){
+var d1_15=document.getElementById("r-1_15");
+d1_15.innerHTML=null;
+var u1_15a=document.getElementById("g1_15");
+u1_15a.innerHTML="Rozwiązanie";
+u1_15a.setAttribute("onclick","pokaz1_15()");}
+</script>
+<div id="r-1_15"></div>
+</li>
+<li class="numer" id="1_16"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Rozwiąż nierówność</p>
+<div class="row odp"><div class="col-xs-12 col-md-6 col-lg-6">a) \(\frac{1}{3}x&lt;x-2\)</div><div class="col-xs-12 col-md-6 col-lg-6">b) \(3(x-5)>4(x-5)\)</div></div><div class="row odp"><div class="col-xs-12 col-md-6 col-lg-6">c) \(x(x+3)+3\leq(x-2)^2+7x\)</div><div class="col-xs-12 col-md-6 col-lg-6">d) \(x\sqrt{2}+2\sqrt{3}&lt;2x\)</div></div><button class="butt" id="g1_16" onclick="pokaz1_16()">Rozwiązanie</button>
+<script>
+function pokaz1_16(){
+var d1_16=document.getElementById("r-1_16");
+var r1_16=document.createElement("img");
+r1_16.setAttribute('src','roz/1_16.png');
+r1_16.setAttribute("class","img-fluid");
+d1_16.appendChild(r1_16);
+var u1_16=document.getElementById("g1_16");
+u1_16.innerHTML="Ukryj rozwiązanie";
+u1_16.setAttribute("onclick","usun1_16()");}
+function usun1_16(){
+var d1_16=document.getElementById("r-1_16");
+d1_16.innerHTML=null;
+var u1_16a=document.getElementById("g1_16");
+u1_16a.innerHTML="Rozwiązanie";
+u1_16a.setAttribute("onclick","pokaz1_16()");}
+</script>
+<div id="r-1_16"></div>
+</li>
+<li class="numer" id="1_17"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Rozwiąż równanie</p>
+<div class="row odp"><div class="col-xs-12 col-md-6 col-lg-4">a) \((x-5)(x+6)=0\)</div><div class="col-xs-12 col-md-6 col-lg-4">b) \(x^2-9=0\)</div><div class="col-xs-12 col-md-6 col-lg-4">c) \(m^2=2\)</div></div><div class="row odp"><div class="col-xs-12 col-md-6 col-lg-4">d) \(x^2+4=0\)</div><div class="col-xs-12 col-md-6 col-lg-4">e) \(a^2=8a\)</div><div class="col-xs-12 col-md-6 col-lg-4">f) \(x(x-2)=5(x-2)\)</div></div><div class="row odp"><div class="col-xs-12 col-md-6 col-lg-4">g) \(12x^2+12x+3=0\)</div><div class="col-xs-12 col-md-6 col-lg-4">h) \(x^2+2x=8\)</div><div class="col-xs-12 col-md-6 col-lg-4">i) \(2k^2-1=k\)</div></div><div class="row odp"><div class="col-xs-12 col-md-6 col-lg-4">j) \(x^2=2(x+1)\)</div></div><button class="butt" id="g1_17" onclick="pokaz1_17()">Rozwiązanie</button>
+<script>
+function pokaz1_17(){
+var d1_17=document.getElementById("r-1_17");
+var r1_17=document.createElement("img");
+r1_17.setAttribute('src','roz/1_17.png');
+r1_17.setAttribute("class","img-fluid");
+d1_17.appendChild(r1_17);
+var u1_17=document.getElementById("g1_17");
+u1_17.innerHTML="Ukryj rozwiązanie";
+u1_17.setAttribute("onclick","usun1_17()");}
+function usun1_17(){
+var d1_17=document.getElementById("r-1_17");
+d1_17.innerHTML=null;
+var u1_17a=document.getElementById("g1_17");
+u1_17a.innerHTML="Rozwiązanie";
+u1_17a.setAttribute("onclick","pokaz1_17()");}
+</script>
+<div id="r-1_17"></div>
+</li>
+<li class="numer" id="1_18"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>
+
+
+
+
+
+
+	</ol>
+	
+			
+			
+			
+	 </div>
+</div>
+</div>
+<script src="../../js/jquery.js"></script>
+<script src="../../js/bootstrap.js"></script>
+</body>
+</html>

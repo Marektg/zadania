@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+	<link rel="icon" href="logo.png">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Logarytm i jego własności</title>
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+	<link rel="stylesheet" type="text/css" href="../../../css/styl.css" />
+	<script type="text/javascript" id="MathJax-script" async
+		src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<main class="topnavi">
+			<a href="../../../index.html">Strona główna</a>
+			<a href="../../../podstawowa/podstawowa.html">Podstawówka</a>
+			<a href="../../../matura/matura.html">Matura</a>
+			<a href="../../../studia/studia.html">Studia</a>
+		</main>
+		<div class="basic">
+			<nav>
+				<h3>Szkoła średnia</h3>
+				<ul class="nav-list-group">
+					<li class="list-group-item active"><a href="liczby.html">Liczby rzeczywiste</a></li>
+					<li class="list-group-item"><a href="jezyk.html">Język matematyki</a></li>
+					<li class="list-group-item"><a href="uklady.html">Układy równań</a></li>
+					<li class="list-group-item"><a href="funkcje.html">Funkcje</a></li>
+					<li class="list-group-item"><a href="fliniowa.html">Funkcja liniowa</a></li>
+					<li class="list-group-item"><a href="fkwadratowa.html">Funkcja kwadratowa</a></li>
+					<li class="list-group-item"><a href="planimetria.html">Planimetria</a></li>
+					<li class="list-group-item"><a href="wieloniany.html">Wielomiany</a></li>
+					<li class="list-group-item"><a href="fwymierne.html">Funkcje wymierne</a></li>
+					<li class="list-group-item"><a href="trygonometria.html">Trygonometria</a></li>
+					<li class="list-group-item"><a href="ftrygonomertyczne.html">\(&#174;\) Funkcje
+							trygonometryczne</a></li>
+					<li class="list-group-item"><a href="fwykilog.html">Funkcje wykładnicze i logarytmiczne</a>
+					</li>
+					<li class="list-group-item"><a href="ciagi.html">Ciągi</a></li>
+					<li class="list-group-item"><a href="prawdopodobienstwo.html">Rachunek prawdopodobieństwa</a>
+					</li>
+					<li class="list-group-item"><a href="statystyka.html">Statystyka</a></li>
+					<li class="list-group-item"><a href="stereometria.html">Stereometria</a></li>
+					<li class="list-group-item"><a href="ganalityczna.html">Geometria analityczna</a></li>
+					<li class="list-group-item"><a href="rachrozniczkowy.html">\(&#174;\) Rachunek różniczkowy</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="prawa">
+				<div class="zadania">
+
+					<h2 class="tytul">Liczby rzeczywiste </h2>
+					<ul class="podmenu1">
+						<li class="podmenu"><a href="liczby1.html">Liczby naturalne</a></li>
+						<li class="podmenu"><a href="liczby2.html">Liczby całkowite. Liczby wymierne</a>
+						</li>
+						<li class="podmenu"><a href="liczby3.html">Liczby niewymierne</a></li>
+						<li class="podmenu"><a href="liczby4.html">Rozwinięcie dziesiętne liczby
+								rzeczywistej</a></li>
+						<li class="podmenu"><a href="liczby5.html">Pierwiastek kwadratowy</a></li>
+						<li class="podmenu"><a href="liczby6.html">Pierwiastek sześcienny</a></li>
+						<li class="podmenu"><a href="liczby7.html">Potęga o wykładniku całkowitym</a></li>
+						<li class="podmenu"><a href="liczby8.html">Notacja wykładnicza</a></li>
+						<li class="podmenu"><a href="liczby9.html">Potęga o wykładniku wymiernym</a></li>
+						<li class="podmenu" id="aktualne"><a href="liczby10.html">Logarytm i jego własności</a></li>
+						<li class="podmenu"><a href="liczby11.html">Procenty</a></li>
+						<li class="podmenu"><a href="liczby12.html">Powtórzenie</a></li>
+						<li class="podmenu"><a href="liczby13.html">Zadania testowe</a></li>
+						<li class="podmenu"><a href="liczby14.html">To było na maturze</a></li>
+					</ul>
+					<h3 class="rodzajzad">Logarytm i jego własności</h3>>
+					<ol class="powt">
+						<li class="numer" id="liczby10_1">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Oblicz</p>
+							<div class="odp">
+								<div>a) \(log10000\)</div>
+								<div>b) \(log0,001\)</div>
+								<div>c) \(log10\sqrt{10}\)</div>
+							
+								<div>d) \(log\sqrt{0,1}\)</div>
+								<div>e) \(log_{100}1\)</div>
+								<div>f) \(log_{100}0,01\)</div>
+							</div><button class="butt" id="gliczby10_1" onclick="pokaz('liczby10_1')">Rozwiązanie</button>
+							
+							<div id="r-liczby10_1"></div>
+						</li>
+						<li class="numer" id="liczby10_2">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Zapisz w postaci logarytmu o
+								podstawie \(3\).</p>
+							<div class="odp">
+								<div>a) \(2\)</div>
+								<div>b) \(5\)</div>
+								<div>c) \(\frac{1}{3}\)</div>
+								<div>d) \(0,5\)</div>
+								<div>e) \(2\frac{1}{2}\)</div>
+							</div><button class="butt" id="gliczby10_2" onclick="pokaz('liczby10_2')">Rozwiązanie</button>
+							
+							<div id="r-liczby10_2"></div>
+						</li>
+						<li class="numer" id="liczby10_3">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Oblicz</p>
+							<div class="odp">
+								<div>a) \(log_525\)</div>
+								<div>b) \(log_5\frac{1}{5}\)</div>
+								<div>c) \(log_50,04\)</div>
+								<div>d) \(log_5\frac{1}{125}\)</div>
+							
+								<div>e) \(log_5\sqrt{5}\)</div>
+								<div>f) \(log_5\sqrt[3]{5}\)</div>
+								<div>g) \(log_5\sqrt[5]{5}\)</div>
+								<div>h) \(log_5\frac{1}{5\sqrt{5}}\)</div>
+							</div><button class="butt" id="gliczby10_3" onclick="pokaz('liczby10_3')">Rozwiązanie</button>
+							
+							<div id="r-liczby10_3"></div>
+						</li>
+						<li class="numer" id="liczby10_4">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Podaj, która liczba jest większa</p>
+							<div class="odp">
+								<div>a) \(x=log_416,y=log_{16}4\)</div>
+								<div>b) \(x=log_82,y=log_42\)</div>
+							
+								<div>c) \(x=log_2\frac{1}{8},y=log_2\frac{1}{16}\)
+								</div>
+								<div>d) \(x=log_9\sqrt{3},y=log_3\sqrt{3}\)</div>
+							</div><button class="butt" id="gliczby10_4" onclick="pokaz('liczby10_4')">Rozwiązanie</button>
+							
+							<div id="r-liczby10_4"></div>
+						</li>
+						<li class="numer" id="liczby10_5">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Uporządkuj rosnąco podane liczby</p>
+							<div class="odp">
+								<div>
+									\(log_{\sqrt{5}}(25\sqrt{5}),log_5625,log_{0,5}\frac{1}{2},log_{0,5}1,log_{\frac{1}{2}}0,125\)
+								</div>
+							</div><button class="butt" id="gliczby10_5" onclick="pokaz('liczby10_5')">Rozwiązanie</button>
+							
+							<div id="r-liczby10_5"></div>
+						</li>
+						<li class="numer" id="liczby10_6">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Oblicz</p>
+							<div class="odp">
+								<div>a) \(log_{\frac{1}{4}}2+log_2\frac{1}{2}\)
+								</div>
+								<div>b) \(log_{\frac{1}{3}}9+log_3\frac{1}{9}\)
+								</div>
+							
+								<div>c) \(log_{\frac{1}{5}}\frac{1}{25}-log_55\)
+								</div>
+								<div>d) \(log_{36}\frac{1}{6}-log_{\frac{1}{6}}6\)
+								</div>
+							
+								<div>e) \(log_{\sqrt{2}}4\cdot log_2\sqrt[3]{4}\)
+								</div>
+								<div>f) \(log_{\frac{1}{2}}\sqrt{2}:log_48\)</div>
+							</div><button class="butt" id="gliczby10_6" onclick="pokaz('liczby10_6')">Rozwiązanie</button>
+							
+							<div id="r-liczby10_6"></div>
+						</li>
+						<li class="numer" id="liczby10_7">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Oblicz</p>
+							<div class="odp">
+								<div>a) \(log_62+log_618\)</div>
+								<div>b) \(log4+log25\)</div>
+							
+								<div>c) \(log_34+log_3\frac{3}{4}\)</div>
+								<div>d) \(log_220-log_210\)</div>
+							
+								<div>e) \(log_{\frac{1}{6}}42-log_{\frac{1}{6}}7\)
+								</div>
+								<div>f) \(log_{\sqrt{3}}54-log_{\sqrt{3}}2\)</div>
+							</div><button class="butt" id="gliczby10_7" onclick="pokaz('liczby10_7')">Rozwiązanie</button>
+							
+							<div id="r-liczby10_7"></div>
+						</li>
+						<li class="numer" id="liczby10_8">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Oblicz</p>
+							<div class="odp">
+								<div>a) \(log_22^7\)</div>
+								<div>b) \(log_33^{-2}\)</div>
+								<div>c) \(log_525^{-1}\)</div>
+							
+								<div>d) \(log_4\frac{1}{4^5}\)</div>
+								<div>e) \(log_{10}0,1^6\)</div>
+								<div>f) \(log_2(\sqrt{2})^7\)</div>
+							
+								<div>g) \(log_3\sqrt{\frac{1}{3}}\)</div>
+								<div>h) \(log_{\frac{1}{2}}\sqrt[5]{8}\)</div>
+								<div>i) \(log_{0,5}(8\sqrt{2})\)</div>
+							
+								<div>j) \(log_{11}(11\sqrt{11})\)</div>
+								<div>k) \(log_2\sqrt{2\sqrt{2\sqrt{2}}}\)</div>
+								<div>l) \(log_{2\sqrt{3}}\frac{1}{12}\)</div>
+							</div><button class="butt" id="gliczby10_8" onclick="pokaz('liczby10_8')">Rozwiązanie</button>
+							
+							<div id="r-liczby10_8"></div>
+						</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+<script src="./guziki.js"></script>
+</body>
+
+</html>

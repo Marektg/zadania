@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+    <link rel="icon" href="logo.png">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Powtórki maturalne</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../css/styl.css" />
+    <script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <main class="topnavi">
+            <a href="../../../index.html">Strona główna</a>
+            <a href="../../../podstawowa/podstawowa.html">Podstawówka</a>
+            <a href="../../../srednia/srednia.html">Średnia</a>
+            <a href="../../../studia/studia.html">Studia</a>
+        </main>
+        <div class="basic">
+            <nav>
+                <h3>Matura</h3>
+                <ul class="nav-list-group">
+                    <li class="list-group-item active">
+                        <a href="../../maturapowt.html">Powtórki</a>
+                        <ul>
+                            <li class="active"><a href="../terazmaturapod.html">Teraz matura zakres podstawowy.</a>
+                            </li>
+                            <li><a href="../terazmaturaroz.html">Teraz matura zakres rozszerzony.</a></li>
+                            <li><a href="../kielbasa2018c1.html">Matura z matematyki 2018-... część 1.</a></li>
+                            <li><a href="../kielbasa2018c2.html">Matura z matematyki 2018-... część 2.</a></li>
+                            <li><a href="../cewe2010pod.html">Matura z matematyki od roku 2010 zakres
+                                    podstawowy.</a></li>
+                            <li><a href="../cewe2010roz.html">Matura z matematyki od roku 2010 zakres
+                                    rozszerzony.</a></li>
+                            <li><a href="../powtorkapmpod.html">Powtórka przed maturą zakres podstawowy.</a></li>
+                            <li><a href="../zbiormaturalny.html">Zbiór zadań maturalnych zakres podstawowy i
+                                    rozszerzony.</a></li>
+                            <li><a href="../matematykatydzienp.html">Matematyka tydzień po tygodniu poziom podstawowy.</a></li>
+                            <li><a href=""></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="list-group-item">
+                        <a href="../../maturazestaw.html">Zestawy</a>
+                        </il>
+
+                </ul>
+            </nav>
+            <div class="prawa">
+                <div class="zadania">
+
+                    <h2 class="tytul">Teraz matura zakres podstawowy.</h2>
+                    <ul class="podmenu1">
+                        <li class="podmenu"><a href="liczby.html">Liczby rzeczywiste</a></li>
+                        <li class="podmenu"><a href="zbioryprzedzinierow.html">Zbiory, przedziały i nierówności</a></li>
+                        <li class="podmenu"><a href="funkcje.html">Funkcje</a></li>
+                        <li class="podmenu"><a href="fliniowa.html">Funkcja liniowa</a></li>
+                        <li class="podmenu"><a href="fkwadratowa.html">Funkcja kwadratowa</a></li>
+                        <li class="podmenu"><a href="fwymierne.html">Funkcje wymierne</a></li>
+                        <li class="podmenu"><a href="ftrygonomertyczne.html">Funkcje trygonometryczne</a></li>
+                        <li class="podmenu"><a href="fwykilog.html">Funkcje wykładnicze i logarytmiczne</a></li>
+                        <li class="podmenu"><a href="ciagi.html">Ciągi</a></li>
+                        <li class="podmenu"><a href="planimetria.html">Planimetria</a></li>
+                        <li class="podmenu"><a href="ganalityczna.html">Geometria analityczna</a></li>
+                        <li class="podmenu"><a href="stereometria.html">Stereometria</a></li>
+                        <li class="podmenu" id="aktualne"><a href="prawdopodobienstwo.html">Rachunek prawdopodobieństwa</a></li>
+                        <li class="podmenu"><a href="statystyka.html">Statystyka</a></li>
+                    </ul>
+
+                    <h3 class="rodzajzad">Rachunek prawdopodobieństwa</h3>
+                    <ol class="powt">
+                        <li class="numer" id="liczby1_1">
+                            <p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Wypisz wszystkie liczby:</p>
+                            <div class="odp">
+                                <div> a) naturalne, których kwadrat jest mniejszy
+                                    od \(10 \)</div>
+                                <div> b) naturalne, których kwadrat jest nie
+                                    większy od \(30 \)</div>
+                                <div> c) pierwsze mniejsze od \(15 \)</div>
+                                <div> d) jednocyfrowe złożone</div>
+                            </div>
+                            <button class="butt" id="gliczby1_1" onclick="pokazliczby1_1()">Rozwiązanie</button>
+                            <script>
+                                function pokazliczby1_1() {
+                                    var dliczby1_1 = document.getElementById("r-liczby1_1");
+                                    var rliczby1_1 = document.createElement("img");
+                                    rliczby1_1.setAttribute('src', 'roz/liczby1_1.png');
+                                    rliczby1_1.setAttribute('class', 'img-fluid');
+                                    dliczby1_1.appendChild(rliczby1_1);
+                                    var uliczby1_1 = document.getElementById("gliczby1_1");
+                                    uliczby1_1.innerHTML = "Ukryj rozwiązanie";
+                                    uliczby1_1.setAttribute("onclick", "usunliczby1_1()");
+                                }
+                                function usunliczby1_1() {
+                                    var dliczby1_1 = document.getElementById("r-liczby1_1");
+                                    dliczby1_1.innerHTML = null;
+                                    var uliczby1_1a = document.getElementById("gliczby1_1");
+                                    uliczby1_1a.innerHTML = "Rozwiązanie";
+                                    uliczby1_1a.setAttribute("onclick", "pokazliczby1_1()");
+                                }
+
+                            </script>
+                            <div id="r-liczby1_1"></div>
+                        </li>
+                    </ol>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

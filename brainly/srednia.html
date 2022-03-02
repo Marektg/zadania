@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="pl">
+	<head>
+		<link rel="icon" href="logo.png"> <meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Zadania z Brainly.pl</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+	integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!-- <link rel="stylesheet" type="text/css" href="../css/bootstrap.css"> -->
+<link rel="stylesheet" type="text/css" href="../css/styl.css" />
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<script type="text/javascript" id="MathJax-script" async
+	src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+	</script>
+<!-- <script src="../MathJax/MathJax.js?config=default"></script> 
+ <script id="MathJax-script" async src="../MathJax/es5/tex-mml-chtml.js"></script> -->
+</head>	</head>
+	<body>
+		<div class="container">
+			<div class="row" id="gora">
+				<div class="col-xs-12 col-md-6 col-lg-3" id="gl"><h1 class="ag"><a href="../podstawowa/podstawowa.html">Podstawówka</a></h1></div>
+		  		<div class="col-xs-12 col-md-6 col-lg-3" id="gs"><h1 class="ag"><a href="../index.html">Strona główna</a></h1></div>
+		  		<div class="col-xs-12 col-md-6 col-lg-3" id="gp"><h1 class="ag"><a href="../matura/matura.html">Matura</a></h1></div>
+				<div class="col-xs-12 col-md-6 col-lg-3" id="gpp"><h1 class="ag"><a href="../studia/studia.html">Studia</a></h1></div>
+			</div>
+			<div class="row">
+			<div class="col-xs-12 col-md-8 col-lg-11" id="prawa">
+			<br><br>
+<ol class="list-group powt"><p class="rodzajzad"></p>
+<li class="numer" id="brs1"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Przedstaw funkcję w postaci kanonicznej :\(f(x)=\frac{1}{2}x^2+x-8 \)</p>
+<div class="row odp"></div><button class="butt" id="gbrs1" onclick="pokazbrs1()">Rozwiązanie</button>
+<script>
+function pokazbrs1(){
+var dbrs1=document.getElementById("r-brs1");
+var rbrs1=document.createElement("img");
+rbrs1.setAttribute('src','roz/brs1.png');
+dbrs1.appendChild(rbrs1);
+var ubrs1=document.getElementById("gbrs1");
+ubrs1.innerHTML="Ukryj rozwiązanie";
+ubrs1.setAttribute("onclick","usunbrs1()");}
+function usunbrs1(){
+var dbrs1=document.getElementById("r-brs1");
+dbrs1.innerHTML=null;
+var ubrs1a=document.getElementById("gbrs1");
+ubrs1a.innerHTML="Rozwiązanie";
+ubrs1a.setAttribute("onclick","pokazbrs1()");}
+</script>
+<div id="r-brs1"><!--<p class="tresc">Postać kanoniczna \(f(x)=a\left(x+\frac{b}{2a}\right)^2-\frac{\Delta}{4a} \), gdzie \(\Delta=b^2-4ac \)<br>
+Nasze współczynniki wynoszą: \(a=\frac{1}{2} \), \(b=1 \), \(c=-8 \).<br>
+\(\Delta=1^2-4\cdot \frac{1}{2}\cdot (-8)=1+16=17 \)<br>
+Wstawiamy do wzoru i otrzymujemy \(f(x)=a\left(x+\frac{b}{2a}\right)^2-\frac{\Delta}{4a} =\frac{1}{2}\left(x+\frac{1}{2\cdot \frac{1}{2}}\right )^2-\frac{17}{4\cdot \frac{1}{2}}=\frac{1}{2}(x+1)^2-\frac{17}{2}\)</p>--></div></li>
+<li class="numer" id="brs2"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Dane są wielomiany : \(u(x) =2x^4+x^2-1\) i \( v(x) =x^4 -2x^2 +2\).Oblicz:</p>
+<div class="row odp"><div class="col-xs-12 col-md-12 col-lg-6">a) \(2u(x) -4v(x) \)</div><div class="col-xs-12 col-md-12 col-lg-6">b) \(3u(x) - \frac{1}{2} v(x) \)</div></div><button class="butt" id="gbrs2" onclick="pokazbrs2()">Rozwiązanie</button>
+<script>
+function pokazbrs2(){
+var dbrs2=document.getElementById("r-brs2");
+var rbrs2=document.createElement("img");
+rbrs2.setAttribute('src','roz/brs2.png');
+dbrs2.appendChild(rbrs2);
+var ubrs2=document.getElementById("gbrs2");
+ubrs2.innerHTML="Ukryj rozwiązanie";
+ubrs2.setAttribute("onclick","usunbrs2()");}
+function usunbrs2(){
+var dbrs2=document.getElementById("r-brs2");
+dbrs2.innerHTML=null;
+var ubrs2a=document.getElementById("gbrs2");
+ubrs2a.innerHTML="Rozwiązanie";
+ubrs2a.setAttribute("onclick","pokazbrs2()");}
+</script>
+<div id="r-brs2"><!--<p class="tresc">a) \(2u(x) -4v(x)= 2\cdot (2x^4+x^2-1)-4\cdot (x^4 -2x^2 +2)=4x^4+2x^2-2-4x^4+8x^2-8=\\=10x^2-10 \)<br>
+b) \(3u(x) - \frac{1}{2} v(x)=3\cdot (2x^4+x^2-1)-\frac{1}{2}\cdot (x^4 -2x^2 +2)=6x^4+3x^2-3-\frac{1}{2}x^4+x^2-1=\\=5\frac{1}{2}x^4+4x^2-4 \)--></div>
+</li>
+
+<li class="numer" id="brs3"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Ile wody i ile cukru należy użyć, by otrzymać \(30\ kg \) roztworu \(10 \% \) ?</p>
+<div class="row odp"></div><button class="butt" id="gbrs3" onclick="pokazbrs3()">Rozwiązanie</button>
+<script>
+function pokazbrs3(){
+var dbrs3=document.getElementById("r-brs3");
+var rbrs3=document.createElement("img");
+rbrs3.setAttribute('src','roz/brs3.png');
+dbrs3.appendChild(rbrs3);
+var ubrs3=document.getElementById("gbrs3");
+ubrs3.innerHTML="Ukryj rozwiązanie";
+ubrs3.setAttribute("onclick","usunbrs3()");}
+function usunbrs3(){
+var dbrs3=document.getElementById("r-brs3");
+dbrs3.innerHTML=null;
+var ubrs3a=document.getElementById("gbrs3");
+ubrs3a.innerHTML="Rozwiązanie";
+ubrs3a.setAttribute("onclick","pokazbrs3()");}
+</script>
+<div id="r-brs3"><p class="tresc"> Stwierdzenie, że roztwór jest \(10|% \) oznacza, że w \(100 \) gramach tego roztworu jest \(10 \) gram rozpuszczonej substancji.<br>
+Obliczamy ile powinno być cukru w \(30 \) kilogramach roztworu.<br>
+\(\begin{matrix}
+10\ g (cukru)- & 100\ g (roztworu) \\ 
+ x  -& 30000\ g (30\ kg)
+\end{matrix} \)<br>
+\(x=\frac{30000\cdot 10}{100}\\ x=3000\ g \)<br>
+Należy rozpuścić \(3000\ g=3\ kg \) cukru w \(30-3=27 \) kg wody.</p></div>
+</li>
+<li class="numer" id="brs4"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Ciąg \((a_n) \) jest ciągiem arytmetycznym, o różnicy \(3 \). Szósty wyraz tego ciągu równy jest \(38 \). Wobec tego pierwszy \((a_1) \) wyraz tego ciągu jest równy?</p>
+<div class="row odp"></div><button class="butt" id="gbrs4" onclick="pokazbrs4()">Rozwiązanie</button>
+<script>
+function pokazbrs4(){
+var dbrs4=document.getElementById("r-brs4");
+var rbrs4=document.createElement("img");
+rbrs4.setAttribute('src','roz/brs4.png');
+dbrs4.appendChild(rbrs4);
+var ubrs4=document.getElementById("gbrs4");
+ubrs4.innerHTML="Ukryj rozwiązanie";
+ubrs4.setAttribute("onclick","usunbrs4()");}
+function usunbrs4(){
+var dbrs4=document.getElementById("r-brs4");
+dbrs4.innerHTML=null;
+var ubrs4a=document.getElementById("gbrs4");
+ubrs4a.innerHTML="Rozwiązanie";
+ubrs4a.setAttribute("onclick","pokazbrs4()");}
+</script>
+<div id="r-brs4"><p class="tresc">Wzór na n-ty wyraz ciągu arytmetycznego to:<br>
+\(a_n = a_1+(n-1)r \)<br>
+mamy dane \(a_6=38 \) oraz \(r=3\)<br>
+\(a_6=a_1+(6-1)-1\\38=a_1+5\cdot 3\\38=a_1+15\\a_1=38-15\\a_1=23 \)</p></div>
+</li>
+<li class="numer" id="brs5"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Pole trapezu prostokątnego wynosi \(40\ cm\) kwadratowych. Bok prostopadły do obu podstaw jest krótszy od jednej z nich o \(2\ cm\), a od drugiej o \(4\ cm\). Oblicz obwód tego trapezu.</p>
+<div class="row odp"></div><button class="butt" id="gbrs5" onclick="pokazbrs5()">Rozwiązanie</button>
+<script>
+function pokazbrs5(){
+var dbrs5=document.getElementById("r-brs5");
+var rbrs5=document.createElement("img");
+rbrs5.setAttribute('src','roz/brs5.png');
+dbrs5.appendChild(rbrs5);
+var ubrs5=document.getElementById("gbrs5");
+ubrs5.innerHTML="Ukryj rozwiązanie";
+ubrs5.setAttribute("onclick","usunbrs5()");}
+function usunbrs5(){
+var dbrs5=document.getElementById("r-brs5");
+dbrs5.innerHTML=null;
+var ubrs5a=document.getElementById("gbrs5");
+ubrs5a.innerHTML="Rozwiązanie";
+ubrs5a.setAttribute("onclick","pokazbrs5()");}
+</script>
+<div id="r-brs5"><p class="tresc">Pole równa się<br>
+\(P=\frac{(a+b)\cdot h}{2} = 40\\
+(a+b)\cdot h=80\)<br>
+\(a \) - krótsza podstawa<br>
+\(b \) - dłuższa podstawa<br>
+\(h \) - wysokość<br>
+\(c \) - ramię<br>
+\(\\
+h=a-2 => a=h+2\\
+h=b-4 => b=h+4\)<br>
+teraz podstawiamy zamiast \(a \) i \(b \) i otrzymujemy<br>
+\((h+2+h+4)*h=80\\
+2h^2 + 6h-80=0\\
+Δ = 676\\
+√Δ= 26\)<br>
+
+\(h_1=\frac{-6-26}{4} = -8\) odpada ponieważ długość nie może być ujemna<br>
+\(\\
+h_2=\frac{-6+26}{4} = 5\\
+
+a = h+2 = 7\\
+b = h+4 = 9\)<br>
+
+z twierdzenia Pitagorasa obliczam długość ramienia trapezu - przeciwprostokątna w trójkącie, w którym przyprostokątne to: wysokość \(h=5\) oraz \(b-a=2\)<br>
+\(h^2 + (b-a)^2 = c^2\\
+25 + 4 =c^2\\
+c=\sqrt{29}\)<br>
+
+
+Obwód to<br>
+\(L= a+ b +c +h\\
+L = 7+9+5+\sqrt{29}\\
+L = 21+ \sqrt{29}\)</p></div>
+</li>
+<li class="numer" id="brs6"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Ostrosłup prawidłowy czworokątny o wysokości \(5\sqrt{3}\ cm \) ma objętość \(50\sqrt{3}\ cm^3 \). Oblicz długość krawędzi podstawy tego ostrosłupa.</p>
+<div class="row odp"></div><button class="butt" id="gbrs6" onclick="pokazbrs6()">Rozwiązanie</button>
+<script>
+function pokazbrs6(){
+var dbrs6=document.getElementById("r-brs6");
+var rbrs6=document.createElement("img");
+rbrs6.setAttribute('src','roz/brs6.png');
+dbrs6.appendChild(rbrs6);
+var ubrs6=document.getElementById("gbrs6");
+ubrs6.innerHTML="Ukryj rozwiązanie";
+ubrs6.setAttribute("onclick","usunbrs6()");}
+function usunbrs6(){
+var dbrs6=document.getElementById("r-brs6");
+dbrs6.innerHTML=null;
+var ubrs6a=document.getElementById("gbrs6");
+ubrs6a.innerHTML="Rozwiązanie";
+ubrs6a.setAttribute("onclick","pokazbrs6()");}
+</script>
+<div id="r-brs6"><p class="tresc">Objętość ostrosłupa liczymy według wzoru \(V=\frac{1}{3}\cdot P_p\cdot H\)<br>
+\(P_p\) - pole podstawy<br>
+\(50\sqrt{3}\ cm^3 = \frac{1}{3}\cdot P_p\cdot 5\sqrt{3}\ cm\ \  \ |(:5\sqrt{3}\ cm)\\
+10\ cm^2 = \frac{1}{3}\cdot P_p\\
+P_p= 30\ cm^2\)<br>
+
+Podstawą jest kwadrat więc<br>
+\(P_p = a^2\\
+30 cm^2= a^2\\
+a = \sqrt{30}\ cm\)<br>Krawędź podstawy ma długość \(\sqrt{30}\ cm \)</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+						  
+</ol>
+</div>
+</div>
+</div>
+<script src="../js/jquery.js"></script>
+      <script src="../js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,1389 @@
+<!doctype html>
+<html lang="pl">
+	<head>
+		<link rel="icon" href="logo.png"> <meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Dowody dotyczące podzielności</title>
+						<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+							integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+						
+						<!-- <link rel="stylesheet" type="text/css" href="../../css/bootstrap.css"> -->
+						<link rel="stylesheet" type="text/css" href="../../css/styl.css" />
+						<!--[if lt IE 9]>
+						      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+						      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+						    <![endif]-->
+						<script type="text/javascript" id="MathJax-script" async
+							src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+							</script>
+						<!-- <script src="../../MathJax/MathJax.js?config=default"></script> 
+						 <script id="MathJax-script" async src="../../MathJax/es5/tex-mml-chtml.js"></script> -->
+	</head>
+	<body>
+		<div class="container">
+			<div class="row" id="gora">
+				<div class="col-xs-12 col-md-6 col-lg-3" id="gl"><h1 class="ag"><a href="../../podstawowa/podstawowa.html">Podstawówka</a></h1></div>
+		  		<div class="col-xs-12 col-md-6 col-lg-3" id="gl"><h1 class="ag"><a href="../../srednia/srednia.html">Średnia</a></h1></div>
+		  		<div class="col-xs-12 col-md-6 col-lg-3" id="gl"><h1 class="ag"><a href="../../index.html">Strona główna</a></h1></div>
+				<div class="col-xs-12 col-md-6 col-lg-3" id="gl"><h1 class="ag"><a href="../../studia/studia.html">Studia</a></h1></div>
+			</div>
+			<div class="row">
+			<div class="col-xs-12 col-md-5 col-lg-3" id="lewa">
+<h3>Przydatne linki</h3>
+<a class="link" href="https://www.naukowiec.org/mendelejew.html">Układ okresowy pierwiastków</a>
+			<ul class="nav nav-pills nav-stacked list-group"><h3><a herf="matura.html">Matura</a></h3>
+<li class="list-group-item"><h4><a href="../maturapowt.html">Powtórki</a></h4></li>
+<ul class="fiz"><h5>Fizyka</h5>
+
+</ul>
+<ul class="list-group mat"><h5>Matematyka</h5>
+<li class="list-group-item"><a href="liczbyrzecz.html">Liczby rzeczywiste</a></li><li class="list-group-item"><a href="zbioryprzedzinierow.html">Zbiory, przedziały i nierówności</a></li>
+<li class="list-group-item"><a href="wyralg.html"> Wyrażenia algebraiczne</a></li>
+<li class="list-group-item"><a href="rownania.html">Równania i nierówności</a></li>
+<li class="list-group-item"><a href="funkcjeglowne.html">Funkcje</a></li>
+<li class="list-group-item"><a href="ciagi.html">Ciągi</a></li>
+<li class="list-group-item"><a href="trygonometria.html">Trygonometria</a></li>
+<li class="list-group-item"><a href="planimetria.html">Planimetria</a></li>
+<li class="list-group-item"><a href="geometria.html">Geometria analityczna</a></li>
+<li class="list-group-item"><a href="stereometria.html">Stereometria</a></li>
+<li class="list-group-item"><a href="kombinatoryka.html">Kombinatoryka</a></li>
+<li class="list-group-item"><a href="prawdopodobienstwo.html">Rachunek prawdopodobieństwa i statystyka</a></li>
+<li class="list-group-item"><a href="optymalizacja.html">Optymalizacja i rachunek różniczkowy</a></li>
+<li class="list-group-item active"><a href="wykazze.html">Wykaż, że</a></li>
+</ul>
+<ul class="chem"><h5>Chemia</h5>
+
+</ul>
+<li><h4><a href="../maturazestaw.html">Zestawy</a></h4></il>
+
+			</ul>
+			</div>
+			<div class="col-xs-12 col-md-8 col-lg-9" id="prawa">
+							<ul class="podmenu1"><p class="tytul"><b>Wykaż, że</b> </p>
+			<li class="podmenu" id="aktualne"><a href="dpodzielnosc.html">Dowody dotyczące podzielności</a></li>
+			<li class="podmenu"><a href="ddzielenie.html">Dowody dotyczące dzielenia z resztą</a></li>
+			<li class="podmenu"><a href="dwarunki.html">Dowody z wykazaniem, że liczba lub wyrażenie spełnia określone warunki</a></li>
+			<li class="podmenu"><a href="drownania.html">Dowody w wykazaniem prawdziwości równań</a></li>
+			<li class="podmenu"><a href="dciagi.html">Dowody z wykorzystaniem własności ciągów liczbowych</a></li>
+			<li class="podmenu"><a href="dnierownosci.html">Dowody z wykazaniem nierówności</a></li>
+			<li class="podmenu"><a href="dtrygonometria.html">Dowody z wykorzystaniem własności trygonometrycznych</a></li>
+			<li class="podmenu"><a href="dgeometria.html">Dowody geometryczne</a></li>
+			<li class="podmenu"><a href="dstereometria.html">Dowody dotyczące stereometrii</a></li>
+			<li class="podmenu"><a href="dprawdopodobienstwo.html">Dowody dotyczące kombinatoryki i rachunku prawdopodobieństwa</a></li>
+			</ul>
+   <ol><p class="rodzajzad">Zadania powtórzeniowe</p>
+		<li class="numer"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Wykaż, że każda liczba postaci <img src="graf/70.gif">, gdzie <img src="graf/71.gif">, jest podzielna przez 3.</p></li>
+<li class="numer"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Wykaż, że liczba <img src="graf/72.gif"> jest podzielna przez 10.</p></li>
+<li class="numer"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Wykaż, że liczba <img src="graf/73.gif"> jest podzielna przez 19.</p></li>
+<li class="numer"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Wykaż, że liczba <img src="graf/74.gif"> jest podzielna przez 10.</p></li>
+<li class="numer"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Wykaż, że liczba <img src="graf/75.gif"> jest podzielna przez 21.</p></li>
+<li class="numer"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Wykaż, że liczba <img src="graf/76.gif"> jest podzielna przez 19.</p></li>
+<li class="numer"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Uzasadnij, że liczba <img src="graf/a.gif">, taka że <img src="graf/77.gif">, jest podzielna przez 13.</p></li>
+<li class="numer"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Wykaż, że liczba <img src="graf/78.gif"> jest podzielna przez <img src="graf/79.gif">.</p></li>
+<li class="numer" id="r1"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Wykaż, że suma trzech kolejnych liczb całkowitych jest podzielna przez 3.</p>
+<button class="butt" id="g1" onclick="pokaz()">Rozwiązanie</button>
+<script>
+
+function pokaz(){
+	var d1=document.getElementById("r-1");
+	var r1 = document.createElement("img") ;
+	r1.setAttribute('src','roz/1.gif');
+	d1.appendChild(r1);
+	var u1 = document.getElementById("g1");
+	u1.innerHTML="Ukryj rozwiązanie";
+	u1.setAttribute("onclick","usun()");
+	}
+function usun(){
+	var d1=document.getElementById("r-1");
+	d1.innerHTML=null;
+	var u1a=document.getElementById("g1");
+	u1a.innerHTML="Rozwiązanie";
+	u1a.setAttribute("onclick","pokaz()");}
+</script>
+<div class="rozw" id="r-1"></div></li>
+<li class="numer" id="r2"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Wykaż, że suma kwadratów pięciu kolejnych liczb całkowitych jest podzielna przez 5.</p><button class="butt" id="g2" onclick="pokaz2()">Rozwiązanie</button>
+<script>
+function pokaz2(){
+var d2=document.getElementById("r-2");
+var r2=document.createElement("img");
+r2.setAttribute('src','roz/2.gif');
+d2.appendChild(r2);
+var u2=document.getElementById("g2");
+u2.innerHTML="Ukryj rozwiązanie";
+u2.setAttribute("onclick","usun2()");}
+function usun2(){
+var d2=document.getElementById("r-2");
+d2.innerHTML=null;
+var u2a=document.getElementById("g2");
+u2a.innerHTML="Rozwiązanie";
+u2a.setAttribute("onclick","pokaz2()");}
+</script>
+<div class="rozw" id="r-2"></div>
+</li>
+<li class="numer" id="r3"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Udowodnij, że suma kwadratów czterech kolejnych liczb parzystych jest podzielna przez 8.</p><button class="butt" id="g3" onclick="pokaz3()">Rozwiązanie</button>
+<script>
+function pokaz3(){
+var d3=document.getElementById("r-3");
+var r3=document.createElement("img");
+r3.setAttribute('src','roz/3.gif');
+d3.appendChild(r3);
+var u3=document.getElementById("g3");
+u3.innerHTML="Ukryj rozwiązanie";
+u3.setAttribute("onclick","usun3()");}
+function usun3(){
+var d3=document.getElementById("r-3");
+d3.innerHTML=null;
+var u3a=document.getElementById("g3");
+u3a.innerHTML="Rozwiązanie";
+u3a.setAttribute("onclick","pokaz3()");}
+</script>
+<div class="rozw" id="r-3"></div>
+</li>
+<li class="numer" id="r4"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Uzasadnij, że różnica sześcianów dwóch liczb całkowitych różniących się o trzy jest podzielna przez 9.</p><button class="butt" id="g4" onclick="pokaz4()">Rozwiązanie</button>
+<script>
+function pokaz4(){
+var d4=document.getElementById("r-4");
+var r4=document.createElement("img");
+r4.setAttribute('src','roz/4.gif');
+d4.appendChild(r4);
+var u4=document.getElementById("g4");
+u4.innerHTML="Ukryj rozwiązanie";
+u4.setAttribute("onclick","usun4()");}
+function usun4(){
+var d4=document.getElementById("r-4");
+d4.innerHTML=null;
+var u4a=document.getElementById("g4");
+u4a.innerHTML="Rozwiązanie";
+u4a.setAttribute("onclick","pokaz4()");}
+</script>
+<div class="rozw" id="r-4"></div>
+</li>
+<li class="numer" id="r5"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Udowodnij, że wyrażenie <img src="graf/85.gif">dla <img src="graf/nnn.gif"> jest podzielne przez 10.</p><button class="butt" id="g5" onclick="pokaz5()">Rozwiązanie</button>
+<script>
+function pokaz5(){
+var d5=document.getElementById("r-5");
+var r5=document.createElement("img");
+r5.setAttribute('src','roz/5.gif');
+d5.appendChild(r5);
+var u5=document.getElementById("g5");
+u5.innerHTML="Ukryj rozwiązanie";
+u5.setAttribute("onclick","usun5()");}
+function usun5(){
+var d5=document.getElementById("r-5");
+d5.innerHTML=null;
+var u5a=document.getElementById("g5");
+u5a.innerHTML="Rozwiązanie";
+u5a.setAttribute("onclick","pokaz5()");}
+</script>
+<div class="rozw" id="r-5"></div>
+</li>
+<li class="numer" id="r6"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Wykaż, że liczba <img src="graf/86.gif"> jest podzielna przez 31.</p><button class="butt" id="g6" onclick="pokaz6()">Rozwiązanie</button>
+<script>
+function pokaz6(){
+var d6=document.getElementById("r-6");
+var r6=document.createElement("img");
+r6.setAttribute('src','roz/6.gif');
+d6.appendChild(r6);
+var u6=document.getElementById("g6");
+u6.innerHTML="Ukryj rozwiązanie";
+u6.setAttribute("onclick","usun6()");}
+function usun6(){
+var d6=document.getElementById("r-6");
+d6.innerHTML=null;
+var u6a=document.getElementById("g6");
+u6a.innerHTML="Rozwiązanie";
+u6a.setAttribute("onclick","pokaz6()");}
+</script>
+<div class="rozw" id="r-6"></div>
+</li>
+<li class="numer" id="r7"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Wykaż, że suma <img src="graf/87.gif"> jest podzielna przez 2016.</p><button class="butt" id="g7" onclick="pokaz7()">Rozwiązanie</button>
+<script>
+function pokaz7(){
+var d7=document.getElementById("r-7");
+var r7=document.createElement("img");
+r7.setAttribute('src','roz/7.gif');
+d7.appendChild(r7);
+var u7=document.getElementById("g7");
+u7.innerHTML="Ukryj rozwiązanie";
+u7.setAttribute("onclick","usun7()");}
+function usun7(){
+var d7=document.getElementById("r-7");
+d7.innerHTML=null;
+var u7a=document.getElementById("g7");
+u7a.innerHTML="Rozwiązanie";
+u7a.setAttribute("onclick","pokaz7()");}
+</script>
+<div class="rozw" id="r-7"></div>
+</li>
+<li class="numer" id="r8"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Udowodnij, że liczba <img src="graf/88.gif"> jest podzielna przez 20.</p><button class="butt" id="g8" onclick="pokaz8()">Rozwiązanie</button>
+<script>
+function pokaz8(){
+var d8=document.getElementById("r-8");
+var r8=document.createElement("img");
+r8.setAttribute('src','roz/8.gif');
+d8.appendChild(r8);
+var u8=document.getElementById("g8");
+u8.innerHTML="Ukryj rozwiązanie";
+u8.setAttribute("onclick","usun8()");}
+function usun8(){
+var d8=document.getElementById("r-8");
+d8.innerHTML=null;
+var u8a=document.getElementById("g8");
+u8a.innerHTML="Rozwiązanie";
+u8a.setAttribute("onclick","pokaz8()");}
+</script>
+<div class="rozw" id="r-8"></div>
+</li>
+<li class="numer" id="r9"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Udowodnij, że liczba <img src="graf/89.gif"> jest podzielna przez 57.</p><button class="butt" id="g9" onclick="pokaz9()">Rozwiązanie</button>
+<script>
+function pokaz9(){
+var d9=document.getElementById("r-9");
+var r9=document.createElement("img");
+r9.setAttribute('src','roz/9.gif');
+d9.appendChild(r9);
+var u9=document.getElementById("g9");
+u9.innerHTML="Ukryj rozwiązanie";
+u9.setAttribute("onclick","usun9()");}
+function usun9(){
+var d9=document.getElementById("r-9");
+d9.innerHTML=null;
+var u9a=document.getElementById("g9");
+u9a.innerHTML="Rozwiązanie";
+u9a.setAttribute("onclick","pokaz9()");}
+</script>
+<div class="rozw" id="r-9"></div>
+</li>
+<li class="numer" id="r10"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Wykaż, że liczba <img src="graf/90.gif"> jest podzielna przez 17.</p><button class="butt" id="g10" onclick="pokaz10()">Rozwiązanie</button>
+<script>
+function pokaz10(){
+var d10=document.getElementById("r-10");
+var r10=document.createElement("img");
+r10.setAttribute('src','roz/10.gif');
+d10.appendChild(r10);
+var u10=document.getElementById("g10");
+u10.innerHTML="Ukryj rozwiązanie";
+u10.setAttribute("onclick","usun10()");}
+function usun10(){
+var d10=document.getElementById("r-10");
+d10.innerHTML=null;
+var u10a=document.getElementById("g10");
+u10a.innerHTML="Rozwiązanie";
+u10a.setAttribute("onclick","pokaz10()");}
+</script>
+<div class="rozw" id="r-10"></div>
+</li>
+<li class="numer" id="r11"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że wyrażenie <img src="graf/91.gif"> ,gdzie <img src="graf/nnn.gif"> ,jest podzielne przez 120.</p><button class="butt" id="g11" onclick="pokaz11()">Rozwiązanie</button>
+<script>
+function pokaz11(){
+var d11=document.getElementById("r-11");
+var r11=document.createElement("img");
+r11.setAttribute('src','roz/11.gif');
+d11.appendChild(r11);
+var u11=document.getElementById("g11");
+u11.innerHTML="Ukryj rozwiązanie";
+u11.setAttribute("onclick","usun11()");}
+function usun11(){
+var d11=document.getElementById("r-11");
+d11.innerHTML=null;
+var u11a=document.getElementById("g11");
+u11a.innerHTML="Rozwiązanie";
+u11a.setAttribute("onclick","pokaz11()");}
+</script>
+<div class="rozw" id="r-11"></div>
+</li>
+<li class="numer" id="r12"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Uzasadnij, że dla każdej dodatniej liczby całkowitej <img src="graf/n.gif"> liczba <img src="graf/92.gif"> jest wielokrotnością liczby 8.</p><button class="butt" id="g12" onclick="pokaz12()">Rozwiązanie</button>
+<script>
+function pokaz12(){
+var d12=document.getElementById("r-12");
+var r12=document.createElement("img");
+r12.setAttribute('src','roz/12.gif');
+d12.appendChild(r12);
+var u12=document.getElementById("g12");
+u12.innerHTML="Ukryj rozwiązanie";
+u12.setAttribute("onclick","usun12()");}
+function usun12(){
+var d12=document.getElementById("r-12");
+d12.innerHTML=null;
+var u12a=document.getElementById("g12");
+u12a.innerHTML="Rozwiązanie";
+u12a.setAttribute("onclick","pokaz12()");}
+</script>
+<div class="rozw" id="r-12"></div>
+</li>
+<li class="numer" id="r13"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że wyrażenie <img src="graf/93.gif"> jest podzielne przez 80.</p><button class="butt" id="g13" onclick="pokaz13()">Rozwiązanie</button>
+<script>
+function pokaz13(){
+var d13=document.getElementById("r-13");
+var r13=document.createElement("img");
+r13.setAttribute('src','roz/13.gif');
+d13.appendChild(r13);
+var u13=document.getElementById("g13");
+u13.innerHTML="Ukryj rozwiązanie";
+u13.setAttribute("onclick","usun13()");}
+function usun13(){
+var d13=document.getElementById("r-13");
+d13.innerHTML=null;
+var u13a=document.getElementById("g13");
+u13a.innerHTML="Rozwiązanie";
+u13a.setAttribute("onclick","pokaz13()");}
+</script>
+<div class="rozw" id="r-13"></div>
+</li>
+<li class="numer" id="r14"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że wyrażenie <img src="graf/94.gif"> jest podzielne przez 1000.</p><button class="butt" id="g14" onclick="pokaz14()">Rozwiązanie</button>
+<script>
+function pokaz14(){
+var d14=document.getElementById("r-14");
+var r14=document.createElement("img");
+r14.setAttribute('src','roz/14.gif');
+d14.appendChild(r14);
+var u14=document.getElementById("g14");
+u14.innerHTML="Ukryj rozwiązanie";
+u14.setAttribute("onclick","usun14()");}
+function usun14(){
+var d14=document.getElementById("r-14");
+d14.innerHTML=null;
+var u14a=document.getElementById("g14");
+u14a.innerHTML="Rozwiązanie";
+u14a.setAttribute("onclick","pokaz14()");}
+</script>
+<div class="rozw" id="r-14"></div>
+</li>
+<li class="numer" id="r15"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że suma <img src="graf/95.gif"> jest podzielna przez 202.</p><button class="butt" id="g15" onclick="pokaz15()">Rozwiązanie</button>
+<script>
+function pokaz15(){
+var d15=document.getElementById("r-15");
+var r15=document.createElement("img");
+r15.setAttribute('src','roz/15.gif');
+d15.appendChild(r15);
+var u15=document.getElementById("g15");
+u15.innerHTML="Ukryj rozwiązanie";
+u15.setAttribute("onclick","usun15()");}
+function usun15(){
+var d15=document.getElementById("r-15");
+d15.innerHTML=null;
+var u15a=document.getElementById("g15");
+u15a.innerHTML="Rozwiązanie";
+u15a.setAttribute("onclick","pokaz15()");}
+</script>
+<div class="rozw" id="r-15"></div>
+</li>
+<li class="numer" id="r16"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że dla <img src="graf/nnc.gif"> wyrażenie <img src="graf/96.gif"> jest podzielne przez 6.</p><button class="butt" id="g16" onclick="pokaz16()">Rozwiązanie</button>
+<script>
+function pokaz16(){
+var d16=document.getElementById("r-16");
+var r16=document.createElement("img");
+r16.setAttribute('src','roz/16.gif');
+d16.appendChild(r16);
+var u16=document.getElementById("g16");
+u16.innerHTML="Ukryj rozwiązanie";
+u16.setAttribute("onclick","usun16()");}
+function usun16(){
+var d16=document.getElementById("r-16");
+d16.innerHTML=null;
+var u16a=document.getElementById("g16");
+u16a.innerHTML="Rozwiązanie";
+u16a.setAttribute("onclick","pokaz16()");}
+</script>
+<div class="rozw" id="r-16"></div>
+</li>
+<li class="numer" id="r17"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Uzasadnij, że dla każdej liczby całkowitej <img src="graf/n.gif"> liczba <img src="graf/97.gif"> jest podzielna przez 18.</p><button class="butt" id="g17" onclick="pokaz17()">Rozwiązanie</button>
+<script>
+function pokaz17(){
+var d17=document.getElementById("r-17");
+var r17=document.createElement("img");
+r17.setAttribute('src','roz/17.gif');
+d17.appendChild(r17);
+var u17=document.getElementById("g17");
+u17.innerHTML="Ukryj rozwiązanie";
+u17.setAttribute("onclick","usun17()");}
+function usun17(){
+var d17=document.getElementById("r-17");
+d17.innerHTML=null;
+var u17a=document.getElementById("g17");
+u17a.innerHTML="Rozwiązanie";
+u17a.setAttribute("onclick","pokaz17()");}
+</script>
+<div class="rozw" id="r-17"></div>
+</li>
+<li class="numer" id="r18"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Uzasadnij, że dla każdej liczby całkowitej <img src="graf/k.gif"> liczba <img src="graf/98.gif"> jest podzielna przez 24.</p><button class="butt" id="g18" onclick="pokaz18()">Rozwiązanie</button>
+<script>
+function pokaz18(){
+var d18=document.getElementById("r-18");
+var r18=document.createElement("img");
+r18.setAttribute('src','roz/18.gif');
+d18.appendChild(r18);
+var u18=document.getElementById("g18");
+u18.innerHTML="Ukryj rozwiązanie";
+u18.setAttribute("onclick","usun18()");}
+function usun18(){
+var d18=document.getElementById("r-18");
+d18.innerHTML=null;
+var u18a=document.getElementById("g18");
+u18a.innerHTML="Rozwiązanie";
+u18a.setAttribute("onclick","pokaz18()");}
+</script>
+<div class="rozw" id="r-18"></div>
+</li>
+<li class="numer" id="r19"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że dla każdej liczby całkowitej <img src="graf/n.gif"> liczba <img src="graf/99.gif"> jest podzielna przez 36.</p><button class="butt" id="g19" onclick="pokaz19()">Rozwiązanie</button>
+<script>
+function pokaz19(){
+var d19=document.getElementById("r-19");
+var r19=document.createElement("img");
+r19.setAttribute('src','roz/19.gif');
+d19.appendChild(r19);
+var u19=document.getElementById("g19");
+u19.innerHTML="Ukryj rozwiązanie";
+u19.setAttribute("onclick","usun19()");}
+function usun19(){
+var d19=document.getElementById("r-19");
+d19.innerHTML=null;
+var u19a=document.getElementById("g19");
+u19a.innerHTML="Rozwiązanie";
+u19a.setAttribute("onclick","pokaz19()");}
+</script>
+<div class="rozw" id="r-19"></div>
+</li>
+<li class="numer" id="r20"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Uzasadnij, że dla <img src="graf/nnn.gif"> liczba <img src="graf/100.gif"> jest podzielna przez 120.</p><button class="butt" id="g20" onclick="pokaz20()">Rozwiązanie</button>
+<script>
+function pokaz20(){
+var d20=document.getElementById("r-20");
+var r20=document.createElement("img");
+r20.setAttribute('src','roz/20.gif');
+d20.appendChild(r20);
+var u20=document.getElementById("g20");
+u20.innerHTML="Ukryj rozwiązanie";
+u20.setAttribute("onclick","usun20()");}
+function usun20(){
+var d20=document.getElementById("r-20");
+d20.innerHTML=null;
+var u20a=document.getElementById("g20");
+u20a.innerHTML="Rozwiązanie";
+u20a.setAttribute("onclick","pokaz20()");}
+</script>
+<div class="rozw" id="r-20"></div>
+</li>
+<li class="numer" id="r21"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Pierwiastkami wielomianu stopnia trzeciego są liczby 1, 3, 5. Współczynnik przy najwyższej potędze zmiennej tego wielomianu jest równy 5. Uzasadnij, że dla każdej liczby całkowitej nieparzystej wartość tego wielomianu jest liczbą podzielną przez 240.</p><button class="butt" id="g21" onclick="pokaz21()">Rozwiązanie</button>
+<script>
+function pokaz21(){
+var d21=document.getElementById("r-21");
+var r21=document.createElement("img");
+r21.setAttribute('src','roz/21.gif');
+d21.appendChild(r21);
+var u21=document.getElementById("g21");
+u21.innerHTML="Ukryj rozwiązanie";
+u21.setAttribute("onclick","usun21()");}
+function usun21(){
+var d21=document.getElementById("r-21");
+d21.innerHTML=null;
+var u21a=document.getElementById("g21");
+u21a.innerHTML="Rozwiązanie";
+u21a.setAttribute("onclick","pokaz21()");}
+</script>
+<div class="rozw" id="r-21"></div>
+</li>
+<li class="numer" id="r22"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że liczba <img src="graf/101.gif"> jest podzielna przez 48.</p><button class="butt" id="g22" onclick="pokaz22()">Rozwiązanie</button>
+<script>
+function pokaz22(){
+var d22=document.getElementById("r-22");
+var r22=document.createElement("img");
+r22.setAttribute('src','roz/22.gif');
+d22.appendChild(r22);
+var u22=document.getElementById("g22");
+u22.innerHTML="Ukryj rozwiązanie";
+u22.setAttribute("onclick","usun22()");}
+function usun22(){
+var d22=document.getElementById("r-22");
+d22.innerHTML=null;
+var u22a=document.getElementById("g22");
+u22a.innerHTML="Rozwiązanie";
+u22a.setAttribute("onclick","pokaz22()");}
+</script>
+<div class="rozw" id="r-22"></div>
+</li>
+<li class="numer" id="r23"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że dla <img src="graf/nnn.gif"> liczba <img src="graf/102.gif"> jest wielokrotnością liczby 8.</p><button class="butt" id="g23" onclick="pokaz23()">Rozwiązanie</button>
+<script>
+function pokaz23(){
+var d23=document.getElementById("r-23");
+var r23=document.createElement("img");
+r23.setAttribute('src','roz/23.gif');
+d23.appendChild(r23);
+var u23=document.getElementById("g23");
+u23.innerHTML="Ukryj rozwiązanie";
+u23.setAttribute("onclick","usun23()");}
+function usun23(){
+var d23=document.getElementById("r-23");
+d23.innerHTML=null;
+var u23a=document.getElementById("g23");
+u23a.innerHTML="Rozwiązanie";
+u23a.setAttribute("onclick","pokaz23()");}
+</script>
+<div class="rozw" id="r-23"></div>
+</li>
+<li class="numer" id="r24"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że liczba <img src="graf/103.gif"> jest podzielna przez 10.</p><button class="butt" id="g24" onclick="pokaz24()">Rozwiązanie</button>
+<script>
+function pokaz24(){
+var d24=document.getElementById("r-24");
+var r24=document.createElement("img");
+r24.setAttribute('src','roz/24.gif');
+d24.appendChild(r24);
+var u24=document.getElementById("g24");
+u24.innerHTML="Ukryj rozwiązanie";
+u24.setAttribute("onclick","usun24()");}
+function usun24(){
+var d24=document.getElementById("r-24");
+d24.innerHTML=null;
+var u24a=document.getElementById("g24");
+u24a.innerHTML="Rozwiązanie";
+u24a.setAttribute("onclick","pokaz24()");}
+</script>
+<div class="rozw" id="r-24"></div>
+</li>
+<li class="numer" id="r25"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że wyrażenie <img src="graf/104.gif"> jest podzielne przez 4000.</p><button class="butt" id="g25" onclick="pokaz25()">Rozwiązanie</button>
+<script>
+function pokaz25(){
+var d25=document.getElementById("r-25");
+var r25=document.createElement("img");
+r25.setAttribute('src','roz/25.gif');
+d25.appendChild(r25);
+var u25=document.getElementById("g25");
+u25.innerHTML="Ukryj rozwiązanie";
+u25.setAttribute("onclick","usun25()");}
+function usun25(){
+var d25=document.getElementById("r-25");
+d25.innerHTML=null;
+var u25a=document.getElementById("g25");
+u25a.innerHTML="Rozwiązanie";
+u25a.setAttribute("onclick","pokaz25()");}
+</script>
+<div class="rozw" id="r-25"></div>
+</li>
+<li class="numer" id="r26"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że liczba <img src="graf/105.gif"> jest podzielna przez <img src="graf/106.gif">.</p><button class="butt" id="g26" onclick="pokaz26()">Rozwiązanie</button>
+<script>
+function pokaz26(){
+var d26=document.getElementById("r-26");
+var r26=document.createElement("img");
+r26.setAttribute('src','roz/26.gif');
+d26.appendChild(r26);
+var u26=document.getElementById("g26");
+u26.innerHTML="Ukryj rozwiązanie";
+u26.setAttribute("onclick","usun26()");}
+function usun26(){
+var d26=document.getElementById("r-26");
+d26.innerHTML=null;
+var u26a=document.getElementById("g26");
+u26a.innerHTML="Rozwiązanie";
+u26a.setAttribute("onclick","pokaz26()");}
+</script>
+<div class="rozw" id="r-26"></div>
+</li>
+<li class="numer" id="r27"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Uzasadnij, że liczba <img src="graf/107.gif"> jest podzielna przez 6 , dla <img src="graf/nnn.gif">.</p><button class="butt" id="g27" onclick="pokaz27()">Rozwiązanie</button>
+<script>
+function pokaz27(){
+var d27=document.getElementById("r-27");
+var r27=document.createElement("img");
+r27.setAttribute('src','roz/27.gif');
+d27.appendChild(r27);
+var u27=document.getElementById("g27");
+u27.innerHTML="Ukryj rozwiązanie";
+u27.setAttribute("onclick","usun27()");}
+function usun27(){
+var d27=document.getElementById("r-27");
+d27.innerHTML=null;
+var u27a=document.getElementById("g27");
+u27a.innerHTML="Rozwiązanie";
+u27a.setAttribute("onclick","pokaz27()");}
+</script>
+<div class="rozw" id="r-27"></div>
+</li>
+<li class="numer" id="r28"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że liczba <img src="graf/108.gif">, gdzie <img src="graf/nnn.gif">, jest podzielna przez 81.</p><button class="butt" id="g28" onclick="pokaz28()">Rozwiązanie</button>
+<script>
+function pokaz28(){
+var d28=document.getElementById("r-28");
+var r28=document.createElement("img");
+r28.setAttribute('src','roz/28.gif');
+d28.appendChild(r28);
+var u28=document.getElementById("g28");
+u28.innerHTML="Ukryj rozwiązanie";
+u28.setAttribute("onclick","usun28()");}
+function usun28(){
+var d28=document.getElementById("r-28");
+d28.innerHTML=null;
+var u28a=document.getElementById("g28");
+u28a.innerHTML="Rozwiązanie";
+u28a.setAttribute("onclick","pokaz28()");}
+</script>
+<div class="rozw" id="r-28"></div>
+</li>
+<li class="numer" id="r29"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Wykaż, że suma liczb: czterocyfrowej, trzycyfrowej i dwucyfrowej postaci <img src="graf/109.gif"> jest podzielna przez 137, wiedząc, że <img src="graf/da.gif"> oznacza dowolną cyfrę i <img src="graf/110.gif">.</p><button class="butt" id="g29" onclick="pokaz29()">Rozwiązanie</button>
+<script>
+function pokaz29(){
+var d29=document.getElementById("r-29");
+var r29=document.createElement("img");
+r29.setAttribute('src','roz/29.gif');
+d29.appendChild(r29);
+var u29=document.getElementById("g29");
+u29.innerHTML="Ukryj rozwiązanie";
+u29.setAttribute("onclick","usun29()");}
+function usun29(){
+var d29=document.getElementById("r-29");
+d29.innerHTML=null;
+var u29a=document.getElementById("g29");
+u29a.innerHTML="Rozwiązanie";
+u29a.setAttribute("onclick","pokaz29()");}
+</script>
+<div class="rozw" id="r-29"></div>
+</li>
+<li class="numer" id="r30"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Dane są cyfry <img src="graf/111.gif"> różne od zera oraz suma liczb czterocyfrowych postaci <img src="graf/112.gif">. Wykaż, że suma ta jest podzielna przez 101.</p><button class="butt" id="g30" onclick="pokaz30()">Rozwiązanie</button>
+<script>
+function pokaz30(){
+var d30=document.getElementById("r-30");
+var r30=document.createElement("img");
+r30.setAttribute('src','roz/30.gif');
+d30.appendChild(r30);
+var u30=document.getElementById("g30");
+u30.innerHTML="Ukryj rozwiązanie";
+u30.setAttribute("onclick","usun30()");}
+function usun30(){
+var d30=document.getElementById("r-30");
+d30.innerHTML=null;
+var u30a=document.getElementById("g30");
+u30a.innerHTML="Rozwiązanie";
+u30a.setAttribute("onclick","pokaz30()");}
+</script>
+<div class="rozw" id="r-30"></div>
+</li>
+<li class="numer" id="r31"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Wykaż, że iloczyn <img src="graf/113.gif"> jest podzielny przez 10000.</p><button class="butt" id="g31" onclick="pokaz31()">Rozwiązanie</button>
+<script>
+function pokaz31(){
+var d31=document.getElementById("r-31");
+var r31=document.createElement("img");
+r31.setAttribute('src','roz/31.gif');
+d31.appendChild(r31);
+var u31=document.getElementById("g31");
+u31.innerHTML="Ukryj rozwiązanie";
+u31.setAttribute("onclick","usun31()");}
+function usun31(){
+var d31=document.getElementById("r-31");
+d31.innerHTML=null;
+var u31a=document.getElementById("g31");
+u31a.innerHTML="Rozwiązanie";
+u31a.setAttribute("onclick","pokaz31()");}
+</script>
+<div class="rozw" id="r-31"></div>
+</li>
+<li class="numer" id="r32"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Dana jest liczba całkowita <img src="graf/a.gif"> taka, że liczba <img src="graf/114.gif"> jest podzielna przez 5. Udowodnij, że liczba <img src="graf/115.gif"> też jest podzielna przez 5.</p><button class="butt" id="g32" onclick="pokaz32()">Rozwiązanie</button>
+<script>
+function pokaz32(){
+var d32=document.getElementById("r-32");
+var r32=document.createElement("img");
+r32.setAttribute('src','roz/32.gif');
+d32.appendChild(r32);
+var u32=document.getElementById("g32");
+u32.innerHTML="Ukryj rozwiązanie";
+u32.setAttribute("onclick","usun32()");}
+function usun32(){
+var d32=document.getElementById("r-32");
+d32.innerHTML=null;
+var u32a=document.getElementById("g32");
+u32a.innerHTML="Rozwiązanie";
+u32a.setAttribute("onclick","pokaz32()");}
+</script>
+<div class="rozw" id="r-32"></div>
+</li>
+<li class="numer" id="r33"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że liczba <img src="graf/116.gif"> jest podzielna przez 10.</p><button class="butt" id="g33" onclick="pokaz33()">Rozwiązanie</button>
+<script>
+function pokaz33(){
+var d33=document.getElementById("r-33");
+var r33=document.createElement("img");
+r33.setAttribute('src','roz/33.gif');
+d33.appendChild(r33);
+var u33=document.getElementById("g33");
+u33.innerHTML="Ukryj rozwiązanie";
+u33.setAttribute("onclick","usun33()");}
+function usun33(){
+var d33=document.getElementById("r-33");
+d33.innerHTML=null;
+var u33a=document.getElementById("g33");
+u33a.innerHTML="Rozwiązanie";
+u33a.setAttribute("onclick","pokaz33()");}
+</script>
+<div class="rozw" id="r-33"></div>
+</li>
+<li class="numer" id="r34"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że nie istnieje wielomian <img src="graf/117.gif"> czwartego stopnia o współczynnikach całkowitych spełniający warunki <img src="graf/118.gif"> oraz <img src="graf/119.gif">, gdzie <img src="graf/120.gif">.</p><button class="butt" id="g34" onclick="pokaz34()">Rozwiązanie</button>
+<script>
+function pokaz34(){
+var d34=document.getElementById("r-34");
+var r34=document.createElement("img");
+r34.setAttribute('src','roz/34.gif');
+d34.appendChild(r34);
+var u34=document.getElementById("g34");
+u34.innerHTML="Ukryj rozwiązanie";
+u34.setAttribute("onclick","usun34()");}
+function usun34(){
+var d34=document.getElementById("r-34");
+d34.innerHTML=null;
+var u34a=document.getElementById("g34");
+u34a.innerHTML="Rozwiązanie";
+u34a.setAttribute("onclick","pokaz34()");}
+</script>
+<div class="rozw" id="r-34"></div>
+</li>
+<li class="numer" id="r35"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Wykaż, że suma pięciu kolejnych liczb nieparzystych jest podzielna przez 5.</p><button class="butt" id="g35" onclick="pokaz35()">Rozwiązanie</button>
+<script>
+function pokaz35(){
+var d35=document.getElementById("r-35");
+var r35=document.createElement("img");
+r35.setAttribute('src','roz/35.gif');
+d35.appendChild(r35);
+var u35=document.getElementById("g35");
+u35.innerHTML="Ukryj rozwiązanie";
+u35.setAttribute("onclick","usun35()");}
+function usun35(){
+var d35=document.getElementById("r-35");
+d35.innerHTML=null;
+var u35a=document.getElementById("g35");
+u35a.innerHTML="Rozwiązanie";
+u35a.setAttribute("onclick","pokaz35()");}
+</script>
+<div class="rozw" id="r-35"></div>
+</li>
+<li class="numer" id="r36"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Wykaż, że suma czterech kolejnych liczb podzielnych przez 3 jest podzielna przez 6.</p><button class="butt" id="g36" onclick="pokaz36()">Rozwiązanie</button>
+<script>
+function pokaz36(){
+var d36=document.getElementById("r-36");
+var r36=document.createElement("img");
+r36.setAttribute('src','roz/36.gif');
+d36.appendChild(r36);
+var u36=document.getElementById("g36");
+u36.innerHTML="Ukryj rozwiązanie";
+u36.setAttribute("onclick","usun36()");}
+function usun36(){
+var d36=document.getElementById("r-36");
+d36.innerHTML=null;
+var u36a=document.getElementById("g36");
+u36a.innerHTML="Rozwiązanie";
+u36a.setAttribute("onclick","pokaz36()");}
+</script>
+<div class="rozw" id="r-36"></div>
+</li>
+<li class="numer" id="r37"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Wykaż, że suma kwadratów trzech kolejnych liczb nieparzystych powiększona o 1 jest podzielna przez 12.</p><button class="butt" id="g37" onclick="pokaz37()">Rozwiązanie</button>
+<script>
+function pokaz37(){
+var d37=document.getElementById("r-37");
+var r37=document.createElement("img");
+r37.setAttribute('src','roz/37.gif');
+d37.appendChild(r37);
+var u37=document.getElementById("g37");
+u37.innerHTML="Ukryj rozwiązanie";
+u37.setAttribute("onclick","usun37()");}
+function usun37(){
+var d37=document.getElementById("r-37");
+d37.innerHTML=null;
+var u37a=document.getElementById("g37");
+u37a.innerHTML="Rozwiązanie";
+u37a.setAttribute("onclick","pokaz37()");}
+</script>
+<div class="rozw" id="r-37"></div>
+</li>
+<li class="numer" id="r38"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że suma kwadratów dwóch liczb całkowitych różniących się o siedem powiększona o 1 jest liczbą parzystą.</p><button class="butt" id="g38" onclick="pokaz38()">Rozwiązanie</button>
+<script>
+function pokaz38(){
+var d38=document.getElementById("r-38");
+var r38=document.createElement("img");
+r38.setAttribute('src','roz/38.gif');
+d38.appendChild(r38);
+var u38=document.getElementById("g38");
+u38.innerHTML="Ukryj rozwiązanie";
+u38.setAttribute("onclick","usun38()");}
+function usun38(){
+var d38=document.getElementById("r-38");
+d38.innerHTML=null;
+var u38a=document.getElementById("g38");
+u38a.innerHTML="Rozwiązanie";
+u38a.setAttribute("onclick","pokaz38()");}
+</script>
+<div class="rozw" id="r-38"></div>
+</li>
+<li class="numer" id="r39"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Udowodnij, że wyrażenie <img src="graf/121.gif"> jest podzielne przez 8, jeżeli <img src="graf/n.gif">,<img src="graf/m.gif"> należą do liczb naturalnych.</p><button class="butt" id="g39" onclick="pokaz39()">Rozwiązanie</button>
+<script>
+function pokaz39(){
+var d39=document.getElementById("r-39");
+var r39=document.createElement("img");
+r39.setAttribute('src','roz/39.gif');
+d39.appendChild(r39);
+var u39=document.getElementById("g39");
+u39.innerHTML="Ukryj rozwiązanie";
+u39.setAttribute("onclick","usun39()");}
+function usun39(){
+var d39=document.getElementById("r-39");
+d39.innerHTML=null;
+var u39a=document.getElementById("g39");
+u39a.innerHTML="Rozwiązanie";
+u39a.setAttribute("onclick","pokaz39()");}
+</script>
+<div class="rozw" id="r-39"></div>
+</li>
+<li class="numer" id="r40"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Wykaż, że liczba <img src="graf/122.gif">jest podzielna przez 27.</p><button class="butt" id="g40" onclick="pokaz40()">Rozwiązanie</button>
+<script>
+function pokaz40(){
+var d40=document.getElementById("r-40");
+var r40=document.createElement("img");
+r40.setAttribute('src','roz/40.gif');
+d40.appendChild(r40);
+var u40=document.getElementById("g40");
+u40.innerHTML="Ukryj rozwiązanie";
+u40.setAttribute("onclick","usun40()");}
+function usun40(){
+var d40=document.getElementById("r-40");
+d40.innerHTML=null;
+var u40a=document.getElementById("g40");
+u40a.innerHTML="Rozwiązanie";
+u40a.setAttribute("onclick","pokaz40()");}
+</script>
+<div class="rozw" id="r-40"></div>
+</li>
+<li class="numer" id="r41"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Wykaż, że suma <img src="graf/123.gif"> jest podzielna przez 1000.</p><button class="butt" id="g41" onclick="pokaz41()">Rozwiązanie</button>
+<script>
+function pokaz41(){
+var d41=document.getElementById("r-41");
+var r41=document.createElement("img");
+r41.setAttribute('src','roz/41.gif');
+d41.appendChild(r41);
+var u41=document.getElementById("g41");
+u41.innerHTML="Ukryj rozwiązanie";
+u41.setAttribute("onclick","usun41()");}
+function usun41(){
+var d41=document.getElementById("r-41");
+d41.innerHTML=null;
+var u41a=document.getElementById("g41");
+u41a.innerHTML="Rozwiązanie";
+u41a.setAttribute("onclick","pokaz41()");}
+</script>
+<div class="rozw" id="r-41"></div>
+</li>
+<li class="numer" id="r42"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Wykaż, że wyrażenie <img src="graf/124.gif"> jest podzielne przez 10712.</p><button class="butt" id="g42" onclick="pokaz42()">Rozwiązanie</button>
+<script>
+function pokaz42(){
+var d42=document.getElementById("r-42");
+var r42=document.createElement("img");
+r42.setAttribute('src','roz/42.gif');
+d42.appendChild(r42);
+var u42=document.getElementById("g42");
+u42.innerHTML="Ukryj rozwiązanie";
+u42.setAttribute("onclick","usun42()");}
+function usun42(){
+var d42=document.getElementById("r-42");
+d42.innerHTML=null;
+var u42a=document.getElementById("g42");
+u42a.innerHTML="Rozwiązanie";
+u42a.setAttribute("onclick","pokaz42()");}
+</script>
+<div class="rozw" id="r-42"></div>
+</li>
+<li class="numer" id="r43"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Wykaż, że wyrażenie <img src="graf/125.gif"> jest podzielne przez 13.</p><button class="butt" id="g43" onclick="pokaz43()">Rozwiązanie</button>
+<script>
+function pokaz43(){
+var d43=document.getElementById("r-43");
+var r43=document.createElement("img");
+r43.setAttribute('src','roz/43.gif');
+d43.appendChild(r43);
+var u43=document.getElementById("g43");
+u43.innerHTML="Ukryj rozwiązanie";
+u43.setAttribute("onclick","usun43()");}
+function usun43(){
+var d43=document.getElementById("r-43");
+d43.innerHTML=null;
+var u43a=document.getElementById("g43");
+u43a.innerHTML="Rozwiązanie";
+u43a.setAttribute("onclick","pokaz43()");}
+</script>
+<div class="rozw" id="r-43"></div>
+</li>
+<li class="numer" id="r44"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Wykaż, że liczba <img src="graf/126.gif"> jest podzielna przez 36.</p><button class="butt" id="g44" onclick="pokaz44()">Rozwiązanie</button>
+<script>
+function pokaz44(){
+var d44=document.getElementById("r-44");
+var r44=document.createElement("img");
+r44.setAttribute('src','roz/44.gif');
+d44.appendChild(r44);
+var u44=document.getElementById("g44");
+u44.innerHTML="Ukryj rozwiązanie";
+u44.setAttribute("onclick","usun44()");}
+function usun44(){
+var d44=document.getElementById("r-44");
+d44.innerHTML=null;
+var u44a=document.getElementById("g44");
+u44a.innerHTML="Rozwiązanie";
+u44a.setAttribute("onclick","pokaz44()");}
+</script>
+<div class="rozw" id="r-44"></div>
+</li>
+<li class="numer" id="r45"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że wyrażenie <img src="graf/127.gif"> jest podzielne przez 195, jeśli <img src="graf/nnn.gif">.</p><button class="butt" id="g45" onclick="pokaz45()">Rozwiązanie</button>
+<script>
+function pokaz45(){
+var d45=document.getElementById("r-45");
+var r45=document.createElement("img");
+r45.setAttribute('src','roz/45.gif');
+d45.appendChild(r45);
+var u45=document.getElementById("g45");
+u45.innerHTML="Ukryj rozwiązanie";
+u45.setAttribute("onclick","usun45()");}
+function usun45(){
+var d45=document.getElementById("r-45");
+d45.innerHTML=null;
+var u45a=document.getElementById("g45");
+u45a.innerHTML="Rozwiązanie";
+u45a.setAttribute("onclick","pokaz45()");}
+</script>
+<div class="rozw" id="r-45"></div>
+</li>
+<li class="numer" id="r46"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Uzasadnij, że dla każdej liczby dodatniej całkowitej <img src="graf/n.gif"> liczba <img src="graf/128.gif"> jest wielokrotnością liczby 20.</p><button class="butt" id="g46" onclick="pokaz46()">Rozwiązanie</button>
+<script>
+function pokaz46(){
+var d46=document.getElementById("r-46");
+var r46=document.createElement("img");
+r46.setAttribute('src','roz/46.gif');
+d46.appendChild(r46);
+var u46=document.getElementById("g46");
+u46.innerHTML="Ukryj rozwiązanie";
+u46.setAttribute("onclick","usun46()");}
+function usun46(){
+var d46=document.getElementById("r-46");
+d46.innerHTML=null;
+var u46a=document.getElementById("g46");
+u46a.innerHTML="Rozwiązanie";
+u46a.setAttribute("onclick","pokaz46()");}
+</script>
+<div class="rozw" id="r-46"></div>
+</li>
+<li class="numer" id="r47"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że liczba jest <img src="graf/129.gif"> podzielna przez 29.</p><button class="butt" id="g47" onclick="pokaz47()">Rozwiązanie</button>
+<script>
+function pokaz47(){
+var d47=document.getElementById("r-47");
+var r47=document.createElement("img");
+r47.setAttribute('src','roz/47.gif');
+d47.appendChild(r47);
+var u47=document.getElementById("g47");
+u47.innerHTML="Ukryj rozwiązanie";
+u47.setAttribute("onclick","usun47()");}
+function usun47(){
+var d47=document.getElementById("r-47");
+d47.innerHTML=null;
+var u47a=document.getElementById("g47");
+u47a.innerHTML="Rozwiązanie";
+u47a.setAttribute("onclick","pokaz47()");}
+</script>
+<div class="rozw" id="r-47"></div>
+</li>
+<li class="numer" id="r48"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że liczba <img src="graf/130.gif"> jest podzielna przez 1000.</p><button class="butt" id="g48" onclick="pokaz48()">Rozwiązanie</button>
+<script>
+function pokaz48(){
+var d48=document.getElementById("r-48");
+var r48=document.createElement("img");
+r48.setAttribute('src','roz/48.gif');
+d48.appendChild(r48);
+var u48=document.getElementById("g48");
+u48.innerHTML="Ukryj rozwiązanie";
+u48.setAttribute("onclick","usun48()");}
+function usun48(){
+var d48=document.getElementById("r-48");
+d48.innerHTML=null;
+var u48a=document.getElementById("g48");
+u48a.innerHTML="Rozwiązanie";
+u48a.setAttribute("onclick","pokaz48()");}
+</script>
+<div class="rozw" id="r-48"></div>
+</li>
+<li class="numer" id="r49"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że wyrażenie <img src="graf/131.gif"> jest podzielne przez 91.</p><button class="butt" id="g49" onclick="pokaz49()">Rozwiązanie</button>
+<script>
+function pokaz49(){
+var d49=document.getElementById("r-49");
+var r49=document.createElement("img");
+r49.setAttribute('src','roz/49.gif');
+d49.appendChild(r49);
+var u49=document.getElementById("g49");
+u49.innerHTML="Ukryj rozwiązanie";
+u49.setAttribute("onclick","usun49()");}
+function usun49(){
+var d49=document.getElementById("r-49");
+d49.innerHTML=null;
+var u49a=document.getElementById("g49");
+u49a.innerHTML="Rozwiązanie";
+u49a.setAttribute("onclick","pokaz49()");}
+</script>
+<div class="rozw" id="r-49"></div>
+</li>
+<li class="numer" id="r50"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że wyrażenie <img src="graf/132.gif"> jest podzielne przez 24 dla każdej liczby całkowitej <img src="graf/n.gif">.</p><button class="butt" id="g50" onclick="pokaz50()">Rozwiązanie</button>
+<script>
+function pokaz50(){
+var d50=document.getElementById("r-50");
+var r50=document.createElement("img");
+r50.setAttribute('src','roz/50.gif');
+d50.appendChild(r50);
+var u50=document.getElementById("g50");
+u50.innerHTML="Ukryj rozwiązanie";
+u50.setAttribute("onclick","usun50()");}
+function usun50(){
+var d50=document.getElementById("r-50");
+d50.innerHTML=null;
+var u50a=document.getElementById("g50");
+u50a.innerHTML="Rozwiązanie";
+u50a.setAttribute("onclick","pokaz50()");}
+</script>
+<div class="rozw" id="r-50"></div>
+</li>
+<li class="numer" id="r51"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że iloczyn trzech kolejnych liczb parzystych jest podzielny przez 48.</p><button class="butt" id="g51" onclick="pokaz51()">Rozwiązanie</button>
+<script>
+function pokaz51(){
+var d51=document.getElementById("r-51");
+var r51=document.createElement("img");
+r51.setAttribute('src','roz/51.gif');
+d51.appendChild(r51);
+var u51=document.getElementById("g51");
+u51.innerHTML="Ukryj rozwiązanie";
+u51.setAttribute("onclick","usun51()");}
+function usun51(){
+var d51=document.getElementById("r-51");
+d51.innerHTML=null;
+var u51a=document.getElementById("g51");
+u51a.innerHTML="Rozwiązanie";
+u51a.setAttribute("onclick","pokaz51()");}
+</script>
+<div class="rozw" id="r-51"></div>
+</li>
+<li class="numer" id="r52"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że wyrażenie <img src="graf/133.gif"> jest podzielne przez 4, jeśli <img src="graf/nnc.gif">i<img src="graf/knc.gif">.</p><button class="butt" id="g52" onclick="pokaz52()">Rozwiązanie</button>
+<script>
+function pokaz52(){
+var d52=document.getElementById("r-52");
+var r52=document.createElement("img");
+r52.setAttribute('src','roz/52.gif');
+d52.appendChild(r52);
+var u52=document.getElementById("g52");
+u52.innerHTML="Ukryj rozwiązanie";
+u52.setAttribute("onclick","usun52()");}
+function usun52(){
+var d52=document.getElementById("r-52");
+d52.innerHTML=null;
+var u52a=document.getElementById("g52");
+u52a.innerHTML="Rozwiązanie";
+u52a.setAttribute("onclick","pokaz52()");}
+</script>
+<div class="rozw" id="r-52"></div>
+</li>
+<li class="numer" id="r53"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że kwadrat iloczynu dwóch kolejnych liczb całkowitych podzielnych przez 5 jest podzielny przez 2500.</p><button class="butt" id="g53" onclick="pokaz53()">Rozwiązanie</button>
+<script>
+function pokaz53(){
+var d53=document.getElementById("r-53");
+var r53=document.createElement("img");
+r53.setAttribute('src','roz/53.gif');
+d53.appendChild(r53);
+var u53=document.getElementById("g53");
+u53.innerHTML="Ukryj rozwiązanie";
+u53.setAttribute("onclick","usun53()");}
+function usun53(){
+var d53=document.getElementById("r-53");
+d53.innerHTML=null;
+var u53a=document.getElementById("g53");
+u53a.innerHTML="Rozwiązanie";
+u53a.setAttribute("onclick","pokaz53()");}
+</script>
+<div class="rozw" id="r-53"></div>
+</li>
+<li class="numer" id="r54"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że dla <img src="graf/nnn.gif"> wyrażenie <img src="graf/134.gif"> jest wielokrotnościa 5!</p><button class="butt" id="g54" onclick="pokaz54()">Rozwiązanie</button>
+<script>
+function pokaz54(){
+var d54=document.getElementById("r-54");
+var r54=document.createElement("img");
+r54.setAttribute('src','roz/54.gif');
+d54.appendChild(r54);
+var u54=document.getElementById("g54");
+u54.innerHTML="Ukryj rozwiązanie";
+u54.setAttribute("onclick","usun54()");}
+function usun54(){
+var d54=document.getElementById("r-54");
+d54.innerHTML=null;
+var u54a=document.getElementById("g54");
+u54a.innerHTML="Rozwiązanie";
+u54a.setAttribute("onclick","pokaz54()");}
+</script>
+<div class="rozw" id="r-54"></div>
+</li>
+<li class="numer" id="r55"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Liczby 2, 4, 6 są  pierwiastkami wielomianu stopnia trzeciego, w którym współczynnik przy najwyższej potędze zmiennej jest równy 2.Uzasadnij, że dla każdej liczby całkowitej parzystej wartość tego wielomianu jest liczbą podzielną przez 96.</p><button class="butt" id="g55" onclick="pokaz55()">Rozwiązanie</button>
+<script>
+function pokaz55(){
+var d55=document.getElementById("r-55");
+var r55=document.createElement("img");
+r55.setAttribute('src','roz/55.gif');
+d55.appendChild(r55);
+var u55=document.getElementById("g55");
+u55.innerHTML="Ukryj rozwiązanie";
+u55.setAttribute("onclick","usun55()");}
+function usun55(){
+var d55=document.getElementById("r-55");
+d55.innerHTML=null;
+var u55a=document.getElementById("g55");
+u55a.innerHTML="Rozwiązanie";
+u55a.setAttribute("onclick","pokaz55()");}
+</script>
+<div class="rozw" id="r-55"></div>
+</li>
+<li class="numer" id="r56"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że liczba <img src="graf/135.gif"> jest podzielna przez 56.</p><button class="butt" id="g56" onclick="pokaz56()">Rozwiązanie</button>
+<script>
+function pokaz56(){
+var d56=document.getElementById("r-56");
+var r56=document.createElement("img");
+r56.setAttribute('src','roz/56.gif');
+d56.appendChild(r56);
+var u56=document.getElementById("g56");
+u56.innerHTML="Ukryj rozwiązanie";
+u56.setAttribute("onclick","usun56()");}
+function usun56(){
+var d56=document.getElementById("r-56");
+d56.innerHTML=null;
+var u56a=document.getElementById("g56");
+u56a.innerHTML="Rozwiązanie";
+u56a.setAttribute("onclick","pokaz56()");}
+</script>
+<div class="rozw" id="r-56"></div>
+</li>
+<li class="numer" id="r57"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że dla <img src="graf/nnn.gif"> liczba <img src="graf/136.gif"> jest wielokrotnością liczby 16.</p><button class="butt" id="g57" onclick="pokaz57()">Rozwiązanie</button>
+<script>
+function pokaz57(){
+var d57=document.getElementById("r-57");
+var r57=document.createElement("img");
+r57.setAttribute('src','roz/57.gif');
+d57.appendChild(r57);
+var u57=document.getElementById("g57");
+u57.innerHTML="Ukryj rozwiązanie";
+u57.setAttribute("onclick","usun57()");}
+function usun57(){
+var d57=document.getElementById("r-57");
+d57.innerHTML=null;
+var u57a=document.getElementById("g57");
+u57a.innerHTML="Rozwiązanie";
+u57a.setAttribute("onclick","pokaz57()");}
+</script>
+<div class="rozw" id="r-57"></div>
+</li>
+<li class="numer" id="r58"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że dla <img src="graf/nnn.gif"> liczba <img src="graf/137.gif"> jest wielokrotnością liczby 15.</p><button class="butt" id="g58" onclick="pokaz58()">Rozwiązanie</button>
+<script>
+function pokaz58(){
+var d58=document.getElementById("r-58");
+var r58=document.createElement("img");
+r58.setAttribute('src','roz/58.gif');
+d58.appendChild(r58);
+var u58=document.getElementById("g58");
+u58.innerHTML="Ukryj rozwiązanie";
+u58.setAttribute("onclick","usun58()");}
+function usun58(){
+var d58=document.getElementById("r-58");
+d58.innerHTML=null;
+var u58a=document.getElementById("g58");
+u58a.innerHTML="Rozwiązanie";
+u58a.setAttribute("onclick","pokaz58()");}
+</script>
+<div class="rozw" id="r-58"></div>
+</li>
+<li class="numer" id="r59"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że wyrażenie <img src="graf/138.gif"> jest podzielne przez 25.</p><button class="butt" id="g59" onclick="pokaz59()">Rozwiązanie</button>
+<script>
+function pokaz59(){
+var d59=document.getElementById("r-59");
+var r59=document.createElement("img");
+r59.setAttribute('src','roz/59.gif');
+d59.appendChild(r59);
+var u59=document.getElementById("g59");
+u59.innerHTML="Ukryj rozwiązanie";
+u59.setAttribute("onclick","usun59()");}
+function usun59(){
+var d59=document.getElementById("r-59");
+d59.innerHTML=null;
+var u59a=document.getElementById("g59");
+u59a.innerHTML="Rozwiązanie";
+u59a.setAttribute("onclick","pokaz59()");}
+</script>
+<div class="rozw" id="r-59"></div>
+</li>
+<li class="numer" id="r60"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że liczba <img src="graf/139.gif"> jest podzielna przez 100.</p><button class="butt" id="g60" onclick="pokaz60()">Rozwiązanie</button>
+<script>
+function pokaz60(){
+var d60=document.getElementById("r-60");
+var r60=document.createElement("img");
+r60.setAttribute('src','roz/60.gif');
+d60.appendChild(r60);
+var u60=document.getElementById("g60");
+u60.innerHTML="Ukryj rozwiązanie";
+u60.setAttribute("onclick","usun60()");}
+function usun60(){
+var d60=document.getElementById("r-60");
+d60.innerHTML=null;
+var u60a=document.getElementById("g60");
+u60a.innerHTML="Rozwiązanie";
+u60a.setAttribute("onclick","pokaz60()");}
+</script>
+<div class="rozw" id="r-60"></div>
+</li>
+<li class="numer" id="r61"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Uzasadnij, że liczba <img src="graf/140.gif"> jest podzielna przez 9 dla <img src="graf/nnn.gif">.</p><button class="butt" id="g61" onclick="pokaz61()">Rozwiązanie</button>
+<script>
+function pokaz61(){
+var d61=document.getElementById("r-61");
+var r61=document.createElement("img");
+r61.setAttribute('src','roz/61.gif');
+d61.appendChild(r61);
+var u61=document.getElementById("g61");
+u61.innerHTML="Ukryj rozwiązanie";
+u61.setAttribute("onclick","usun61()");}
+function usun61(){
+var d61=document.getElementById("r-61");
+d61.innerHTML=null;
+var u61a=document.getElementById("g61");
+u61a.innerHTML="Rozwiązanie";
+u61a.setAttribute("onclick","pokaz61()");}
+</script>
+<div class="rozw" id="r-61"></div>
+</li>
+<li class="numer" id="r62"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że liczba <img src="graf/141.gif"> jest podzielna przez 15 dla <img src="graf/nnn.gif">.</p><button class="butt" id="g62" onclick="pokaz62()">Rozwiązanie</button>
+<script>
+function pokaz62(){
+var d62=document.getElementById("r-62");
+var r62=document.createElement("img");
+r62.setAttribute('src','roz/62.gif');
+d62.appendChild(r62);
+var u62=document.getElementById("g62");
+u62.innerHTML="Ukryj rozwiązanie";
+u62.setAttribute("onclick","usun62()");}
+function usun62(){
+var d62=document.getElementById("r-62");
+d62.innerHTML=null;
+var u62a=document.getElementById("g62");
+u62a.innerHTML="Rozwiązanie";
+u62a.setAttribute("onclick","pokaz62()");}
+</script>
+<div class="rozw" id="r-62"></div>
+</li>
+<li class="numer" id="r63"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Udowodnij, że suma liczb: trzycyfrowej, dwucyfrowej i jednocyfrowej postaci <img src="graf/142.gif"> jest podzielna przez 41, jeżeli <img src="graf/dx.gif"> oznacza dowolną cyfrę różną od zera.</p><button class="butt" id="g63" onclick="pokaz63()">Rozwiązanie</button>
+<script>
+function pokaz63(){
+var d63=document.getElementById("r-63");
+var r63=document.createElement("img");
+r63.setAttribute('src','roz/63.gif');
+d63.appendChild(r63);
+var u63=document.getElementById("g63");
+u63.innerHTML="Ukryj rozwiązanie";
+u63.setAttribute("onclick","usun63()");}
+function usun63(){
+var d63=document.getElementById("r-63");
+d63.innerHTML=null;
+var u63a=document.getElementById("g63");
+u63a.innerHTML="Rozwiązanie";
+u63a.setAttribute("onclick","pokaz63()");}
+</script>
+<div class="rozw" id="r-63"></div>
+</li>
+<li class="numer" id="r64"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Wykaż, że suma liczb trzycyfrowych postaci <img src="graf/143.gif"> jest podzielna przez 111, wiedząc, że <img src="graf/144.gif"> oznaczają dowolne cyfry i <img src="graf/145.gif">.</p><button class="butt" id="g64" onclick="pokaz64()">Rozwiązanie</button>
+<script>
+function pokaz64(){
+var d64=document.getElementById("r-64");
+var r64=document.createElement("img");
+r64.setAttribute('src','roz/64.gif');
+d64.appendChild(r64);
+var u64=document.getElementById("g64");
+u64.innerHTML="Ukryj rozwiązanie";
+u64.setAttribute("onclick","usun64()");}
+function usun64(){
+var d64=document.getElementById("r-64");
+d64.innerHTML=null;
+var u64a=document.getElementById("g64");
+u64a.innerHTML="Rozwiązanie";
+u64a.setAttribute("onclick","pokaz64()");}
+</script>
+<div class="rozw" id="r-64"></div>
+</li>
+<li class="numer" id="r65"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> Wykaż, że iloczyn <img src="graf/146.gif"> jest podzielny przez <img src="graf/147.gif">.</p><button class="butt" id="g65" onclick="pokaz65()">Rozwiązanie</button>
+<script>
+function pokaz65(){
+var d65=document.getElementById("r-65");
+var r65=document.createElement("img");
+r65.setAttribute('src','roz/65.gif');
+d65.appendChild(r65);
+var u65=document.getElementById("g65");
+u65.innerHTML="Ukryj rozwiązanie";
+u65.setAttribute("onclick","usun65()");}
+function usun65(){
+var d65=document.getElementById("r-65");
+d65.innerHTML=null;
+var u65a=document.getElementById("g65");
+u65a.innerHTML="Rozwiązanie";
+u65a.setAttribute("onclick","pokaz65()");}
+</script>
+<div class="rozw" id="r-65"></div>
+</li>
+<li class="numer" id="r66"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Dana jest liczba <img src="graf/p.gif"> taka, że <img src="graf/148.gif"> jest podzielna przez 7. Wykaż, że liczba <img src="graf/149.gif"> też jest podzielna przez 7.</p><button class="butt" id="g66" onclick="pokaz66()">Rozwiązanie</button>
+<script>
+function pokaz66(){
+var d66=document.getElementById("r-66");
+var r66=document.createElement("img");
+r66.setAttribute('src','roz/66.gif');
+d66.appendChild(r66);
+var u66=document.getElementById("g66");
+u66.innerHTML="Ukryj rozwiązanie";
+u66.setAttribute("onclick","usun66()");}
+function usun66(){
+var d66=document.getElementById("r-66");
+d66.innerHTML=null;
+var u66a=document.getElementById("g66");
+u66a.innerHTML="Rozwiązanie";
+u66a.setAttribute("onclick","pokaz66()");}
+</script>
+<div class="rozw" id="r-66"></div>
+</li>
+<li class="numer" id="r67"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że liczba <img src="graf/150.gif"> jest podzielna przez 100.</p><button class="butt" id="g67" onclick="pokaz67()">Rozwiązanie</button>
+<script>
+function pokaz67(){
+var d67=document.getElementById("r-67");
+var r67=document.createElement("img");
+r67.setAttribute('src','roz/67.gif');
+d67.appendChild(r67);
+var u67=document.getElementById("g67");
+u67.innerHTML="Ukryj rozwiązanie";
+u67.setAttribute("onclick","usun67()");}
+function usun67(){
+var d67=document.getElementById("r-67");
+d67.innerHTML=null;
+var u67a=document.getElementById("g67");
+u67a.innerHTML="Rozwiązanie";
+u67a.setAttribute("onclick","pokaz67()");}
+</script>
+<div class="rozw" id="r-67"></div>
+</li>
+<li class="numer" id="r68"><p class="tresc"><a href="#" class="up"><img src="graf/up.gif"></a> <img src="graf/roz.gif">Wykaż, że nie istnieje wielomian <img src="graf/151.gif"> stopnia trzeciego o współczynnikach całkowitych, który spełnia warunki: <img src="graf/152.gif"> i <img src="graf/153.gif">.</p><button class="butt" id="g68" onclick="pokaz68()">Rozwiązanie</button>
+<script>
+function pokaz68(){
+var d68=document.getElementById("r-68");
+var r68=document.createElement("img");
+r68.setAttribute('src','roz/68.gif');
+d68.appendChild(r68);
+var u68=document.getElementById("g68");
+u68.innerHTML="Ukryj rozwiązanie";
+u68.setAttribute("onclick","usun68()");}
+function usun68(){
+var d68=document.getElementById("r-68");
+d68.innerHTML=null;
+var u68a=document.getElementById("g68");
+u68a.innerHTML="Rozwiązanie";
+u68a.setAttribute("onclick","pokaz68()");}
+</script>
+<div class="rozw" id="r-68"></div>
+</li>
+		</ol>
+	
+			
+			
+			
+	 </div>
+</div>
+</div>
+<script src="../../js/jquery.js"></script>
+<script src="../../js/bootstrap.js"></script>
+</body>
+</html>

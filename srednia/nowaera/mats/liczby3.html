@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+	<link rel="icon" href="logo.png">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Liczby niewymierne</title>
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+	<link rel="stylesheet" type="text/css" href="../../../css/styl.css" />
+	<script type="text/javascript" id="MathJax-script" async
+		src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<main class="topnavi">
+			<a href="../../../index.html">Strona główna</a>
+			<a href="../../../podstawowa/podstawowa.html">Podstawówka</a>
+			<a href="../../../matura/matura.html">Matura</a>
+			<a href="../../../studia/studia.html">Studia</a>
+		</main>
+		<div class="basic">
+			<nav>
+				<h3>Szkoła średnia</h3>
+				<ul class="nav-list-group">
+					<li class="list-group-item active"><a href="liczby.html">Liczby rzeczywiste</a></li>
+					<li class="list-group-item"><a href="jezyk.html">Język matematyki</a></li>
+					<li class="list-group-item"><a href="uklady.html">Układy równań</a></li>
+					<li class="list-group-item"><a href="funkcje.html">Funkcje</a></li>
+					<li class="list-group-item"><a href="fliniowa.html">Funkcja liniowa</a></li>
+					<li class="list-group-item"><a href="fkwadratowa.html">Funkcja kwadratowa</a></li>
+					<li class="list-group-item"><a href="planimetria.html">Planimetria</a></li>
+					<li class="list-group-item"><a href="wieloniany.html">Wielomiany</a></li>
+					<li class="list-group-item"><a href="fwymierne.html">Funkcje wymierne</a></li>
+					<li class="list-group-item"><a href="trygonometria.html">Trygonometria</a></li>
+					<li class="list-group-item"><a href="ftrygonomertyczne.html">\(&#174;\) Funkcje
+							trygonometryczne</a></li>
+					<li class="list-group-item"><a href="fwykilog.html">Funkcje wykładnicze i logarytmiczne</a>
+					</li>
+					<li class="list-group-item"><a href="ciagi.html">Ciągi</a></li>
+					<li class="list-group-item"><a href="prawdopodobienstwo.html">Rachunek prawdopodobieństwa</a>
+					</li>
+					<li class="list-group-item"><a href="statystyka.html">Statystyka</a></li>
+					<li class="list-group-item"><a href="stereometria.html">Stereometria</a></li>
+					<li class="list-group-item"><a href="ganalityczna.html">Geometria analityczna</a></li>
+					<li class="list-group-item"><a href="rachrozniczkowy.html">\(&#174;\) Rachunek różniczkowy</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="prawa">
+				<div class="zadania">
+
+					<h2 class="tytul">Liczby rzeczywiste </h2>
+					<ul class="podmenu1">
+						<li class="podmenu"><a href="liczby1.html">Liczby naturalne</a></li>
+						<li class="podmenu"><a href="liczby2.html">Liczby całkowite. Liczby wymierne</a>
+						</li>
+						<li class="podmenu" id="aktualne"><a href="liczby3.html">Liczby niewymierne</a></li>
+						<li class="podmenu"><a href="liczby4.html">Rozwinięcie dziesiętne liczby rzeczywistej</a></li>
+						<li class="podmenu"><a href="liczby5.html">Pierwiastek kwadratowy</a></li>
+						<li class="podmenu"><a href="liczby6.html">Pierwiastek sześcienny</a></li>
+						<li class="podmenu"><a href="liczby7.html">Potęga o wykładniku całkowitym</a></li>
+						<li class="podmenu"><a href="liczby8.html">Notacja wykładnicza</a></li>
+						<li class="podmenu"><a href="liczby9.html">Potęga o wykładniku wymiernym</a></li>
+						<li class="podmenu"><a href="liczby10.html">Logarytm i jego własności</a></li>
+						<li class="podmenu"><a href="liczby11.html">Procenty</a></li>
+						<li class="podmenu"><a href="liczby12.html">Powtórzenie</a></li>
+						<li class="podmenu"><a href="liczby13.html">Zadania testowe</a></li>
+						<li class="podmenu"><a href="liczby14.html">To było na maturze</a></li>
+					</ul>
+					<h3 class="rodzajzad">Liczby niewymierne</h3>>
+					<ol class="powt">
+						<li class="numer" id="liczby3_1">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Wśród poniższych liczb wskaż liczby:
+							</p>
+							<div class="odp">
+								<div>a) całkowite</div>
+								<div>b) wymierne</div>
+								<div>c) niewymierne</div>
+								<div>
+									\(-\frac{1}{3}; 2,12; \sqrt{3}; 0; \sqrt[3]{2}; -12; \sqrt[3]{1\frac{11}{16}};
+									\frac{\pi}{2}; \sqrt{6\frac{1}{4}}; \frac{\sqrt{27}}{\sqrt{3}} \)</div>
+							</div>
+							<button class="butt" id="gliczby3_1" onclick="pokaz('liczby3_1')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_1"></div>
+						</li>
+						<li class="numer" id="liczby3_2">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Podaj przykład liczby niewymiernej
+								spełniającej podaną nierówność.</p>
+							<div class="odp">
+								<div>a) \(2 &lt;; x &lt;; 5 \)</div>
+								<div>b) \(\sqrt{2} &lt;; x &lt;; \sqrt{5} \)</div>
+								<div>c) \(\sqrt[3]{2} &lt;; x &lt;; \sqrt[3]{5} \)
+								</div>
+								<div>d) \(2\pi &lt;; x &lt;; 5\pi \)</div>
+							</div>
+							<button class="butt" id="gliczby3_2" onclick="pokaz('liczby3_2')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_2"></div>
+						</li>
+						<li class="numer" id="liczby3_3">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Która z podanych liczb jest wymierna?
+							</p>
+							<div class="odp">
+								<div>
+									\(a=\sqrt{2+\sqrt{2+\sqrt{4}}}, \) \( b=\sqrt{\sqrt[3]{64}}, \) \(
+									c=\sqrt{1+2+3+4+5+6+7+8}, \)</div>
+								<div>\(
+									d=\sqrt{3\cdot\sqrt{3\cdot\sqrt{9}}}, \) \( e=\sqrt[3]{\sqrt{1000000}}, \) \(
+									f=\sqrt[3]{3^3+4^3+5} \)</div>
+							</div><button class="butt" id="gliczby3_3" onclick="pokaz('liczby3_3')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_3"></div>
+						</li>
+						<li class="numer" id="liczby3_4">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Liczby \(\sqrt{10}, 3\frac{1}{7},
+								\frac{4^4}{3^4}, \frac{355}{113}, \sqrt{\frac{40}{3}-2\sqrt{3}} \) są przybliżeniami
+								liczby \(\pi \). Które z tych przybliżeń jest liczbą niewymierną?</p>
+							<button class="butt" id="gliczby3_4" onclick="pokaz('liczby3_4')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_4"></div>
+						</li>
+						<li class="numer" id="liczby3_5">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Oszacuj wartość każdego z wyrażeń:
+								\(\frac{2+\sqrt{30}}{8} \) i \(\frac{2-\sqrt{30}}{8} \). Skorzystaj z nierówności \(5
+								&lt;; \sqrt{30} &lt;; 6 \).</p>
+							<button class="butt" id="gliczby3_5" onclick="pokaz('liczby3_5')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_5"></div>
+						</li>
+						<li class="numer" id="liczby3_6">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)\(&#8517;\)</a>Wykaż, że
+								\(\frac{3-\sqrt{7}}{4} \) jest dodatnią liczbą mniejszą od \(\frac{1}{4} \).</p>
+							<button class="butt" id="gliczby3_6" onclick="pokaz('liczby3_6')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_6"></div>
+						</li>
+						<li class="numer" id="liczby3_7">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)\(&#8517;\)</a>Wykaż, żę \(\frac{9}{10}
+								&lt;; \frac{6+\sqrt{11}}{10} &lt;; 1 \).</p>
+							<button class="butt" id="gliczby3_7" onclick="pokaz('liczby3_7')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_7"></div>
+						</li>
+						<li class="numer" id="liczby3_8">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Wyznacz bez pomocy kalkulatora dwie
+								kolejne liczby całkowite, między którymi znajduje się podana liczba.</p>
+							<div class="odp">
+								<div>a) \(\sqrt{86,7} \)</div>
+								<div>b) \(\sqrt{11}+\sqrt{37} \)</div>
+								<div>c) \( \sqrt[3]{23}\)</div>
+								<div>d) \(\sqrt[3]{-19} \)</div>
+							</div><button class="butt" id="gliczby3_8" onclick="pokaz('liczby3_8')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_8"></div>
+						</li>
+						<li class="numer" id="liczby3_9">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Podaj liczbę naturalną \(n \)
+								spełniającą podaną nierówność.</p>
+							<div class="odp">
+								<div>\(n &lt;; \frac{22+\sqrt{222}}{2} &lt;; n+1 \)
+								</div>
+								<div>\(n &lt;; \frac{33+\sqrt{333}}{3} &lt;; n+1 \)
+								</div>
+							</div><button class="butt" id="gliczby3_9" onclick="pokaz('liczby3_9')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_9"></div>
+						</li>
+						<li class="numer" id="liczby3_10">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Dane są dwa prostopadłościany o
+								wymiarach \(P_1: 5, 6, 11 \), \(P_2: 8, 9, 12 \). Czy któryś z nich ma przekątną o
+								długości będącej liczbą niewymierną? Który?</p>
+							<div class="odp"></div><button class="butt" id="gliczby3_10"
+								onclick="pokaz('liczby3_10')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_10"></div>
+						</li>
+						<li class="numer" id="liczby3_11">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Zbadaj, czy podana wielkość wyraża
+								się liczbą wymierną.</p>
+							<div class="odp">
+								<div>obwód koła o promieniu \(\frac{2}{\pi} \)
+								</div>
+								<div>pole koła o promieniu \(2 \)</div>
+							</div><button class="butt" id="gliczby3_11" onclick="pokaz('liczby3_11')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_11"></div>
+						</li>
+						<li class="numer" id="liczby3_12">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Dane są liczby: wymierna \(p \) oraz
+								niewymierne \(x \) i \(y \). Wpisz znak \(&#10005;\) w odpowiednich wierszach tabeli,
+								wskazując, jaką liczbą może być wynik danego działania.</p>
+							<table class="tab1">
+								<tr class="wypel">
+									<th>Wynik działania</th>
+									<th>\(p+x \)</th>
+									<th>\(\begin{matrix}px,\\p\neq 0\end{matrix} \)</th>
+									<th>\(\begin{matrix}\frac{x}{p},\\p\neq 0\end{matrix} \)</th>
+									<th>\(x^2 \)</th>
+									<th>\(x+y \)</th>
+									<th>\(xy \)</th>
+									<th>\(\frac{x}{y} \)</th>
+									<th>\(\begin{matrix} \sqrt{x},\\x> 0\end{matrix} \)</th>
+									<th>\(\begin{matrix}\sqrt{x+p},\\x+p> 0\end{matrix} \)</th>
+								</tr>
+								<tr class="tab1">
+									<th class="wypel">Wymierny</th>
+									<td class="wypel2"> ? </td>
+									<td class="wypel2"> ? </td>
+									<td class="wypel2"> ? </td>
+									<td class="wypel2"> ? </td>
+									<td class="wypel2"> ? </td>
+									<td class="wypel2"> ? </td>
+									<td class="wypel2"> ? </td>
+									<td class="wypel2"> ? </td>
+									<td class="wypel2"> ? </td>
+								</tr>
+								<tr class="tab1">
+									<th class="wypel">Niewymierny</th>
+									<td class="wypel2"> ? </td>
+									<td class="wypel2"> ? </td>
+									<td class="wypel2"> ? </td>
+									<td class="wypel2"> ? </td>
+									<td class="wypel2"> ? </td>
+									<td class="wypel2"> ? </td>
+									<td class="wypel2"> ? </td>
+									<td class="wypel2"> ? </td>
+									<td class="wypel2"> ? </td>
+								</tr>
+							</table><br>
+							<button class="butt" id="gliczby3_12" onclick="pokaz('liczby3_12')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_12"></div>
+						</li>
+						<li class="numer" id="liczby3_13">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Zbadaj, czy obwód i pole trójkąta
+								równobocznego mogą być jednocześcnie wyrażone liczbami wymiernymi.</p>
+							<div class="odp"></div><button class="butt" id="gliczby3_13"
+								onclick="pokaz('liczby3_13')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_13"></div>
+						</li>
+						<li class="numer" id="liczby3_14">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Oceń prawdziwość podanych zdań.<br>
+								W kwadracie:</p>
+							<div class="odp">
+								<div>I. suma długości przekątnych może być liczbą
+									wymierną</div>
+								<div>II. obwód może być liczbą niewymierną</div>
+								<div>III. stosunek obwodu do długości przekątnej
+									jest zawsze liczbą wymierną</div>
+								<div>IV. obwód może być liczbą wymierną, a pole -
+									liczbą niewymierną</div>
+								<div>V. obwód może być liczbą niewymierną, a pole
+									- liczbą całkowitą</div>
+								<div>VI. obwód może być liczbą całkowitą, a pole -
+									liczbą niecałkowitą</div>
+							</div><button class="butt" id="gliczby3_14" onclick="pokaz('liczby3_14')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_14"></div>
+						</li>
+						<li class="numer" id="liczby3_15">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Uporządkuj malejąco obwody figur:
+								kwadratu o boku \(\sqrt{3} \), trójkąta równobocznego o boku \(\sqrt{5} \), sześciokąta
+								foremnego o boku \(\sqrt{2} \).</p>
+							<div class="odp"></div><button class="butt" id="gliczby3_15"
+								onclick="pokaz('liczby3_15')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_15"></div>
+						</li>
+						<li class="numer" id="liczby3_16">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>W trójkącie równobocznym \(ABC \)
+								poprowadzono wysokości \(AD \), \(BE \) i \(CE \), które przecinają się w punkcie \(G
+								\). Wskaż stosunki długości odcinków, które są liczbami niewymiernymi.</p>
+							<div class="odp">
+								<div>
+									\(\frac{|CF|}{|FB|}, \frac{|GD|}{|BE|}, \frac{|AG|}{|EC|}, \frac{|BC|}{|GC|},
+									\frac{|AD|}{|BG|}, \frac{|CE|}{|AB|} \)</div>
+							</div>
+							<div class="odp"><canvas id="l3rys1" class="rys" width="220" height="200"></canvas>
+								<script>
+									var canvas = document.getElementById("l3rys1");
+									var context = canvas.getContext("2d");
+									const img1 = new Image();
+									img1.src = "./l3r1.png";
+									img1.onload = () => {
+										context.drawImage(img1, 100, 15, 220, 200, 0, 0, 220, 200);
+									};
+								</script>
+							</div><button class="butt" id="gliczby3_16" onclick="pokaz('liczby3_16')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_16"></div>
+						</li>
+						<li class="numer" id="liczby3_17">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Podaj przykład liczby niewymiernej
+								\(x \), dla której poniższa liczba jest wymierna, i takiej, dla której poniższa liczba
+								jest niewymierna.</p>
+							<div class="odp">
+								<div>a) \(\sqrt{5} \cdot x \)</div>
+								<div>b) \(x^2 \)</div>
+								<div>c) \(x+\sqrt{5} \)</div>
+							</div><button class="butt" id="gliczby3_17" onclick="pokaz('liczby3_17')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_17"></div>
+						</li>
+						<li class="numer" id="liczby3_18">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)\(&#8517;\)</a>Udowodnij, że liczba
+								odwrotna do liczby niewymiernej jest niewymierna.</p>
+							<div class="odp"></div><button class="butt" id="gliczby3_18"
+								onclick="pokaz('liczby3_18')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_18"></div>
+						</li>
+						<li class="numer" id="liczby3_19">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Oblicz</p>
+							<div class="odp">
+								<div>
+									<div>a) \([253], [-125], [-2\frac{2}{3}],
+										[100\frac{2}{3}] \)</div>
+									<div>b) \([\sqrt{123}], [5+\sqrt{355}],
+										[10+\sqrt{5}-\sqrt{7}] \)</div>
+									<div>c) \([-\frac{\sqrt{2}}{2}], [-2\pi],
+										[1-\sqrt{3}], [-1-\sqrt{3}] \)</div>
+								</div>
+								<div>
+									<div class="well"> Symbolem \([x] \) oznaczamy cechę
+										liczby \(x \), czyli największą liczbę całkowitą nie większa niż \(x \)</div>
+								</div>
+							</div><button class="butt" id="gliczby3_19" onclick="pokaz('liczby3_19')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_19"></div>
+						</li>
+						<li class="numer" id="liczby3_20">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Określ, jekie liczby \(x \) spełniają
+								podany warunek.</p>
+							<div class="odp">
+								<div>a) \([x]=1 \)</div>
+								<div>b) \([x]=-1 \)</div>
+								<div>c) \([x]=12 \)</div>
+								<div>d) \([x]=-15 \)</div>
+							</div><button class="butt" id="gliczby3_20" onclick="pokaz('liczby3_20')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_20"></div>
+						</li>
+						<li class="numer" id="liczby3_21">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Określ, jakie liczby \(x \) spełniają
+								podany warunek.</p>
+							<div class="odp">
+								<div>a) \([x]=x \)</div>
+								<div>b) \([x+3]=1-x \)</div>
+								<div>c) \([x]=\frac{x}{4} \)</div>
+							</div><button class="butt" id="gliczby3_21" onclick="pokaz('liczby3_21')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_21"></div>
+						</li>
+						<li class="numer" id="liczby3_22">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Oblicz.</p>
+							<div class="odp">
+								<div>
+									\([\frac{2+\sqrt{2}}{2}]+[\frac{3+\sqrt{3}}{3}]+[\frac{4+\sqrt{4}}{4}]+\cdots+[\frac{100+\sqrt{100}}{100}]
+									\)</div>
+							</div><button class="butt" id="gliczby3_22" onclick="pokaz('liczby3_22')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_22"></div>
+						</li>
+						<li class="numer" id="liczby3_23">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Długość krawędzi sześcianu \(ABCDEFGH
+								\) jest liczbą wymierną. Punkty \(P \) i \(Q \) są środkami odpowiednio krawędzi \(GH \)
+								i \(AD \). Długości których boków trójkąta \(BQP \) są liczbami niewymiernymi?</p>
+							<div class="odp">
+								<canvas id="l3rys2" class="rys" width="250" height="270"></canvas>
+								<script>
+									var c = document.getElementById("l3rys2");
+									var ctx = c.getContext("2d");
+									const img2 = new Image();
+									img2.src = "./l3r2.png";
+									img2.onload = () => {
+										ctx.drawImage(img2, 25, 20, 770, 880, 0, 0, 241, 264);
+									};
+								</script>
+							</div>
+							<div class="odp"></div><button class="butt" id="gliczby3_23"
+								onclick="pokaz('liczby3_23')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_23"></div>
+						</li>
+						<li class="numer" id="liczby3_24">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Podaj takie trzy liczby niewymierne,
+								dla których liczby \(x+y, y+z, z+x \) są niewymierne, a liczba \(x+y+z \) jest:</p>
+							<div class="odp">
+								<div>a) wymierna</div>
+								<div>b) niewymierna</div>
+							</div><button class="butt" id="gliczby3_24" onclick="pokaz('liczby3_24')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_24"></div>
+						</li>
+						<li class="numer" id="liczby3_25">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Pole powierzchni kuli o promieniu \(R
+								\) opisane jest wzorem \(s=4\pi R^2 \), a jej objętość - wzorem \(V=\frac{4}{3}\pi R^3
+								\). Podaj przykład promienia kuli, której:</p>
+							<div class="odp">
+								<div>a) pole powierzchni wyraża się liczbą
+									wymierną</div>
+								<div>b) objętość wyraża się liczbą wymierną</div>
+							</div><button class="butt" id="gliczby3_25" onclick="pokaz('liczby3_25')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_25"></div>
+						</li>
+						<li class="numer" id="liczby3_26">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Ile jest liczb trzycyfrowych, z
+								których pierwiastek sześcienny jest liczbą niewymierną?</p>
+							<div class="odp"></div><button class="butt" id="gliczby3_26"
+								onclick="pokaz('liczby3_26')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_26"></div>
+						</li>
+						<li class="numer" id="liczby3_27">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Czy podana wielkość może być liczbą
+								wymierną? A liczbą niewymierną?</p>
+							<div class="odp">
+								<div>a) długość przekątnej kwadratu, którego pole
+									wyraża się liczbą wymierną</div>
+								<div>b) wysokość trójkąta równobocznego, którego
+									obwód wyraża się liczbą niewymierną</div>
+								<div>c) długość przekątnej sześcianu, którego
+									objętość wyraża się liczbą wymierną</div>
+							</div><button class="butt" id="gliczby3_27" onclick="pokaz('liczby3_27')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_27"></div>
+						</li>
+						<li class="numer" id="liczby3_28">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Posługując się podanym twierdzeniem,
+								wyznacz 6 kolejnych przybliżeń: \(x_1, x_2, _{\cdots}, x_6 \) liczby \(\sqrt{2} \),
+								rozpoczynając od ułamka \(\frac{m}{n}=\frac{3}{2} \).</p>
+							<div class="odp">
+								<div class="well">
+									Liczba wymierna \(\frac{m+2n}{m+n} \), gdzie \(m, n \)- liczby całkowite, jest
+									lepszym przybliżeniem liczby \(\sqrt{2} \) niż liczba wymierna \(\frac{m}{n} \).
+								</div>
+							</div><button class="butt" id="gliczby3_28" onclick="pokaz('liczby3_28')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_28"></div>
+						</li>
+						<li class="numer" id="liczby3_29">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Podaj przykłady liczby niewymiernej
+								\(x \), która spełnia podany warunek.</p>
+							<div class="odp">
+								<div>a) \(0,8 &lt;; x &lt;; 0,9 \)</div>
+								<div>b) \(0,95 &lt;; x &lt;; 0,96 \)</div>
+							</div><button class="butt" id="gliczby3_29" onclick="pokaz('liczby3_29')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_29"></div>
+						</li>
+						<li class="numer" id="liczby3_30">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Podaj wszystkie liczby niewmierne
+								spełniające równanie.</p>
+							<div class="odp">
+								<div>
+									\((x^2-1)(x^2-2)(x^2-3)(x^2-4)=0 \)</div>
+							</div><button class="butt" id="gliczby3_30" onclick="pokaz('liczby3_30')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_30"></div>
+						</li>
+						<li class="numer" id="liczby3_31">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Rozważmy sześciokąt foremny o boku
+								długości \(1 \). Jaka część spośród jego przekątnych ma długość wyrażającą się liczbą
+								niewymierną?</p>
+							<div class="odp"></div>"<button class="butt" id="gliczby3_31"
+								onclick="pokaz('liczby3_31')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_31"></div>
+						</li>
+						<li class="numer" id="liczby3_32">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)\(&#8517;\)</a>Przeczytaj podany w ramce
+								przykład i rozwiąż zadanie.</p>
+							<div class="odp">
+								<div class="well1">Liczba \(\sqrt{2}+\sqrt{3} \) jest
+									niewymierna.<br> <b>Dowód</b> <br>Przypuśćmy przeciwnie, liczba
+									\(a=\sqrt{2}+\sqrt{3} \) jest wymierna. Wtedy \(a-\sqrt{3}=\sqrt{2} \), a stąd
+									otrzymujemy kolejno:<br><br><span class="cen"> \((a-\sqrt{3})^2=(\sqrt{2})^2
+										\)</span><br><span class="cen">\(a^2-2a\sqrt{3}+3=2 \)</span><br><span
+										class="cen">\(2a\sqrt{3}=a^2+1 \)</span><br><span
+										class="cen">\(\sqrt{3}=\frac{a^2+1}{2a} \)</span><br>Przy założeniu, że \(a \)
+									jest liczbą wymierną, prawa strona równości jest także liczbą wymierną, z czego
+									wynika, że \(\sqrt{3} \) jest liczbą wymierną. Otrzymaliśmy sprzeczność, więc
+									\(\sqrt{2}+\sqrt{3} \) jest liczbą niewymierną.</div>
+							</div>
+							<div>
+								<div>
+									<p class="tresc">Udowodnij, że podana liczba jest niewymierna</p>
+								</div>
+								<div>a) \(2\sqrt{3}+\sqrt{2} \)</div>
+								<div>b) \(\sqrt{3}-\sqrt{2} \)</div>
+							</div><button class="butt" id="gliczby3_32" onclick="pokaz('liczby3_32')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_32"></div>
+						</li>
+						<li class="numer" id="liczby3_33">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)\(&#8517;\)</a>Udowodnij, że pierwiastek
+								kwadratowy z dodatniej liczby niewymiernej jest liczbą niewymierną.</p>
+							<div class="odp"></div><button class="butt" id="gliczby3_33"
+								onclick="pokaz('liczby3_33')">Rozwiązanie</button>
+							
+							<div id="r-liczby3_33"></div>
+						</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="./guziki.js"></script>
+</body>
+
+</html>
