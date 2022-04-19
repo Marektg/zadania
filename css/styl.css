@@ -58,7 +58,7 @@ ul {
   font-size: 25px;
   height: 45px;
   margin: 10px 15px 0 15px;
-  background-color: #df8613;
+  background-color: rgb(223, 134, 19);
   border-radius: 15px;
   box-shadow: rgba(220, 125, 10, 0.3) 4px 2px;
 }
@@ -90,7 +90,6 @@ nav {
   background-color: burlywood;
   padding-left: 5px;
   padding-right: 5px;
-  position: -webkit-sticky;
   position: sticky;
   font-size: 20px;
   width: 20vw;
@@ -197,7 +196,7 @@ nav {
 }
 
 .podmenu a:hover {
-  background-color: #7aee93;
+  background-color: rgb(122, 238, 147);
   color: black;
 }
 
@@ -228,7 +227,7 @@ nav {
 }
 
 .active {
-  background-color: #94a9e7;
+  background-color: rgb(148, 169, 231);
 }
 
 #aktualne {
