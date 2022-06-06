@@ -1,0 +1,19 @@
+.topnavi {
+  margin: 3px auto;
+  display: flex;
+  justify-content: space-evenly;
+  & a {
+    font-size: 30px;
+    color: #fff;
+    background-color: $mainhover;
+    height: 100px;
+    text-align: center;
+    display: block;
+    width: 200px;
+    padding-top: 35px;
+    &:hover {
+      background-color: $hoverbg;
+      color: $mainhover;
+    }
+  }
+}

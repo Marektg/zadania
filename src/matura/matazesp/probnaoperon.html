@@ -1,0 +1,1083 @@
+<!doctype html>
+<html lang="pl">
+	<head>
+		<link rel="icon" href="logo.png"> <meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Zestaw maturalny</title>
+		<link rel="stylesheet" type="text/css" href="../../css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="../../css/styl.css" />
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+		<script src="../../MathJax/MathJax.js?config=default"></script>
+ <script id="MathJax-script" async src="../../MathJax/es5/tex-mml-chtml.js"></script>
+
+	</head>
+	<body>
+		<div class="container">
+			<div class="row" id="gora">
+			<div class="col-xs-12 col-md-6 col-lg-3" id="gl"><h1 class="ag"><a href="../../podstawowa/podstawowa.html">Podstawówka</a></h1></div>
+		  		<div class="col-xs-12 col-md-6 col-lg-3" id="gl"><h1 class="ag"><a href="../../srednia/srednia.html">Średnia</a></h1></div>
+		  		<div class="col-xs-12 col-md-6 col-lg-3" id="gl"><h1 class="ag"><a href="../../index.html">Strona główna</a></h1></div>
+				<div class="col-xs-12 col-md-6 col-lg-3" id="gl"><h1 class="ag"><a href="../../studia/studia.html">Studia</a></h1></div>
+			</div>
+			<div class="row">
+			<div class="col-xs-12 col-md-5 col-lg-3" id="lewa">
+<h3>Przydatne linki</h3>
+<a class="link" href="https://www.naukowiec.org/mendelejew.html">Układ okresowy pierwiastków</a>
+<ul class="nav nav-pills nav-stacked list-group"><h3><a class="link" herf="../matura.html">Matura</a></h3>
+<li class="list-group-item"><h4><a href="../maturapowt.html">Powtórki</a></h4></li>		
+<li class="list-group-item"><h4><a href="../matapow/ksiazki.html">Książki</a></h4>
+<ul class="nav nav-pills nav-stacked list-group"><h4><a href="../maturazestaw.html">Zestawy</a></h4>		
+	
+<li class="list-group-item"><a href="mzestawyp.html">Poziom podstawowy</a>
+<li class="list-group-item"><a href="zestawymoje.html">Moje</a></li>
+<ul class="nav nav-pills nav-stacked list-group active"><a href="zestawy2021.html">2021</a>
+<li class="list-group-item"><a href="probnaoperon.html">Próbna Operon</a></li>
+</ul>
+<li class="list-group-item"><a href="zestawy2020.html">2020</a></li>
+<li class="list-group-item"><a href="zestawy2019.html">2019</a></li>
+<li class="list-group-item"><a href="zestawy2018.html">2018</a></li>
+<li class="list-group-item"><a href="zestawy2017.html">2017</a></li>
+<li class="list-group-item"><a href="zestawy2016.html">2016</a></li>
+<li class="list-group-item"><a href="zestawy2015.html">2015</a></li>
+<li class="list-group-item"><a href="zestawy2014.html">2014</a></li>
+<li class="list-group-item"><a href="zestawy2013.html">2013</a></li>
+<li class="list-group-item"><a href="zestawy2012.html">2012</a>
+<li class="list-group-item"><a href="zestawy2011.html">2011</a>
+<li class="list-group-item"><a href="zestawy2010.html">2010</a>
+<li class="list-group-item"><a href="zestawy2009.html">2009</a>
+<li class="list-group-item"><a href="zestawy2008.html">2008</a>
+<li class="list-group-item"><a href="zestawy2007.html">2007</a>
+<li class="list-group-item"><a href="zestawy2006.html">2006</a>
+<li class="list-group-item"><a href="zestawy2005.html">2005</a>
+<li class="list-group-item"><a href="../matazesr/mzestawyr.html">Poziom rozszerzony</a></li>
+</ul>
+
+</div>
+<div class="col-xs-12 col-md-8 col-lg-9" id="prawa">
+			   <p class="tytul"><b>Próbny Egzamin Maturalny z Matematyki</b> <br><br>
+ <u>poziom podstawowy</u><br>
+   <b>Czas pracy:</b> 170 minut </p>
+   <ol><p class="rodzajzad">Zadania zamknięte</p>
+   <li class="numer" id="1"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Liczbą przeciwną do liczby \( \sqrt{17}-4 \) jest. </p>
+<div class="row odp"><div class="ol-xs-12 col-md-6 col-lg-3">A \( \sqrt{17}+4 \)</div><div class="ol-xs-12 col-md-6 col-lg-3">B \( -\sqrt{17}-4 \)</div><div class="ol-xs-12 col-md-6 col-lg-3">C \( -\sqrt{17}+4 \)</div><div class="ol-xs-12 col-md-6 col-lg-3">D \( \frac{1}{\sqrt{17}-4} \)</div></div><button class="butt" id="g1" onclick="pokaz1()">Rozwiązanie</button>
+<script>
+function pokaz1(){
+var d1=document.getElementById("r-1");
+var r1=document.createElement("img");
+r1.setAttribute('src','2021operon/1.png');
+d1.appendChild(r1);
+var u1=document.getElementById("g1");
+u1.innerHTML="Ukryj Rozwiązanie";
+u1.setAttribute("onclick","usun1()");}
+function usun1(){
+var d1=document.getElementById("r-1");
+d1.innerHTML=null;
+var u1a=document.getElementById("g1");
+u1a.innerHTML="Rozwiązanie";
+u1a.setAttribute("onclick","pokaz1()");}
+</script>
+<div id="r-1" class="row odp"></div>
+</li>
+<li class="numer" id="2"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Zbiór rozwiązań nierówności \( |x|\leq 3 \) zaznaczono na rysunku. </p>
+<div class="row odp"><div class="col-xs-12 col-md-6 col-lg-6">A <canvas id="rys2a" width="350" height="100"></canvas>
+<script>
+var c=document.getElementById("rys2a");
+var ctx=c.getContext("2d");
+var s=rys2a.getAttribute("width");
+ctx.beginPath();
+ctx.moveTo(10,20);
+ctx.lineTo(s-20,20);
+ctx.lineTo(10,20);
+ctx.stroke();
+var k=13;/* ile kresek wpisać o 1 więcej niż ma być*/
+var y=(s-20)/k;
+for (var x = y+0.5; x < s-40; x += y ) {
+  ctx.moveTo(x,15);
+  ctx.lineTo(x,25);
+  ctx.lineTo(x,15);
+}
+var l;/*początkowa liczba na osi*/
+var lo;/*od której kreski podpisujemy*/
+for (l=-3, lo=1; l < 9, lo < k; l++, lo++){
+ctx.font = "15px Tahoma";
+textAlign = "center";
+ctx.fillText(l, lo*y-8, 40);
+ctx.strokeStyle="#000000";
+ctx.stroke();
+}
+ctx.font = "15px Tahoma";
+textAlign = "center";
+ctx.fillText("x", k*y-8, 40);
+ctx.strokeStyle="#000000";
+ctx.stroke();
+ctx.moveTo(s-20,20);
+ctx.lineTo(s-30,15);
+ctx.lineTo(s-30,25);
+ctx.lineTo(s-20,20);
+ctx.fillStyle="#000000";
+ctx.fill();
+ctx.stroke();
+
+var pocz=8;/* na której kresce jest pionowa kreska dodać 1*/
+var p=pocz-1;
+ctx.beginPath();
+ctx.moveTo(p*y,0);
+ctx.lineTo(p*y,20);
+ctx.lineTo(p*y,0);
+ctx.lineTo(10,0);
+ctx.lineTo(p*y,0);
+ctx.fillStyle="#000000";
+ctx.fill();
+ctx.stroke();
+
+
+ctx.beginPath();
+ctx.arc(7*y,20,5,0,10*Math.PI);
+ctx.strokeStyle="black";
+ctx.fillStyle="black";
+ctx.fill();
+ctx.stroke();
+</script></div><div class="col-xs-12 col-md-6 col-lg-6">B <canvas id="rys2b" width="350" height="100"></canvas>
+<script>
+var c=document.getElementById("rys2b");
+var ctx=c.getContext("2d");
+var s=rys2b.getAttribute("width");
+ctx.beginPath();
+ctx.moveTo(10,20);
+ctx.lineTo(s-20,20);
+ctx.lineTo(10,20);
+ctx.stroke();
+var k=13;/* ile kresek wpisać o 1 więcej niż ma być*/
+var y=(s-20)/k;
+for (var x = y+0.5; x < s-40; x += y ) {
+  ctx.moveTo(x,15);
+  ctx.lineTo(x,25);
+  ctx.lineTo(x,15);
+}
+var l;/*początkowa liczba na osi*/
+var lo;/*od której kreski podpisujemy*/
+for (l=-3, lo=1; l < 9, lo < k; l++, lo++){
+ctx.font = "15px Tahoma";
+textAlign = "center";
+ctx.fillText(l, lo*y-8, 40);
+ctx.strokeStyle="#000000";
+ctx.stroke();
+}
+ctx.font = "15px Tahoma";
+textAlign = "center";
+ctx.fillText("x", k*y-8, 40);
+ctx.strokeStyle="#000000";
+ctx.stroke();
+ctx.moveTo(s-20,20);
+ctx.lineTo(s-30,15);
+ctx.lineTo(s-30,25);
+ctx.lineTo(s-20,20);
+ctx.fillStyle="#000000";
+ctx.fill();
+ctx.stroke();
+
+var pocz=2;/* na której kresce jest pionowa kreska dodać 1*/
+var p=pocz-1;
+ctx.beginPath();
+ctx.moveTo(p*y,0);
+ctx.lineTo(p*y,20);
+ctx.lineTo(p*y,0);
+ctx.lineTo(10,0);
+ctx.lineTo(p*y,0);
+ctx.fillStyle="#000000";
+ctx.fill();
+ctx.stroke();
+
+
+ctx.beginPath();
+ctx.arc(p*y,20,5,0,10*Math.PI);
+ctx.strokeStyle="black";
+ctx.fillStyle="black";
+ctx.fill();
+ctx.stroke();
+</script></div></div><div class="row odp"><div class="col-xs-12 col-md-6 col-lg-6">C <canvas id="rys2c" width="350" height="100"></canvas>
+<script>
+var c=document.getElementById("rys2c");
+var ctx=c.getContext("2d");
+var s=rys2c.getAttribute("width");
+ctx.beginPath();
+ctx.moveTo(10,20);
+ctx.lineTo(s-20,20);
+ctx.lineTo(10,20);
+ctx.stroke();
+var k=13;/* ile kresek wpisać o 1 więcej niż ma być*/
+var y=(s-20)/k;
+for (var x = y+0.5; x < s-40; x += y ) {
+  ctx.moveTo(x,15);
+  ctx.lineTo(x,25);
+  ctx.lineTo(x,15);
+}
+var l;/*początkowa liczba na osi*/
+var lo;/*od której kreski podpisujemy*/
+for (l=-3, lo=1; l < 9, lo < k; l++, lo++){
+ctx.font = "15px Tahoma";
+textAlign = "center";
+ctx.fillText(l, lo*y-8, 40);
+ctx.strokeStyle="#000000";
+ctx.stroke();
+}
+ctx.font = "15px Tahoma";
+textAlign = "center";
+ctx.fillText("x", k*y-8, 40);
+ctx.strokeStyle="#000000";
+ctx.stroke();
+ctx.moveTo(s-20,20);
+ctx.lineTo(s-30,15);
+ctx.lineTo(s-30,25);
+ctx.lineTo(s-20,20);
+ctx.fillStyle="#000000";
+ctx.fill();
+ctx.stroke();
+
+var pocz=2;/* na której kresce jest pionowa kreska dodać 1*/
+var kon=8;/*gdzie kończy się przedział plus1 dla -niesk wpisz 0 dla +niesk wpisz k*/
+var p=pocz-1;
+var kn=kon-1;
+if (kon == 0){
+ctx.beginPath();
+ctx.moveTo(p*y,0);
+ctx.lineTo(p*y,20);
+ctx.lineTo(p*y,0);
+ctx.lineTo(10,0);
+ctx.lineTo(p*y,0);}
+else if (kon == k){
+ctx.beginPath();
+ctx.moveTo(p*y,0);
+ctx.lineTo(p*y,20);
+ctx.lineTo(p*y,0);
+ctx.lineTo(k,0);
+ctx.lineTo(p*y,0);}
+else {
+ctx.beginPath();
+ctx.moveTo(p*y,0);
+ctx.lineTo(p*y,20);
+ctx.lineTo(p*y,0);
+ctx.lineTo(kn*y,0);
+ctx.lineTo(kn*y,20);
+ctx.lineTo(kn*y,0);
+ctx.lineTo(p*y,0);}
+ctx.fillStyle="#000000";
+ctx.fill();
+ctx.stroke();
+
+
+ctx.beginPath();
+ctx.arc(p*y,20,5,0,10*Math.PI);
+ctx.strokeStyle="black";
+/*ctx.fillStyle="black";
+ctx.fill();*/
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(kn*y,20,5,0,10*Math.PI);
+ctx.strokeStyle="black";
+/*ctx.fillStyle="black";
+ctx.fill();*/
+ctx.stroke();
+</script></div><div class="col-xs-12 col-md-6 col-lg-6">D <canvas id="rys2d" width="350" height="100"></canvas>
+<script>
+var c=document.getElementById("rys2d");
+var ctx=c.getContext("2d");
+var s=rys2d.getAttribute("width");
+ctx.beginPath();
+ctx.moveTo(10,20);
+ctx.lineTo(s-20,20);
+ctx.lineTo(10,20);
+ctx.stroke();
+var k=13;/* ile kresek wpisać o 1 więcej niż ma być*/
+var y=(s-20)/k;
+for (var x = y+0.5; x < s-40; x += y ) {
+  ctx.moveTo(x,15);
+  ctx.lineTo(x,25);
+  ctx.lineTo(x,15);
+}
+var l;/*początkowa liczba na osi*/
+var lo;/*od której kreski podpisujemy*/
+for (l=-3, lo=1; l < 9, lo < k; l++, lo++){
+ctx.font = "15px Tahoma";
+textAlign = "center";
+ctx.fillText(l, lo*y-8, 40);
+ctx.strokeStyle="#000000";
+ctx.stroke();
+}
+ctx.font = "15px Tahoma";
+textAlign = "center";
+ctx.fillText("x", k*y-8, 40);
+ctx.strokeStyle="#000000";
+ctx.stroke();
+ctx.moveTo(s-20,20);
+ctx.lineTo(s-30,15);
+ctx.lineTo(s-30,25);
+ctx.lineTo(s-20,20);
+ctx.fillStyle="#000000";
+ctx.fill();
+ctx.stroke();
+
+var pocz=2;/* na której kresce jest pionowa kreska dodać 1*/
+var kon=8;/*gdzie kończy się przedział plus1 dla -niesk wpisz 0 dla +niesk wpisz k*/
+var p=pocz-1;
+var kn=kon-1;
+if (kon == 0){
+ctx.beginPath();
+ctx.moveTo(p*y,0);
+ctx.lineTo(p*y,20);
+ctx.lineTo(p*y,0);
+ctx.lineTo(10,0);
+ctx.lineTo(p*y,0);}
+else if (kon == k){
+ctx.beginPath();
+ctx.moveTo(p*y,0);
+ctx.lineTo(p*y,20);
+ctx.lineTo(p*y,0);
+ctx.lineTo(k,0);
+ctx.lineTo(p*y,0);}
+else {
+ctx.beginPath();
+ctx.moveTo(p*y,0);
+ctx.lineTo(p*y,20);
+ctx.lineTo(p*y,0);
+ctx.lineTo(kn*y,0);
+ctx.lineTo(kn*y,20);
+ctx.lineTo(kn*y,0);
+ctx.lineTo(p*y,0);}
+c
+ctx.stroke();
+
+
+ctx.beginPath();
+ctx.arc(p*y,20,5,0,10*Math.PI);
+ctx.strokeStyle="black";
+ctx.fillStyle="black";
+ctx.fill();
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(kn*y,20,5,0,10*Math.PI);
+ctx.strokeStyle="black";
+ctx.fillStyle="black";
+ctx.fill();
+ctx.stroke();
+</script></div></div><button class="butt" id="g2" onclick="pokaz2()">Rozwiązanie</button>
+<script>
+function pokaz2(){
+var d2=document.getElementById("r-2");
+var r2=document.createElement("img");
+r2.setAttribute('src','roz/2.png');
+d2.appendChild(r2);
+var u2=document.getElementById("g2");
+u2.innerHTML="Ukryj Rozwiązanie";
+u2.setAttribute("onclick","usun2()");}
+function usun2(){
+var d2=document.getElementById("r-2");
+d2.innerHTML=null;
+var u2a=document.getElementById("g2");
+u2a.innerHTML="Rozwiązanie";
+u2a.setAttribute("onclick","pokaz2()");}
+</script>
+<div id="r-2" class="row odp"></div>
+</li>
+<li class="numer" id="3"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Cenę pewnego towaru podniesiono o \( 25 \% \), a po pewnym czasie obniżono do początkowej wartości. Wynika stąd, że podwyższoną cenę tego towaru obniżono o: </p>
+<div class="row odp"><div class="ol-xs-12 col-md-6 col-lg-3">A \( 25\% \)</div><div class="ol-xs-12 col-md-6 col-lg-3">B \( 20\% \)</div><div class="ol-xs-12 col-md-6 col-lg-3">C \( 5\% \)</div><div class="ol-xs-12 col-md-6 col-lg-3">D \( 75\% \)</div></div><button class="butt" id="g3" onclick="pokaz3()">Rozwiązanie</button>
+<script>
+function pokaz3(){
+var d3=document.getElementById("r-3");
+var r3=document.createElement("img");
+r3.setAttribute('src','roz/3.png');
+d3.appendChild(r3);
+var u3=document.getElementById("g3");
+u3.innerHTML="Ukryj Rozwiązanie";
+u3.setAttribute("onclick","usun3()");}
+function usun3(){
+var d3=document.getElementById("r-3");
+d3.innerHTML=null;
+var u3a=document.getElementById("g3");
+u3a.innerHTML="Rozwiązanie";
+u3a.setAttribute("onclick","pokaz3()");}
+</script>
+<div id="r-3" class="row odp"></div>
+</li>
+<li class="numer" id="4"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Jeżeli suma kwadratów liczb \( a \) i \( b \) jest równa \( 53 \), a ich iloczyn wynosi \( 14 \), to kwadrat różnicy liczb \( a \) i \( b \) jest równy: </p>
+<div class="row odp"><div class="ol-xs-12 col-md-6 col-lg-3">A \( 25 \)</div><div class="ol-xs-12 col-md-6 col-lg-3">B \( 67 \)</div><div class="ol-xs-12 col-md-6 col-lg-3">C \( 53 \)</div><div class="ol-xs-12 col-md-6 col-lg-3">D \( 39 \)</div></div><button class="butt" id="g4" onclick="pokaz4()">Rozwiązanie</button>
+<script>
+function pokaz4(){
+var d4=document.getElementById("r-4");
+var r4=document.createElement("img");
+r4.setAttribute('src','roz/4.png');
+d4.appendChild(r4);
+var u4=document.getElementById("g4");
+u4.innerHTML="Ukryj Rozwiązanie";
+u4.setAttribute("onclick","usun4()");}
+function usun4(){
+var d4=document.getElementById("r-4");
+d4.innerHTML=null;
+var u4a=document.getElementById("g4");
+u4a.innerHTML="Rozwiązanie";
+u4a.setAttribute("onclick","pokaz4()");}
+</script>
+<div id="r-4" class="row odp"></div>
+</li>
+<li class="numer" id="5"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Połową liczby \( 6^{56} \) jest: </p>
+<div class="row odp"><div class="ol-xs-12 col-md-6 col-lg-3">A \( 3^{56} \)</div><div class="ol-xs-12 col-md-6 col-lg-3">B \( 6^{28} \)</div><div class="ol-xs-12 col-md-6 col-lg-3">C \( 3^{28} \)</div><div class="ol-xs-12 col-md-6 col-lg-3">D \( 2^{55}\cdot 3^{56} \)</div></div><button class="butt" id="g5" onclick="pokaz5()">Rozwiązanie</button>
+<script>
+function pokaz5(){
+var d5=document.getElementById("r-5");
+var r5=document.createElement("img");
+r5.setAttribute('src','roz/5.png');
+d5.appendChild(r5);
+var u5=document.getElementById("g5");
+u5.innerHTML="Ukryj Rozwiązanie";
+u5.setAttribute("onclick","usun5()");}
+function usun5(){
+var d5=document.getElementById("r-5");
+d5.innerHTML=null;
+var u5a=document.getElementById("g5");
+u5a.innerHTML="Rozwiązanie";
+u5a.setAttribute("onclick","pokaz5()");}
+</script>
+<div id="r-5" class="row odp"></div>
+</li>
+<li class="numer" id="6"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Jeżeli \( log_2a=0 \), to: </p>
+<div class="row odp"><div class="ol-xs-12 col-md-6 col-lg-3">A \( a=\frac{1}{2} \)</div><div class="ol-xs-12 col-md-6 col-lg-3">B \( a=1 \)</div><div class="ol-xs-12 col-md-6 col-lg-3">C \( a=2 \)</div><div class="ol-xs-12 col-md-6 col-lg-3">D \( a=-2 \)</div></div><button class="butt" id="g6" onclick="pokaz6()">Rozwiązanie</button>
+<script>
+function pokaz6(){
+var d6=document.getElementById("r-6");
+var r6=document.createElement("img");
+r6.setAttribute('src','roz/6.png');
+d6.appendChild(r6);
+var u6=document.getElementById("g6");
+u6.innerHTML="Ukryj Rozwiązanie";
+u6.setAttribute("onclick","usun6()");}
+function usun6(){
+var d6=document.getElementById("r-6");
+d6.innerHTML=null;
+var u6a=document.getElementById("g6");
+u6a.innerHTML="Rozwiązanie";
+u6a.setAttribute("onclick","pokaz6()");}
+</script>
+<div id="r-6" class="row odp"></div>
+</li>
+<li class="numer" id="7"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Dwa boki równoległoboku mają długość \( 3\ cm \) i \( 4\ cm \), a miara kąta zawartego między tymi bokami wynosi \( 45^{\circ} \). Pole tego równoległoboku jest równe: </p>
+<div class="row odp"><div class="ol-xs-12 col-md-6 col-lg-3">A \( 6\sqrt{2}\ cm^2 \)</div><div class="ol-xs-12 col-md-6 col-lg-3">B \( 12\sqrt{2}\ cm^2 \)</div><div class="ol-xs-12 col-md-6 col-lg-3">C \( 6\sqrt{3}\ cm^2 \)</div><div class="ol-xs-12 col-md-6 col-lg-3">D \( 6\ cm^2 \)</div></div><button class="butt" id="g7" onclick="pokaz7()">Rozwiązanie</button>
+<script>
+function pokaz7(){
+var d7=document.getElementById("r-7");
+var r7=document.createElement("img");
+r7.setAttribute('src','roz/7.png');
+d7.appendChild(r7);
+var u7=document.getElementById("g7");
+u7.innerHTML="Ukryj Rozwiązanie";
+u7.setAttribute("onclick","usun7()");}
+function usun7(){
+var d7=document.getElementById("r-7");
+d7.innerHTML=null;
+var u7a=document.getElementById("g7");
+u7a.innerHTML="Rozwiązanie";
+u7a.setAttribute("onclick","pokaz7()");}
+</script>
+<div id="r-7" class="row odp"></div>
+</li>
+<li class="numer" id="8"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Jeżeli punkt \( O \) jest środkiem okręgu (patrz rysunek), to miara kąta \( ABD \) jest równa: </p>
+<div class="row odp"><div class="col-xs-12 col-md-6 col-lg-4"><div class="col-xs-12 col-md-12 col-lg-12">A \( 29^{\circ} \)</div><div class="col-xs-12 col-md-12 col-lg-12">B \( 33^{\circ} \)</div><div class="col-xs-12 col-md-12 col-lg-12">C \( 58^{\circ} \)</div><div class="col-xs-12 col-md-12 col-lg-12">D \( 25^{\circ} \)</div></div><div class="col-xs-12 col-md-6 col-lg-4 col-lg-offset-1"><canvas id="rysop8" width="400" height="400"></canvas>
+<script>
+var canvas=document.getElementById("rysop8");
+var context=canvas.getContext("2d");
+const rys8=new Image();
+rys8.src = "2021operon/rys8.png";
+rys8.onload=()=>{
+context.drawImage(rys8, 0, 0, 680, 680, 0, 0, 400, 400);
+};
+/*window.onload = function rysunek8(){
+var c=document.getElementById("rys8");
+var ctx=document.createElement("img");
+ctx.setAttribute('src','2021operon/rys8.png');
+ctx.setAttribute('width','250');
+ctx.setAttribute('height','250');
+c.appendChild(ctx);}*/
+</script></div> </div><button class="butt" id="g8" onclick="pokaz8()">Rozwiązanie</button>
+<script>
+function pokaz8(){
+var d8=document.getElementById("r-8");
+var r8=document.createElement("img");
+r8.setAttribute('src','roz/8.png');
+d8.appendChild(r8);
+var u8=document.getElementById("g8");
+u8.innerHTML="Ukryj Rozwiązanie";
+u8.setAttribute("onclick","usun8()");}
+function usun8(){
+var d8=document.getElementById("r-8");
+d8.innerHTML=null;
+var u8a=document.getElementById("g8");
+u8a.innerHTML="Rozwiązanie";
+u8a.setAttribute("onclick","pokaz8()");}
+</script>
+<div id="r-8" class="row odp"></div>
+</li>
+<li class="numer" id="9"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Trójkąt \( A_1B_1C_1 \) ma obwód równy \( 24\ cm \) i jest podobny do trójkąt \( ABC \) w skali \( \frac{3}{2} \). Zatem obwód trójkąta \( ABC \) jest równy: </p>
+<div class="row odp"><div class="ol-xs-12 col-md-6 col-lg-3">A \( 10\ cm \)</div><div class="ol-xs-12 col-md-6 col-lg-3">B \( 36\ cm \)</div><div class="ol-xs-12 col-md-6 col-lg-3">C \( 8\ cm \)</div><div class="ol-xs-12 col-md-6 col-lg-3">D \( 16\ cm \)</div></div><button class="butt" id="g9" onclick="pokaz9()">Rozwiązanie</button>
+<script>
+function pokaz9(){
+var d9=document.getElementById("r-9");
+var r9=document.createElement("img");
+r9.setAttribute('src','roz/9.png');
+d9.appendChild(r9);
+var u9=document.getElementById("g9");
+u9.innerHTML="Ukryj Rozwiązanie";
+u9.setAttribute("onclick","usun9()");}
+function usun9(){
+var d9=document.getElementById("r-9");
+d9.innerHTML=null;
+var u9a=document.getElementById("g9");
+u9a.innerHTML="Rozwiązanie";
+u9a.setAttribute("onclick","pokaz9()");}
+</script>
+<div id="r-9" class="row odp"></div>
+</li>
+ <li class="numer" id="10"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Dane są liczby \( a=4,(36) \) i \( b=1,(3) \). Liczba będąca różnicą \( a-b \) zapisana w postaci ułamka zwykłego nieskracalnego to: </p>
+<div class="row odp"><div class="ol-xs-12 col-md-6 col-lg-3">A \( 3\frac{3}{100} \)</div><div class="ol-xs-12 col-md-6 col-lg-3">B \( 3\frac{9}{25} \)</div><div class="ol-xs-12 col-md-6 col-lg-3">C \( 3\frac{1}{33} \)</div><div class="ol-xs-12 col-md-6 col-lg-3">D \( 3\frac{1}{3} \)</div></div><button class="butt" id="g10" onclick="pokaz10()">Rozwiązanie</button>
+<script>
+function pokaz10(){
+var d10=document.getElementById("r-10");
+var r10=document.createElement("img");
+r10.setAttribute('src','roz/10.png');
+d10.appendChild(r10);
+var u10=document.getElementById("g10");
+u10.innerHTML="Ukryj Rozwiązanie";
+u10.setAttribute("onclick","usun10()");}
+function usun10(){
+var d10=document.getElementById("r-10");
+d10.innerHTML=null;
+var u10a=document.getElementById("g10");
+u10a.innerHTML="Rozwiązanie";
+u10a.setAttribute("onclick","pokaz10()");}
+</script>
+<div id="r-10" class="row odp"></div>
+</li>
+ <li class="numer" id="11"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Funkcja \( f \) każdej liczbie rzeczywistej przyporządkowuje połowę sześcianu tej liczby powiększoną o \( 3 \). Funkcję \( f \) opisuje wzór: </p>
+<div class="row odp"><div class="col-xs-12 col-md-6 col-lg-6">A \( f(x)=\frac{x^3+3}{2} \)</div><div class="col-xs-12 col-md-6 col-lg-6">B \( f(x)=\frac{1}{2}x^3+3 \)</div></div><div class="row odp"><div class="col-xs-12 col-md-6 col-lg-6">C \( f(x)=\frac{x^6+3}{2} \)</div><div class="col-xs-12 col-md-6 col-lg-6">D \( f(x)=\frac{1}{2}x^6+3 \)</div></div><button class="butt" id="g11" onclick="pokaz11()">Rozwiązanie</button>
+<script>
+function pokaz11(){
+var d11=document.getElementById("r-11");
+var r11=document.createElement("img");
+r11.setAttribute('src','roz/11.png');
+d11.appendChild(r11);
+var u11=document.getElementById("g11");
+u11.innerHTML="Ukryj Rozwiązanie";
+u11.setAttribute("onclick","usun11()");}
+function usun11(){
+var d11=document.getElementById("r-11");
+d11.innerHTML=null;
+var u11a=document.getElementById("g11");
+u11a.innerHTML="Rozwiązanie";
+u11a.setAttribute("onclick","pokaz11()");}
+</script>
+<div id="r-11" class="row odp"></div>
+</li>
+<li class="numer" id="12"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Do równania \( y=-4-2x \) dopisano drugie i otrzymano w ten sposób układ równań, którego interpretacją graficzną są dwie proste przecinające się w punkcie \( (-2,0) \). Dopisanym równaniem jest: </p>
+<div class="row odp"><div class="ol-xs-12 col-md-6 col-lg-3">A \( y=2x \)</div><div class="ol-xs-12 col-md-6 col-lg-3">B \( y=-2x+4 \)</div><div class="ol-xs-12 col-md-6 col-lg-3">C \( 2x+y=-4 \)</div><div class="ol-xs-12 col-md-6 col-lg-3">D \( -2x+y=4 \)</div></div><button class="butt" id="g12" onclick="pokaz12()">Rozwiązanie</button>
+<script>
+function pokaz12(){
+var d12=document.getElementById("r-12");
+var r12=document.createElement("img");
+r12.setAttribute('src','roz/12.png');
+d12.appendChild(r12);
+var u12=document.getElementById("g12");
+u12.innerHTML="Ukryj Rozwiązanie";
+u12.setAttribute("onclick","usun12()");}
+function usun12(){
+var d12=document.getElementById("r-12");
+d12.innerHTML=null;
+var u12a=document.getElementById("g12");
+u12a.innerHTML="Rozwiązanie";
+u12a.setAttribute("onclick","pokaz12()");}
+</script>
+<div id="r-12" class="row odp"></div>
+</li>
+<li class="numer" id="13"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Równanie \( (x+5)^2-25=x(x+10) \): </p>
+<div class="row odp"><div class="col-xs-12 col-md-6 col-lg-6">A ma tylko jedno rozwiązanie</div><div class="col-xs-12 col-md-6 col-lg-6">B ma dokładnie dwa rozwiązania</div></div><div class="row odp"><div class="col-xs-12 col-md-6 col-lg-6">C spełnia każda liczba rzeczywista</div><div class="col-xs-12 col-md-6 col-lg-6">D nie ma rozwiązań</div></div><button class="butt" id="g13" onclick="pokaz13()">Rozwiązanie</button>
+<script>
+function pokaz13(){
+var d13=document.getElementById("r-13");
+var r13=document.createElement("img");
+r13.setAttribute('src','roz/13.png');
+d13.appendChild(r13);
+var u13=document.getElementById("g13");
+u13.innerHTML="Ukryj Rozwiązanie";
+u13.setAttribute("onclick","usun13()");}
+function usun13(){
+var d13=document.getElementById("r-13");
+d13.innerHTML=null;
+var u13a=document.getElementById("g13");
+u13a.innerHTML="Rozwiązanie";
+u13a.setAttribute("onclick","pokaz13()");}
+</script>
+<div id="r-13" class="row odp"></div>
+</li>
+<li class="numer" id="14"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Sinus kąta \( \alpha \) jest pięc razy mniejszy niż tangens tego kąta. Wobec tego cosinus kąta \( \alpha \) jest równy: </p>
+<div class="row odp"><div class="ol-xs-12 col-md-6 col-lg-3">A \( 1 \)</div><div class="ol-xs-12 col-md-6 col-lg-3">B \( \frac{\sqrt{6}}{12} \)</div><div class="ol-xs-12 col-md-6 col-lg-3">C \( \frac{1}{5} \)</div><div class="ol-xs-12 col-md-6 col-lg-3">D \( \frac{2\sqrt{6}}{5} \)</div></div><button class="butt" id="g14" onclick="pokaz14()">Rozwiązanie</button>
+<script>
+function pokaz14(){
+var d14=document.getElementById("r-14");
+var r14=document.createElement("img");
+r14.setAttribute('src','roz/14.png');
+d14.appendChild(r14);
+var u14=document.getElementById("g14");
+u14.innerHTML="Ukryj Rozwiązanie";
+u14.setAttribute("onclick","usun14()");}
+function usun14(){
+var d14=document.getElementById("r-14");
+d14.innerHTML=null;
+var u14a=document.getElementById("g14");
+u14a.innerHTML="Rozwiązanie";
+u14a.setAttribute("onclick","pokaz14()");}
+</script>
+<div id="r-14" class="row odp"></div>
+</li>
+<li class="numer" id="15"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Suma \( n \) początkowych wyrazów ciągu  \( (a_n) \) jest określona wzorem \( S_n=n^2+6n \). Piąty wyraz ciągu \( (a_n) \) jest równy: </p>
+<div class="row odp"><div class="ol-xs-12 col-md-6 col-lg-3">A \( 55 \)</div><div class="ol-xs-12 col-md-6 col-lg-3">B \( 15 \)</div><div class="ol-xs-12 col-md-6 col-lg-3">C \( 40 \)</div><div class="ol-xs-12 col-md-6 col-lg-3">D \( 94 \)</div></div><button class="butt" id="g15" onclick="pokaz15()">Rozwiązanie</button>
+<script>
+function pokaz15(){
+var d15=document.getElementById("r-15");
+var r15=document.createElement("img");
+r15.setAttribute('src','roz/15.png');
+d15.appendChild(r15);
+var u15=document.getElementById("g15");
+u15.innerHTML="Ukryj Rozwiązanie";
+u15.setAttribute("onclick","usun15()");}
+function usun15(){
+var d15=document.getElementById("r-15");
+d15.innerHTML=null;
+var u15a=document.getElementById("g15");
+u15a.innerHTML="Rozwiązanie";
+u15a.setAttribute("onclick","pokaz15()");}
+</script>
+<div id="r-15" class="row odp"></div>
+</li>
+<li class="numer" id="16"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Ilorazem ciągu geometrycznego \( (a_n) \) określonego wzorem \( a_n=3\cdot 2^{n+1} \) jest liczba: </p>
+<div class="row odp"><div class="ol-xs-12 col-md-6 col-lg-3">A \( 2 \)</div><div class="ol-xs-12 col-md-6 col-lg-3">B \( 3 \)</div><div class="ol-xs-12 col-md-6 col-lg-3">C \( 6 \)</div><div class="ol-xs-12 col-md-6 col-lg-3">D \( -3 \)</div></div><button class="butt" id="g16" onclick="pokaz16()">Rozwiązanie</button>
+<script>
+function pokaz16(){
+var d16=document.getElementById("r-16");
+var r16=document.createElement("img");
+r16.setAttribute('src','roz/16.png');
+d16.appendChild(r16);
+var u16=document.getElementById("g16");
+u16.innerHTML="Ukryj Rozwiązanie";
+u16.setAttribute("onclick","usun16()");}
+function usun16(){
+var d16=document.getElementById("r-16");
+d16.innerHTML=null;
+var u16a=document.getElementById("g16");
+u16a.innerHTML="Rozwiązanie";
+u16a.setAttribute("onclick","pokaz16()");}
+</script>
+<div id="r-16" class="row odp"></div>
+</li>
+<li class="numer" id="17"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Rozwiązaniem równania \( \frac {x^2-4}{x+2}=2 \) jest liczba: </p>
+<div class="row odp"><div class="ol-xs-12 col-md-6 col-lg-3">A \( -2 \)</div><div class="ol-xs-12 col-md-6 col-lg-3">B \( 0 \)</div><div class="ol-xs-12 col-md-6 col-lg-3">C \( 2 \)</div><div class="ol-xs-12 col-md-6 col-lg-3">D \( 4 \)</div> </div><button class="butt" id="g17" onclick="pokaz17()">Rozwiązanie</button>
+<script>
+function pokaz17(){
+var d17=document.getElementById("r-17");
+var r17=document.createElement("img");
+r17.setAttribute('src','roz/17.png');
+d17.appendChild(r17);
+var u17=document.getElementById("g17");
+u17.innerHTML="Ukryj Rozwiązanie";
+u17.setAttribute("onclick","usun17()");}
+function usun17(){
+var d17=document.getElementById("r-17");
+d17.innerHTML=null;
+var u17a=document.getElementById("g17");
+u17a.innerHTML="Rozwiązanie";
+u17a.setAttribute("onclick","pokaz17()");}
+</script>
+<div id="r-17" class="row odp"></div>
+</li>
+<li class="numer" id="18"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Funkcja \( f(x)=\left\{\begin{matrix}
+x^2 & dla\ x\leq-1 & \\ 
+2x+3 & dla\ x>-1 & 
+\end{matrix}\right. \) dla argumentu \( -1, 5 \) przyjmuje wartość: </p>
+<div class="row odp"><div class="ol-xs-12 col-md-6 col-lg-3">A \( 0 \)</div><div class="ol-xs-12 col-md-6 col-lg-3">B \( 2, 25 \)</div><div class="ol-xs-12 col-md-6 col-lg-3">C \( 3 \)</div><div class="ol-xs-12 col-md-6 col-lg-3">D \( 6 \)</div></div><button class="butt" id="g18" onclick="pokaz18()">Rozwiązanie</button>
+<script>
+function pokaz18(){
+var d18=document.getElementById("r-18");
+var r18=document.createElement("img");
+r18.setAttribute('src','roz/18.png');
+d18.appendChild(r18);
+var u18=document.getElementById("g18");
+u18.innerHTML="Ukryj Rozwiązanie";
+u18.setAttribute("onclick","usun18()");}
+function usun18(){
+var d18=document.getElementById("r-18");
+d18.innerHTML=null;
+var u18a=document.getElementById("g18");
+u18a.innerHTML="Rozwiązanie";
+u18a.setAttribute("onclick","pokaz18()");}
+</script>
+<div id="r-18" class="row odp"></div>
+</li>
+<li class="numer" id="19"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a> Proste o równaniach \( y=(\sqrt {3}-2)x-1 \) i \( y=(\sqrt {3}+2)x+1 \): </p>
+<div class="row odp"><div class="col-xs-12 col-md-6 col-lg-6">A są równoległe</div><div class="col-xs-12 col-md-6 col-lg-6">B są prostopadłe</div></div><div class="row odp"><div class="col-xs-12 col-md-6 col-lg-6">C przecinają oś \( Y \) w tym samym punkcje</div><div class="col-xs-12 col-md-6 col-lg-6">D przecinają oś \( X \) w tym samym punkcie</div></div><button class="butt" id="g19" onclick="pokaz19()">Rozwiązanie</button>
+<script>
+function pokaz19(){
+var d19=document.getElementById("r-19");
+var r19=document.createElement("img");
+r19.setAttribute('src','roz/19.png');
+d19.appendChild(r19);
+var u19=document.getElementById("g19");
+u19.innerHTML="Ukryj Rozwiązanie";
+u19.setAttribute("onclick","usun19()");}
+function usun19(){
+var d19=document.getElementById("r-19");
+d19.innerHTML=null;
+var u19a=document.getElementById("g19");
+u19a.innerHTML="Rozwiązanie";
+u19a.setAttribute("onclick","pokaz19()");}
+</script>
+<div id="r-19" class="row odp"></div>
+</li>
+<li class="numer" id="20"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a> Wykresem funkcji kwadratowej \( f \) o współczynniku \( a<0 \) jest parabola o wierzchołku w punkcie \( W=(1, 2) \). Funkcja \( f \) jest malejąca w przedziale: </p>
+<div class="row odp"><div class="ol-xs-12 col-md-6 col-lg-3">A \( <1,\infty) \)</div><div class="ol-xs-12 col-md-6 col-lg-3">B \( (-\infty, 1> \)</div><div class="ol-xs-12 col-md-6 col-lg-3">C \( <2,\infty) \)</div><div class="ol-xs-12 col-md-6 col-lg-3">D \( (-\infty, 2> \)</div></div><button class="butt" id="g20" onclick="pokaz20()">Rozwiązanie</button>
+<script>
+function pokaz20(){
+var d20=document.getElementById("r-20");
+var r20=document.createElement("img");
+r20.setAttribute('src','roz/20.png');
+d20.appendChild(r20);
+var u20=document.getElementById("g20");
+u20.innerHTML="Ukryj Rozwiązanie";
+u20.setAttribute("onclick","usun20()");}
+function usun20(){
+var d20=document.getElementById("r-20");
+d20.innerHTML=null;
+var u20a=document.getElementById("g20");
+u20a.innerHTML="Rozwiązanie";
+u20a.setAttribute("onclick","pokaz20()");}
+</script>
+<div id="r-20" class="row odp"></div>
+</li>
+<li class="numer" id="21"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Długość przekątnej ściany sześcianu jest równa \( 8\ cm \). Zatem długość przekątnej tego sześcianu wynosi: </p>
+<div class="row odp"><div class="ol-xs-12 col-md-6 col-lg-3">A \( 4\sqrt{2}\ cm \)</div><div class="ol-xs-12 col-md-6 col-lg-3">B \( 4\sqrt{3}\ cm \)</div><div class="ol-xs-12 col-md-6 col-lg-3">C \( 4\sqrt{6}\ cm \)</div><div class="ol-xs-12 col-md-6 col-lg-3">D \( 8\sqrt{3}\ cm \)</div></div><button class="butt" id="g21" onclick="pokaz21()">Rozwiązanie</button>
+<script>
+function pokaz21(){
+var d21=document.getElementById("r-21");
+var r21=document.createElement("img");
+r21.setAttribute('src','roz/21.png');
+d21.appendChild(r21);
+var u21=document.getElementById("g21");
+u21.innerHTML="Ukryj Rozwiązanie";
+u21.setAttribute("onclick","usun21()");}
+function usun21(){
+var d21=document.getElementById("r-21");
+d21.innerHTML=null;
+var u21a=document.getElementById("g21");
+u21a.innerHTML="Rozwiązanie";
+u21a.setAttribute("onclick","pokaz21()");}
+</script>
+<div id="r-21" class="row odp"></div>
+</li>
+<li class="numer" id="22"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Trzycyfrowe liczby naturalne o różnych cyfrach utworzono w ten sposób,  źe cyfry setek i jedności są nieparzyste,  a cyfra dziesiątek jest parzysta. Zatem utworzone: </p>
+<div class="row odp"><div class="ol-xs-12 col-md-6 col-lg-3">A \( 125 \) liczb</div><div class="ol-xs-12 col-md-6 col-lg-3">B \( 200 \) liczb</div><div class="ol-xs-12 col-md-6 col-lg-3">C \( 14 \) liczb</div><div class="ol-xs-12 col-md-6 col-lg-3">D \( 122 \) liczb</div></div><button class="butt" id="g22" onclick="pokaz22()">Rozwiązanie</button>
+<script>
+function pokaz22(){
+var d22=document.getElementById("r-22");
+var r22=document.createElement("img");
+r22.setAttribute('src','roz/22.png');
+d22.appendChild(r22);
+var u22=document.getElementById("g22");
+u22.innerHTML="Ukryj Rozwiązanie";
+u22.setAttribute("onclick","usun22()");}
+function usun22(){
+var d22=document.getElementById("r-22");
+d22.innerHTML=null;
+var u22a=document.getElementById("g22");
+u22a.innerHTML="Rozwiązanie";
+u22a.setAttribute("onclick","pokaz22()");}
+</script>
+<div id="r-22" class="row odp"></div>
+</li>
+<li class="numer" id="23"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a> W urnie znajdują się tylko kule białe i czarne. Stosunek liczby kul białych do liczby kul czarnych jest równy \( 3:2 \). Z pudełka losujemy jedną kulę. Prawdopodobieństwo wylosowania kuli czarnej jest równe: </p>
+<div class="row odp"><div class="ol-xs-12 col-md-6 col-lg-3">A \( \frac {2}{3} \)</div><div class="ol-xs-12 col-md-6 col-lg-3">B \( \frac {3}{2} \)</div><div class="ol-xs-12 col-md-6 col-lg-3">C \( \frac{2}{5} \)</div><div class="ol-xs-12 col-md-6 col-lg-3">D \( \frac {3}{5} \)</div></div><button class="butt" id="g23" onclick="pokaz23()">Rozwiązanie</button>
+<script>
+function pokaz23(){
+var d23=document.getElementById("r-23");
+var r23=document.createElement("img");
+r23.setAttribute('src','roz/23.png');
+d23.appendChild(r23);
+var u23=document.getElementById("g23");
+u23.innerHTML="Ukryj Rozwiązanie";
+u23.setAttribute("onclick","usun23()");}
+function usun23(){
+var d23=document.getElementById("r-23");
+d23.innerHTML=null;
+var u23a=document.getElementById("g23");
+u23a.innerHTML="Rozwiązanie";
+u23a.setAttribute("onclick","pokaz23()");}
+</script>
+<div id="r-23" class="row odp"></div>
+</li>
+<li class="numer" id="24"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Przekątna graniastosłupa prawidłowego czworokątnego o długość \( 8\ cm \) jest nachylona do płaszczyzny podstawy graniastosłupa pod kątem \( 60^\circ \). Długość krawędzi podstawy tego graniastosłupa jest równa: </p>
+<div class="row odp"><div class="ol-xs-12 col-md-6 col-lg-3">A \( 4\ cm \)</div><div class="ol-xs-12 col-md-6 col-lg-3">B \( 4\sqrt{3}\ cm \)</div><div class="ol-xs-12 col-md-6 col-lg-3">C \( 2\sqrt{6}\ cm \)</div><div class="ol-xs-12 col-md-6 col-lg-3">D \( 2\sqrt {2}\ cm \)</div></div><button class="butt" id="g24" onclick="pokaz24()">Rozwiązanie</button>
+<script>
+function pokaz24(){
+var d24=document.getElementById("r-24");
+var r24=document.createElement("img");
+r24.setAttribute('src','roz/24.png');
+d24.appendChild(r24);
+var u24=document.getElementById("g24");
+u24.innerHTML="Ukryj Rozwiązanie";
+u24.setAttribute("onclick","usun24()");}
+function usun24(){
+var d24=document.getElementById("r-24");
+d24.innerHTML=null;
+var u24a=document.getElementById("g24");
+u24a.innerHTML="Rozwiązanie";
+u24a.setAttribute("onclick","pokaz24()");}
+</script>
+<div id="r-24" class="row odp"></div>
+</li>
+<li class="numer" id="25"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a> Średnia arytmetyczna liczb \( a, b, c, d, 5 \) jest równa \( 6 \). Wobec tego średnia arytmetyczna licz \( a, b, c, d \) wynosi: </p>
+<div class="row odp"><div class="ol-xs-12 col-md-6 col-lg-3">A \( 6\frac {1}{4} \)</div><div class="ol-xs-12 col-md-6 col-lg-3">B \( 6 \)</div><div class="ol-xs-12 col-md-6 col-lg-3">C \( 5 \)</div><div class="ol-xs-12 col-md-6 col-lg-3">D \( 7\frac {1}{2} \)</div></div><button class="butt" id="g25" onclick="pokaz25()">Rozwiązanie</button>
+<script>
+function pokaz25(){
+var d25=document.getElementById("r-25");
+var r25=document.createElement("img");
+r25.setAttribute('src','roz/25.png');
+d25.appendChild(r25);
+var u25=document.getElementById("g25");
+u25.innerHTML="Ukryj Rozwiązanie";
+u25.setAttribute("onclick","usun25()");}
+function usun25(){
+var d25=document.getElementById("r-25");
+d25.innerHTML=null;
+var u25a=document.getElementById("g25");
+u25a.innerHTML="Rozwiązanie";
+u25a.setAttribute("onclick","pokaz25()");}
+</script>
+<div id="r-25" class="row odp"></div>
+</li>
+<li class="numer" id="26"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Postacią kanoniczną funkcji określonej wzorem \( f(x)=-(x+1)(x-5) \) jest: </p>
+<div class="row odp"><div class="col-xs-12 col-md-6 col-lg-6">A \( f(x)=(x-2)^2+9 \)</div><div class="col-xs-12 col-md-6 col-lg-6">B \( f(x)=-(x-2)^2+9 \)</div></div><div class="row odp"><div class="col-xs-12 col-md-6 col-lg-6">C \( f(x)=(x+2)^2-9 \)</div><div class="col-xs-12 col-md-6 col-lg-6">D \( f(x)=-(x+2)^2+9 \)</div></div><button class="butt" id="g26" onclick="pokaz26()">Rozwiązanie</button>
+<script>
+function pokaz26(){
+var d26=document.getElementById("r-26");
+var r26=document.createElement("img");
+r26.setAttribute('src','roz/26.png');
+d26.appendChild(r26);
+var u26=document.getElementById("g26");
+u26.innerHTML="Ukryj Rozwiązanie";
+u26.setAttribute("onclick","usun26()");}
+function usun26(){
+var d26=document.getElementById("r-26");
+d26.innerHTML=null;
+var u26a=document.getElementById("g26");
+u26a.innerHTML="Rozwiązanie";
+u26a.setAttribute("onclick","pokaz26()");}
+</script>
+<div id="r-26" class="row odp"></div>
+</li>
+<li class="numer" id="27"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Wykres funkcji \( f \) przesunięto wzdłuż osi \( X \) o \( 3 \) jednostki w lewo i otrzymano w ten sposób funkcję \( g \). Wynika stąd,  że: </p>
+<div class="row odp"><div class="col-xs-12 col-md-6 col-lg-6">A \( g(x)=f (x)-3 \)</div><div class="col-xs-12 col-md-6 col-lg-6">B \( g (x)=f (x-3) \)</div></div><div class="row odp"><div class="col-xs-12 col-md-6 col-lg-6">C \( g (x)=f (x)+3 \)</div><div class="col-xs-12 col-md-6 col-lg-6">D \( g (x)=f (x+3) \)</div></div><button class="butt" id="g27" onclick="pokaz27()">Rozwiązanie</button>
+<script>
+function pokaz27(){
+var d27=document.getElementById("r-27");
+var r27=document.createElement("img");
+r27.setAttribute('src','roz/27.png');
+d27.appendChild(r27);
+var u27=document.getElementById("g27");
+u27.innerHTML="Ukryj Rozwiązanie";
+u27.setAttribute("onclick","usun27()");}
+function usun27(){
+var d27=document.getElementById("r-27");
+d27.innerHTML=null;
+var u27a=document.getElementById("g27");
+u27a.innerHTML="Rozwiązanie";
+u27a.setAttribute("onclick","pokaz27()");}
+</script>
+<div id="r-27" class="row odp"></div>
+</li>
+<li class="numer" id="28"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a> Punkty \( A \) i \( B \)  są środkami dwóch okręgów stycznych wewnętrznie, których promienie pozostają w stosunku \( 2:7 \). Jeśli długość większego okręgu wynosi \( 25\pi \) cm, to odcinek \( AB \) jest równy: </p>
+<div class="row odp"><div class="ol-xs-12 col-md-6 col-lg-3">A \( 10\ cm \)</div><div class="ol-xs-12 col-md-6 col-lg-3">B \( 4\ cm \)</div><div class="ol-xs-12 col-md-6 col-lg-3">C \( 6\ cm \)</div><div class="ol-xs-12 col-md-6 col-lg-3">D \( 2\ cm \)</div></div><button class="butt" id="g28" onclick="pokaz28()">Rozwiązanie</button>
+<script>
+function pokaz28(){
+var d28=document.getElementById("r-28");
+var r28=document.createElement("img");
+r28.setAttribute('src','roz/28.png');
+d28.appendChild(r28);
+var u28=document.getElementById("g28");
+u28.innerHTML="Ukryj Rozwiązanie";
+u28.setAttribute("onclick","usun28()");}
+function usun28(){
+var d28=document.getElementById("r-28");
+d28.innerHTML=null;
+var u28a=document.getElementById("g28");
+u28a.innerHTML="Rozwiązanie";
+u28a.setAttribute("onclick","pokaz28()");}
+</script>
+<div id="r-28" class="row odp"></div>
+</li></ol>
+<ol start='29'><p class="rodzajzad">Zadania otwarte</p>
+<li class="numer" id="29"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Wyznacz te wartości parametru \( m \), dla których wyróźnik trójmianu kwadratowego \( x^2-2(m+3)x+3-m=0 \)  jest liczbą niedodatnią. </p>
+<div class="row odp"></div><button class="butt" id="g29" onclick="pokaz29()">Rozwiązanie</button>
+<script>
+function pokaz29(){
+var d29=document.getElementById("r-29");
+var r29=document.createElement("img");
+r29.setAttribute('src','roz/29.png');
+d29.appendChild(r29);
+var u29=document.getElementById("g29");
+u29.innerHTML="Ukryj Rozwiązanie";
+u29.setAttribute("onclick","usun29()");}
+function usun29(){
+var d29=document.getElementById("r-29");
+d29.innerHTML=null;
+var u29a=document.getElementById("g29");
+u29a.innerHTML="Rozwiązanie";
+u29a.setAttribute("onclick","pokaz29()");}
+</script>
+<div id="r-29" class="row odp"></div>
+</li>
+<li class="numer" id="30"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Stosunek długości ramion trapezu prostokątnego jest równy \( 1:2 \). Oblicz miarę kąta rozwartego rego trapezu. </p>
+<div class="row odp"></div><button class="butt" id="g30" onclick="pokaz30()">Rozwiązanie</button>
+<script>
+function pokaz30(){
+var d30=document.getElementById("r-30");
+var r30=document.createElement("img");
+r30.setAttribute('src','roz/30.png');
+d30.appendChild(r30);
+var u30=document.getElementById("g30");
+u30.innerHTML="Ukryj Rozwiązanie";
+u30.setAttribute("onclick","usun30()");}
+function usun30(){
+var d30=document.getElementById("r-30");
+d30.innerHTML=null;
+var u30a=document.getElementById("g30");
+u30a.innerHTML="Rozwiązanie";
+u30a.setAttribute("onclick","pokaz30()");}
+</script>
+<div id="r-30" class="row odp"></div>
+</li>
+<li class="numer" id="31"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Punkty \( A=(-3,-6), B=(-4, 7), C=(4,-7) \) są wierzchołkami trójkąta \( ABC \). Wyznacz długość środkowej \( AD \) tego trójkąta. </p>
+<div class="row odp"></div><button class="butt" id="g31" onclick="pokaz31()">Rozwiązanie</button>
+<script>
+function pokaz31(){
+var d31=document.getElementById("r-31");
+var r31=document.createElement("img");
+r31.setAttribute('src','roz/31.png');
+d31.appendChild(r31);
+var u31=document.getElementById("g31");
+u31.innerHTML="Ukryj Rozwiązanie";
+u31.setAttribute("onclick","usun31()");}
+function usun31(){
+var d31=document.getElementById("r-31");
+d31.innerHTML=null;
+var u31a=document.getElementById("g31");
+u31a.innerHTML="Rozwiązanie";
+u31a.setAttribute("onclick","pokaz31()");}
+</script>
+<div id="r-31" class="row odp"></div>
+</li>
+<li class="numer" id="32"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a> Liczby \( 2, a+4, 9\frac {1}{2} \) są odpowiednio pierwszym, drugim i  szóstym wyrazem ciągu arytmetycznego. Wyznacz liczbę \( a \). </p>
+<div class="row odp"></div><button class="butt" id="g32" onclick="pokaz32()">Rozwiązanie</button>
+<script>
+function pokaz32(){
+var d32=document.getElementById("r-32");
+var r32=document.createElement("img");
+r32.setAttribute('src','roz/32.png');
+d32.appendChild(r32);
+var u32=document.getElementById("g32");
+u32.innerHTML="Ukryj Rozwiązanie";
+u32.setAttribute("onclick","usun32()");}
+function usun32(){
+var d32=document.getElementById("r-32");
+d32.innerHTML=null;
+var u32a=document.getElementById("g32");
+u32a.innerHTML="Rozwiązanie";
+u32a.setAttribute("onclick","pokaz32()");}
+</script>
+<div id="r-32" class="row odp"></div>
+</li>
+<li class="numer" id="33"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a> Liczby \( a \) i \( b \) są liczbami naturalnymi. Ponadto wiadomo, że reszta z dzielenia liczby \( a \) przez \( 4 \) jest równa \( 3 \), a reszta z dzielenia liczby \( b \) przez 4 jest równa \( 1 \). Wykaż, że różnica kwadratów liczb \( a \) i \( b \) jest liczbą podzielną przez \( 8 \). </p>
+<div class="row odp"></div><button class="butt" id="g33" onclick="pokaz33()">Rozwiązanie</button>
+<script>
+function pokaz33(){
+var d33=document.getElementById("r-33");
+var r33=document.createElement("img");
+r33.setAttribute('src','roz/33.png');
+d33.appendChild(r33);
+var u33=document.getElementById("g33");
+u33.innerHTML="Ukryj Rozwiązanie";
+u33.setAttribute("onclick","usun33()");}
+function usun33(){
+var d33=document.getElementById("r-33");
+d33.innerHTML=null;
+var u33a=document.getElementById("g33");
+u33a.innerHTML="Rozwiązanie";
+u33a.setAttribute("onclick","pokaz33()");}
+</script>
+<div id="r-33" class="row odp"></div>
+</li>
+<li class="numer" id="34"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a> Na okręgu o ptromieniu \( 3\ cm \) opisano trójkąt prostokątny, którego jedna z przyprostokątnych ma długość \( 8\ cm \). Oblicz obwód tego prostokąta. </p>
+<div class="row odp"></div><button class="butt" id="g34" onclick="pokaz34()">Rozwiązanie</button>
+<script>
+function pokaz34(){
+var d34=document.getElementById("r-34");
+var r34=document.createElement("img");
+r34.setAttribute('src','roz/34.png');
+d34.appendChild(r34);
+var u34=document.getElementById("g34");
+u34.innerHTML="Ukryj Rozwiązanie";
+u34.setAttribute("onclick","usun34()");}
+function usun34(){
+var d34=document.getElementById("r-34");
+d34.innerHTML=null;
+var u34a=document.getElementById("g34");
+u34a.innerHTML="Rozwiązanie";
+u34a.setAttribute("onclick","pokaz34()");}
+</script>
+<div id="r-34" class="row odp"></div>
+</li>
+<li class="numer" id="35"><p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Paweł miał przeczytać lekturę liczącą \( 480 \) stron. Zaplanował, że każdego dnia będzie czytał taką samą liczbę stron. Przez \( 8 \) dni czytał wyznaczoną dzienną liczbę stron, a następnie zwiększył dzienną liczbę stron o \( 5 \). Okazało się, że skończył czytać lekturę o \( 6 \) dni wcześniej, niż planował. Oblicz, w ciągu ilu dni Paweł przeczytał lekturę. </p>
+<div class="row odp"></div><button class="butt" id="g35" onclick="pokaz35()">Rozwiązanie</button>
+<script>
+function pokaz35(){
+var d35=document.getElementById("r-35");
+var r35=document.createElement("img");
+r35.setAttribute('src','roz/35.png');
+d35.appendChild(r35);
+var u35=document.getElementById("g35");
+u35.innerHTML="Ukryj Rozwiązanie";
+u35.setAttribute("onclick","usun35()");}
+function usun35(){
+var d35=document.getElementById("r-35");
+d35.innerHTML=null;
+var u35a=document.getElementById("g35");
+u35a.innerHTML="Rozwiązanie";
+u35a.setAttribute("onclick","pokaz35()");}
+</script>
+<div id="r-35" class="row odp"></div>
+</li></ol>
+ 
+ 
+ 
+ 
+ 
+
+  
+
+
+</div>
+</div>
+</div>
+<script src="../../js/jquery.js"></script>
+<script src="../../js/bootstrap.js"></script>
+</body>
+</html>

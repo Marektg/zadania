@@ -1,0 +1,604 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+	<link rel="icon" href="logo.png">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pierwiastek kwadratowy</title>
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+	<link rel="stylesheet" type="text/css" href="../../../css/styl.css" />
+	<script type="text/javascript" id="MathJax-script" async
+		src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<main class="topnavi">
+			<a href="../../../index.html">Strona główna</a>
+			<a href="../../../podstawowa/podstawowa.html">Podstawówka</a>
+			<a href="../../../matura/matura.html">Matura</a>
+			<a href="../../../studia/studia.html">Studia</a>
+		</main>
+		<div class="basic">
+			<nav>
+				<h3>Szkoła średnia</h3>
+				<ul class="nav-list-group">
+					<li class="list-group-item-main">Nowa Era
+						<ul class="nav-list-group">
+							<li class="list-group-item active"><a href="liczby.html">Liczby rzeczywiste</a></li>
+							<li class="list-group-item"><a href="jezyk.html">Język matematyki</a></li>
+							<li class="list-group-item"><a href="uklady.html">Układy równań</a></li>
+							<li class="list-group-item"><a href="funkcje.html">Funkcje</a></li>
+							<li class="list-group-item"><a href="fliniowa.html">Funkcja liniowa</a></li>
+							<li class="list-group-item"><a href="fkwadratowa.html">Funkcja kwadratowa</a></li>
+							<li class="list-group-item"><a href="planimetria.html">Planimetria</a></li>
+							<li class="list-group-item"><a href="wieloniany.html">Wielomiany</a></li>
+							<li class="list-group-item"><a href="fwymierne.html">Funkcje wymierne</a></li>
+							<li class="list-group-item"><a href="trygonometria.html">Trygonometria</a></li>
+							<li class="list-group-item"><a href="ftrygonomertyczne.html">\(&#174;\) Funkcje
+									trygonometryczne</a></li>
+							<li class="list-group-item"><a href="fwykilog.html">Funkcje wykładnicze i logarytmiczne</a>
+							</li>
+							<li class="list-group-item"><a href="ciagi.html">Ciągi</a></li>
+							<li class="list-group-item"><a href="prawdopodobienstwo.html">Rachunek prawdopodobieństwa</a>
+							</li>
+							<li class="list-group-item"><a href="statystyka.html">Statystyka</a></li>
+							<li class="list-group-item"><a href="stereometria.html">Stereometria</a></li>
+							<li class="list-group-item"><a href="ganalityczna.html">Geometria analityczna</a></li>
+							<li class="list-group-item"><a href="rachrozniczkowy.html">\(&#174;\) Rachunek różniczkowy</a>
+							</li>
+						</ul>
+					</li>
+					<li class="list-group-item-main"><a href="../../pazdro/srednia.html">Oficyna Edukacyjna Pazdro</a></li>
+				</ul>
+			</nav>
+			<div class="prawa">
+				<div class="zadania">
+
+					<h2 class="tytul">Liczby rzeczywiste </h2>
+					<ul class="podmenu1">
+						<li class="podmenu"><a href="liczby1.html">Liczby naturalne</a></li>
+						<li class="podmenu"><a href="liczby2.html">Liczby całkowite. Liczby wymierne</a>
+						</li>
+						<li class="podmenu"><a href="liczby3.html">Liczby niewymierne</a></li>
+						<li class="podmenu"><a href="liczby4.html">Rozwinięcie dziesiętne liczby
+								rzeczywistej</a></li>
+						<li class="podmenu" id="aktualne"><a href="liczby5.html">Pierwiastek kwadratowy</a></li>
+						<li class="podmenu"><a href="liczby6.html">Pierwiastek sześcienny</a></li>
+						<li class="podmenu"><a href="liczby7.html">Potęga o wykładniku całkowitym</a></li>
+						<li class="podmenu"><a href="liczby8.html">Notacja wykładnicza</a></li>
+						<li class="podmenu"><a href="liczby9.html">Potęga o wykładniku wymiernym</a></li>
+						<li class="podmenu"><a href="liczby10.html">Logarytm i jego własności</a></li>
+						<li class="podmenu"><a href="liczby11.html">Procenty</a></li>
+						<li class="podmenu"><a href="liczby12.html">Powtórzenie</a></li>
+						<li class="podmenu"><a href="liczby13.html">Zadania testowe</a></li>
+						<li class="podmenu"><a href="liczby14.html">To było na maturze</a></li>
+					</ul>
+					<h3 class="rodzajzad">Pierwiastek kwadratowy</h3>>
+					<ol class="powt">
+						<li class="numer" id="liczby5_1">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Oblicz:</p>
+							<div class="odp">
+								<div>a) \(\sqrt{16}, \sqrt{0,16},
+									\sqrt{11\frac{1}{9}}
+									\)</div>
+								<div>b) \(\sqrt{16+9}, \sqrt{16}+\sqrt{9},
+									\sqrt{16}\cdot \sqrt{9} \)</div>
+								<div>c) \(\sqrt{\sqrt{81}},
+									\sqrt{16\sqrt{8\sqrt{4}}}
+									\)</div>
+								<div>d) \(\sqrt{2+\sqrt{2+\sqrt{4}}},
+									\sqrt{2-\sqrt{9-\sqrt{25}}} \)</div>
+							</div><button class="butt" id="gliczby5_1" onclick="pokaz('liczby5_1')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_1"></div>
+						</li>
+						<li class="numer" id="liczby5_2">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Włącz czynnik pod pierwiastek</p>
+							<div class="odp">
+								<div>a) \(4\sqrt{1,5} \)</div>
+								<div>b) \(0,2\sqrt{20} \)</div>
+								<div>c) \(\frac{1}{3}\sqrt{18} \)</div>
+								<div>d) \(0,75\sqrt{8} \)</div>
+								<div>e) \(1,2\sqrt{10} \)</div>
+							</div><button class="butt" id="gliczby5_2" onclick="pokaz('liczby5_2')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_2"></div>
+						</li>
+						<li class="numer" id="liczby5_3">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Wyłącz czynnik przed pierwiastek</p>
+							<div class="odp">
+								<div>a) \(\sqrt{63} \)</div>
+								<div>b) \(\sqrt{80} \)</div>
+								<div>c) \(\sqrt{132} \)</div>
+								<div>d) \(\sqrt{98} \)</div>
+								<div>e) \(\sqrt{279} \)</div>
+								<div>f) \(\sqrt{605} \)</div>
+								<div>g) \(\sqrt{405} \)</div>
+								<div>h) \(\sqrt{847} \)</div>
+								<div>i) \(\sqrt{1014} \)</div>
+								<div>j) \(\sqrt{1152} \)</div>
+							</div><button class="butt" id="gliczby5_3" onclick="pokaz('liczby5_3')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_3"></div>
+						</li>
+						<li class="numer" id="liczby5_4">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Oblicz, korzystając z własności
+								pierwiastków.</p>
+							<div class="odp">
+								<div>a) \(\sqrt{36\cdot 121}, \sqrt{0,36\cdot
+									196},
+									\sqrt{4\cdot \frac{4}{9}\cdot 0,0016} \)</div>
+								<div>b) \(\sqrt{27\cdot 12}, \sqrt{45\cdot 20},
+									\sqrt{21\cdot 33\cdot 77} \)</div>
+								<div>c) \(\sqrt{2}\cdot \sqrt{5}\cdot \sqrt{10},
+									\frac{\sqrt{162}}{\sqrt{6}\cdot \sqrt{27}}, \frac{\sqrt{20} \cdot
+									\sqrt{6}}{\sqrt{40}\cdot \sqrt{27}} \)</div>
+							</div><button class="butt" id="gliczby5_4" onclick="pokaz('liczby5_4')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_4"></div>
+						</li>
+						<li class="numer" id="liczby5_5">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a></p>
+							<div class="odp">
+								<div>a) Ile trzeba dodać do \(\sqrt{25} \), aby
+									otrzymać \(\sqrt{225} \)?</div>
+								<div>b) Ile trzeba odjąć od \(\sqrt{196} \), aby
+									otrzymać \(\sqrt{169} \)?</div>
+								<div>c) Przez ile trzeba pomnożyć \(\sqrt{12} \),
+									aby
+									otrzymać \(\sqrt{48} \)?</div>
+								<div>d) Przez ile trzeba podzielić \(\sqrt{200}
+									\),
+									aby otrzymać \(\sqrt{20} \)?</div>
+							</div><button class="butt" id="gliczby5_5" onclick="pokaz('liczby5_5')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_5"></div>
+						</li>
+						<li class="numer" id="liczby5_6">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Zapisz wyrażenie w postaci
+								\(a\sqrt{b}
+								\).</p>
+							<div class="odp">
+								<div>a) \((\sqrt{48}-\sqrt{27}+\sqrt{75})\cdot
+									\sqrt{2}
+									\)</div>
+								<div>b) \((\sqrt{240}+3\sqrt{60}-\sqrt{135})\cdot
+									2\sqrt{3} \)</div>
+							</div>
+							<div class="odp">
+								<div>c)
+									\((11\sqrt{6}+\sqrt{96}-\sqrt{150}):3\sqrt{2}
+									\)</div>
+								<div>d)
+									\((20\sqrt{0,1}-\sqrt{90}+\sqrt{360}):5\sqrt{5}
+									\)</div>
+							</div><button class="butt" id="gliczby5_6" onclick="pokaz('liczby5_6')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_6"></div>
+						</li>
+						<li class="numer" id="liczby5_7">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Sprawdź, czy równość jest prawdziwa.
+							</p>
+							<div class="odp">
+								<div>a) \(\sqrt{72}:\sqrt{2}=\sqrt{18}\cdot
+									\sqrt{2} \)
+								</div>
+								<div>b) \(\sqrt{1000}\cdot
+									\sqrt{0,1}=(\sqrt{100})^2 \)
+								</div>
+							</div>
+							<div class="odp">
+								<div>c) \(\sqrt{\frac{4}{9}}\cdot
+									\sqrt{2\frac{1}{4}}=\sqrt{1\frac{7}{9}}\cdot \sqrt{\frac{9}{16}} \)</div>
+								<div>d) \(\frac{\sqrt{6}\cdot
+									\sqrt{7}}{\sqrt{8}}=\sqrt{1,5}\cdot \sqrt{3,5} \)</div>
+							</div><button class="butt" id="gliczby5_7" onclick="pokaz('liczby5_7')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_7"></div>
+						</li>
+						<li class="numer" id="liczby5_8">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Uporządkuj liczby rosnąco. Nie
+								korzystaj
+								z kalkulatora. </p>
+							<div class="odp">
+								<div>\(\sqrt{2,5},\
+									\sqrt{\frac{2}{5}}, \ 2\sqrt{5},\ 5\sqrt{2}, \ \sqrt{0,25}, \ \sqrt{25} \)</div>
+							</div><button class="butt" id="gliczby5_8" onclick="pokaz('liczby5_8')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_8"></div>
+						</li>
+						<li class="numer" id="liczby5_9">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Boki \(AB \) i \(AC \) trójkąta \(ABC
+								\)
+								są odpowiednio równe \(4\sqrt{5} \) i \(5\sqrt{2} \). Wysokość opuszczona na bok \(AB \)
+								ma
+								długość \(3\sqrt{5} \). Oblicz wysokość opuszczoną na bok \(AC \). </p>
+							<div class="odp"></div><button class="butt" id="gliczby5_9"
+								onclick="pokaz('liczby5_9')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_9"></div>
+						</li>
+						<li class="numer" id="liczby5_10">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Wykonaj działania.</p>
+							<div class="odp">
+								<div>a) \((4-2\sqrt{5})\cdot (\sqrt{5}+3) \)</div>
+								<div>b) \((2\sqrt{6}+6)\cdot (2\sqrt{3}-3\sqrt{2})
+									\)
+								</div>
+								<div>c) \((9-2\sqrt{15})\cdot (3\sqrt{3}+2\sqrt{5})
+									\)
+								</div>
+								<div>d) \((2\sqrt{5}-\sqrt{2})\cdot (\sqrt{10}+3)
+									\)
+								</div>
+							</div><button class="butt" id="gliczby5_10" onclick="pokaz('liczby5_10')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_10"></div>
+						</li>
+						<li class="numer" id="liczby5_11">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Uprość ułamek.</p>
+							<div class="odp">
+								<div>a) \(\frac{\sqrt{12}+\sqrt{75}}{\sqrt{3}} \)
+								</div>
+								<div>b) \(\frac{4\sqrt{45}-2\sqrt{20}}{\sqrt{5}} \)
+								</div>
+								<div>c) \(\frac{2\sqrt{2}+\sqrt{32}}{\sqrt{2}} \)
+								</div>
+							</div>
+							<div class="odp">
+								<div>d)
+									\(\frac{\sqrt{12}+\sqrt{27}+\sqrt{147}}{\sqrt{3}} \)</div>
+								<div>e) \(\frac{\sqrt{28}+\sqrt{112}}{2\sqrt{7}} \)
+								</div>
+								<div>f)
+									\(\frac{\sqrt{80}+2\sqrt{125}-\sqrt{500}}{4\sqrt{5}} \)</div>
+							</div><button class="butt" id="gliczby5_11" onclick="pokaz('liczby5_11')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_11"></div>
+						</li>
+						<li class="numer" id="liczby5_12">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Zapisz podaną liczbę w najprostszej
+								postaci.</p>
+							<div class="odp">
+								<div>a)
+									\(\frac{\sqrt{27}+\sqrt{192}-\sqrt{108}}{\sqrt{75}} \)</div>
+								<div>b) \(\frac{4\sqrt{99}-\sqrt{176}}{\sqrt{275}}
+									\)
+								</div>
+								<div>c) \(\frac{3\sqrt{45}+6\sqrt{20}}{3\sqrt{5}} \)
+								</div>
+							</div>
+							<div class="odp">
+								<div>d) \(\frac{\sqrt{15}-\sqrt{12}}{\sqrt{5}-2} \)
+								</div>
+								<div>e)
+									\(\frac{\sqrt{28}+\sqrt{175}}{\sqrt{700}-\sqrt{63}} \)</div>
+								<div>f)
+									\(\frac{(5\sqrt{3}+\sqrt{50})(5-\sqrt{24})}{\sqrt{75}-5\sqrt{2}} \)</div>
+							</div><button class="butt" id="gliczby5_12" onclick="pokaz('liczby5_12')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_12"></div>
+						</li>
+						<li class="numer" id="liczby5_13">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Zapisz liczbę \(\frac{1}{a} \) w
+								postaci
+								ułamka, którego mianownik jest liczbą całkowitą.</p>
+							<div class="odp">
+								<div>a) \(a=\sqrt{3} \)</div>
+								<div>b) \(a=3\sqrt{6} \)</div>
+								<div>c) \(a=\frac{\sqrt{2}}{3} \)</div>
+							</div>
+							<div class="odp">
+								<div>d) \(a=\sqrt{\frac{2}{3}} \)</div>
+								<div>e) \(a=\frac{3\sqrt{2}}{4} \)</div>
+								<div>f) \(a=\frac{2\sqrt{10}}{5} \)</div>
+							</div><button class="butt" id="gliczby5_13" onclick="pokaz('liczby5_13')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_13"></div>
+						</li>
+						<li class="numer" id="liczby5_14">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Oblicz pierwiastek kwadratowy z
+								podanej
+								liczby.</p>
+							<div class="odp">
+								<div>a) \((\sqrt{50}-7)^2 \)</div>
+								<div>b) \((\sqrt{20}-5)^2 \)</div>
+								<div>c) \((-\sqrt{9})^2 \)</div>
+								<div>d) \((\sqrt{6}-\sqrt{2}-\sqrt{3})^2 \)</div>
+							</div><button class="butt" id="gliczby5_14" onclick="pokaz('liczby5_14')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_14"></div>
+						</li>
+						<li class="numer" id="liczby5_15">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)\(&#8517;\)</a>Udowodnij, że zachodzi
+								podana
+								równość.</p>
+							<div class="odp">
+								<div>a) \(\sqrt{8}+\sqrt{32}=\sqrt{2}+\sqrt{50} \)
+								</div>
+								<div>b) \(\sqrt{5}+\sqrt{405}=\sqrt{45}+\sqrt{245}
+									\)
+								</div>
+							</div>
+							<div class="odp">
+								<div>c)
+									\(\sqrt{12}+\sqrt{27}+\sqrt{48}=\sqrt{3}+\sqrt{192} \)</div>
+								<div>d) \(\sqrt{68}+\sqrt{153}=\sqrt{17}+\sqrt{272}
+									\)
+								</div>
+							</div><button class="butt" id="gliczby5_15" onclick="pokaz('liczby5_15')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_15"></div>
+						</li>
+						<li class="numer" id="liczby5_16">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)\(&#8517;\)</a>Wykaż, że podane liczby są
+								przeciwne.</p>
+							<div class="odp">
+								<div>a) \(\sqrt{18}-5\sqrt{2}\ i\
+									\sqrt{50}-3\sqrt{2}
+									\)</div>
+								<div>b) \(\sqrt{3}-\sqrt{27}\ i\
+									\sqrt{147}-5\sqrt{3}
+									\)</div>
+							</div>
+							<div class="odp">
+								<div>c) \(\frac{2-2\sqrt{2}}{\sqrt{2}}\ i\
+									\sqrt{2}(\sqrt{2}-1) \)</div>
+								<div>d) \(\frac{1-\sqrt{3}}{\sqrt{3}}\ i\
+									-\frac{1}{3}\sqrt{3}+1 \)</div>
+							</div><button class="butt" id="gliczby5_16" onclick="pokaz('liczby5_16')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_16"></div>
+						</li>
+						<li class="numer" id="liczby5_17">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)\(&#8517;\)</a>Wykaż, że liczba \(x \)
+								jest
+								odwrotnością liczby \(y \).</p>
+							<div class="odp">
+								<div>a) \(x=\frac{\sqrt{6}}{3},\
+									y=\frac{\sqrt{6}}{2}
+									\)</div>
+								<div>b) \(x=2\sqrt{18},\
+									y=\frac{\sqrt{3}}{3\sqrt{24}}
+									\)</div>
+								<div>c)
+									\(x=2\sqrt{3}+\sqrt{12}+\frac{\sqrt{48}}{2},\
+									y=\frac{\sqrt{3}}{18} \)</div>
+							</div>
+							<div class="odp">
+								<div>d)
+									\(x=\sqrt{(1+\frac{1}{4})(1+\frac{1}{3})(1+\frac{1}{2})},\
+									y=\sqrt{(1-\frac{1}{5})(1-\frac{1}{4})(1-\frac{1}{3})} \)</div>
+							</div><button class="butt" id="gliczby5_17" onclick="pokaz('liczby5_17')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_17"></div>
+						</li>
+						<li class="numer" id="liczby5_18">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Wśród liczb: \(\sqrt{3}-2,\
+								2+\sqrt{3},\
+								2-\sqrt{3},\ -\sqrt{3}-2 \) wskaż:</p>
+							<div class="odp">
+								<div>a) pary liczb przeciwnych</div>
+								<div>b) pary liczb odwrotnych</div>
+							</div><button class="butt" id="gliczby5_18" onclick="pokaz('liczby5_18')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_18"></div>
+						</li>
+						<li class="numer" id="liczby5_19">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Punkty \(E, F, G, H \) są środkami
+								boków
+								kwadratu \(ABCD \) (patrz rysunek). Czworokąt \(EFGH \) ma pole równe \(10 \). Oblicz
+								długość odcinka \(AG \).</p>
+							<div class="odp"><canvas id="l5rys1" class="rys" width="320" height="300"></canvas>
+								<script>
+									var canvas = document.getElementById("l5rys1");
+									var context = canvas.getContext("2d");
+									const img4 = new Image();
+									img4.src = "./l5r1.png";
+									img4.onload = () => {
+										context.drawImage(img4, 40, 45, 905, 935, 0, 0, 320, 300);
+									};
+								</script>
+							</div><button class="butt" id="gliczby5_19" onclick="pokaz('liczby5_19')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_19"></div>
+						</li>
+						<li class="numer" id="liczby5_20">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Sprawdź, czy istnieje trójkąt o
+								bokach:
+							</p>
+							<div class="odp">
+								<div>a) \(\sqrt{2}, 1, \sqrt{3} \)</div>
+								<div>b) \(\sqrt{3},4,\sqrt{5} \)</div>
+							</div><button class="butt" id="gliczby5_20" onclick="pokaz('liczby5_20')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_20"></div>
+						</li>
+						<li class="numer" id="liczby5_21">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Porównaj liczby.</p>
+							<div class="odp">
+								<div>a) \(2\ i\ \sqrt{3} \)</div>
+								<div>b) \(3\sqrt{2}\ i\ 2\sqrt{3} \)</div>
+								<div>c) \(2\sqrt{3} \ i\ \sqrt{13} \)</div>
+							</div>
+							<div class="odp">
+								<div>d) \(5\sqrt{3}\ i\ 3\sqrt{5} \)</div>
+								<div>e) \(\sqrt{4\sqrt{3}}\ i\ \sqrt{5\sqrt{2}} \)
+								</div>
+								<div>f) \(\sqrt{5\sqrt{3}}\ i\ \sqrt{6\sqrt{2}} \)
+								</div>
+							</div><button class="butt" id="gliczby5_21" onclick="pokaz('liczby5_21')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_21"></div>
+						</li>
+						<li class="numer" id="liczby5_22">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Usuń niewymierność z mianownika.</p>
+							<div class="odp">
+								<div>a) \(\frac{5\sqrt{2}}{\sqrt{8}} \)</div>
+								<div>b) \(\frac{8+\sqrt{18}}{\sqrt{2}} \)</div>
+								<div>c) \(\frac{\sqrt{27}+\sqrt{48}}{\sqrt{3}} \)
+								</div>
+							</div>
+							<div class="odp">
+								<div>d) \(\frac{10}{\sqrt{2}+\sqrt{8}} \)</div>
+								<div>e) \(\frac{\sqrt{5}}{\sqrt{20}+\sqrt{45}} \)
+								</div>
+								<div>f)
+									\(\frac{\sqrt{2}+\sqrt{3}}{\sqrt{24}+\sqrt{54}}
+									\)</div>
+							</div><button class="butt" id="gliczby5_22" onclick="pokaz('liczby5_22')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_22"></div>
+						</li>
+						<li class="numer" id="liczby5_23">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)\(&#8517;\)</a>Wykaż, że.</p>
+							<div class="odp">
+								<div>a) \(\sqrt{19+8\sqrt{3}}=4+\sqrt{3} \)</div>
+								<div>b) \(\sqrt{4-2\sqrt{3}}=\sqrt{3}-1 \)</div>
+							</div><button class="butt" id="gliczby5_23" onclick="pokaz('liczby5_23')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_23"></div>
+						</li>
+						<li class="numer" id="liczby5_24">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Oblicz.</p>
+							<div class="odp">
+								<div>a) \(2-\sqrt{(\sqrt{3}-2)^2} \)</div>
+								<div>b)
+									\(\sqrt{(\sqrt{3}+2)^2}+\sqrt{(2-\sqrt{3})^2}
+									\)</div>
+							</div><button class="butt" id="gliczby5_24" onclick="pokaz('liczby5_24')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_24"></div>
+						</li>
+						<li class="numer" id="liczby5_25">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Rozwiąż równanie.</p>
+							<div class="odp">
+								<div>a) \(\sqrt{6}\cdot \sqrt{x}=\sqrt{90} \)</div>
+								<div>b) \(\sqrt{50}\cdot 2\sqrt{x}=\sqrt{200} \)
+								</div>
+							</div>
+							<div class="odp">
+								<div>c) \(\sqrt{18}\cdot \sqrt{x}=\sqrt{2} \)</div>
+								<div>d) \(\sqrt{40}\cdot \sqrt{x}=\sqrt{72} \)
+								</div>
+							</div><button class="butt" id="gliczby5_25" onclick="pokaz('liczby5_25')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_25"></div>
+						</li>
+						<li class="numer" id="liczby5_26">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Rozwiąż równania.</p>
+							<div class="odp">
+								<div>a) \(\sqrt{x}=0,\ \sqrt{x^2}=0 \)</div>
+								<div>b) \(\sqrt{x-1}=0,\ \sqrt{1-x}=0 \)</div>
+								<div>c) \(\sqrt{x^2-1}=0,\ \sqrt{1-x^2}=0 \)</div>
+								<div>d) \(\sqrt{x-2}=\sqrt{2-x},\
+									\sqrt{x+3}=\sqrt{-x+3} \)</div>
+								<div>e) \(\sqrt{x^2-4}=\sqrt{4-x^2},\
+									\sqrt{x^2-5}=\sqrt{5-x^2} \)</div>
+								<div>f) \(\sqrt{(x+2)^2-9}=\sqrt{9-(x+2)^2},\
+									\sqrt{(x-3)^2-5}=\sqrt{5-(x-3)^2} \)</div>
+							</div><button class="butt" id="gliczby5_26" onclick="pokaz('liczby5_26')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_26"></div>
+						</li>
+						<li class="numer" id="liczby5_27">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Wyznacz liczbę \(a \) spełniającą
+								podany
+								warunek.</p>
+							<div class="odp">
+								<div>a) \(\sqrt{a}=2 \)</div>
+								<div>b) \(\sqrt{a+1}=3 \)</div>
+								<div>c) \(\sqrt{2a-1}=4 \)</div>
+							</div>
+							<div class="odp">
+								<div>d) \(\sqrt{3-a}=5 \)</div>
+								<div>e) \(\sqrt{a}=1-\sqrt{3} \)</div>
+								<div>f) \(\sqrt{a}=a \)</div>
+							</div>
+							<div class="odp">
+								<div>g) \(\sqrt{a}=-a \)</div>
+								<div>h) \(\sqrt{a-1}=1-a \)</div>
+							</div>
+							<button class="butt" id="gliczby5_27" onclick="pokaz('liczby5_27')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_27"></div>
+						</li>
+						<li class="numer" id="liczby5_28">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Zapisz wyrażenie w najprostszej
+								postaci.
+							</p>
+							<div class="odp">
+								<div>a) \(\sqrt{(a-4)^2} \) dla \(a\geq4 \)</div>
+								<div>b) \(\sqrt{(a-3)^2} \) dla \(a&lt;;3 \)</div>
+							</div>
+							<div class="odp">
+								<div>c)
+									\(\sqrt{(a-1)^2}+\sqrt{(a-5)^2} \) dla \(1\leq a \leq 5 \)</div>
+							</div><button class="butt" id="gliczby5_28" onclick="pokaz('liczby5_28')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_28"></div>
+						</li>
+						<li class="numer" id="liczby5_29">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)\(&#8517;\)</a>Udowodnij, że podana
+								liczba
+								jest wymierna.</p>
+							<div class="odp">
+								<div>a) \(\sqrt{16\sqrt{8}\cdot 8\sqrt{4}\cdot
+									4\sqrt{2}} \)</div>
+								<div>b)
+									\(\sqrt{\sqrt{\sqrt{\sqrt{\frac{1}{2}-\frac{1}{4}}-\frac{1}{4}}-\frac{1}{4}}-\frac{1}{4}}
+									\)</div>
+								<div>c)
+									\(\frac{\sqrt{3}}{1+\frac{1}{1+\frac{1}{1+\sqrt{3}}}} \)</div>
+							</div><button class="butt" id="gliczby5_29" onclick="pokaz('liczby5_29')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_29"></div>
+						</li>
+						<li class="numer" id="liczby5_30">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)\(&#8517;\)</a>Wypisano wszystkie
+								dzielniki
+								naturalne liczby \(36 \) i z każdego z nich obliczono pierwiastek kwadratowy. Udowodnij,
+								że
+								suma tych pierwiastków jest mniejsza niż \(36 \).</p>
+							<div class="odp"></div><button class="butt" id="gliczby5_30"
+								onclick="pokaz('liczby5_30')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_30"></div>
+						</li>
+						<li class="numer" id="liczby5_31">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)\(&#8517;\)</a>Wykaż, że liczba
+								\((\sqrt{3}-\sqrt{2})^2 + 2\sqrt{6} \) jest naturalna.</p>
+							<div class="odp"></div><button class="butt" id="gliczby5_31"
+								onclick="pokaz('liczby5_31')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_31"></div>
+						</li>
+						<li class="numer" id="liczby5_32">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Rozwiąż równanie
+								\(\sqrt{\sqrt{\sqrt{\sqrt{x}+1}+2}+3}=\sqrt{1+2+3} \).</p>
+							<div class="odp"></div><button class="butt" id="gliczby5_32"
+								onclick="pokaz('liczby5_32')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_32"></div>
+						</li>
+						<li class="numer" id="liczby5_33">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)\(&#8517;\)</a>Wykaż, że
+								\(\sqrt{10+\sqrt{24}+\sqrt{40}+\sqrt{60}}=\sqrt{2}+\sqrt{3}+\sqrt{5} \).</p>
+							<div class="odp"></div><button class="butt" id="gliczby5_33"
+								onclick="pokaz('liczby5_33')">Rozwiązanie</button>
+							
+							<div id="r-liczby5_33"></div>
+						</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="./guziki.js"></script>
+</body>
+
+</html>

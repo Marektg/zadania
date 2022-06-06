@@ -1,0 +1,927 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+	<link rel="icon" href="logo.png">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Liczby całkowite. Liczby wymierne</title>
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+	<link rel="stylesheet" type="text/css" href="../../../css/styl.css" />
+	<script type="text/javascript" id="MathJax-script" async
+		src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<main class="topnavi">
+			<a href="../../../index.html">Strona główna</a>
+			<a href="../../../podstawowa/podstawowa.html">Podstawówka</a>
+			<a href="../../../matura/matura.html">Matura</a>
+			<a href="../../../studia/studia.html">Studia</a>
+		</main>
+		<div class="basic">
+			<nav>
+				<h3>Szkoła średnia</h3>
+				<ul class="nav-list-group">
+					<li class="list-group-item-main">Nowa Era
+						<ul class="nav-list-group">
+							<li class="list-group-item active"><a href="liczby.html">Liczby rzeczywiste</a></li>
+							<li class="list-group-item"><a href="jezyk.html">Język matematyki</a></li>
+							<li class="list-group-item"><a href="uklady.html">Układy równań</a></li>
+							<li class="list-group-item"><a href="funkcje.html">Funkcje</a></li>
+							<li class="list-group-item"><a href="fliniowa.html">Funkcja liniowa</a></li>
+							<li class="list-group-item"><a href="fkwadratowa.html">Funkcja kwadratowa</a></li>
+							<li class="list-group-item"><a href="planimetria.html">Planimetria</a></li>
+							<li class="list-group-item"><a href="wieloniany.html">Wielomiany</a></li>
+							<li class="list-group-item"><a href="fwymierne.html">Funkcje wymierne</a></li>
+							<li class="list-group-item"><a href="trygonometria.html">Trygonometria</a></li>
+							<li class="list-group-item"><a href="ftrygonomertyczne.html">\(&#174;\) Funkcje
+									trygonometryczne</a></li>
+							<li class="list-group-item"><a href="fwykilog.html">Funkcje wykładnicze i logarytmiczne</a>
+							</li>
+							<li class="list-group-item"><a href="ciagi.html">Ciągi</a></li>
+							<li class="list-group-item"><a href="prawdopodobienstwo.html">Rachunek prawdopodobieństwa</a>
+							</li>
+							<li class="list-group-item"><a href="statystyka.html">Statystyka</a></li>
+							<li class="list-group-item"><a href="stereometria.html">Stereometria</a></li>
+							<li class="list-group-item"><a href="ganalityczna.html">Geometria analityczna</a></li>
+							<li class="list-group-item"><a href="rachrozniczkowy.html">\(&#174;\) Rachunek różniczkowy</a>
+							</li>
+						</ul>
+					</li>
+					<li class="list-group-item-main"><a href="../../pazdro/srednia.html">Oficyna Edukacyjna Pazdro</a></li>
+				</ul>
+			</nav>
+			<div class="prawa">
+				<div class="zadania">
+
+					<h2 class="tytul">Liczby rzeczywiste </h2>
+					<ul class="podmenu1">
+						<li class="podmenu"><a href="liczby1.html">Liczby naturalne</a></li>
+						<li class="podmenu" id="aktualne"><a href="liczby2.html">Liczby całkowite. Liczby wymierne</a></li>
+						<li class="podmenu"><a href="liczby3.html">Liczby niewymierne</a></li>
+						<li class="podmenu"><a href="liczby4.html">Rozwinięcie dziesiętne liczby rzeczywistej</a></li>
+						<li class="podmenu"><a href="liczby5.html">Pierwiastek kwadratowy</a></li>
+						<li class="podmenu"><a href="liczby6.html">Pierwiastek sześcienny</a></li>
+						<li class="podmenu"><a href="liczby7.html">Potęga o wykładniku całkowitym</a></li>
+						<li class="podmenu"><a href="liczby8.html">Notacja wykładnicza</a></li>
+						<li class="podmenu"><a href="liczby9.html">Potęga o wykładniku wymiernym</a></li>
+						<li class="podmenu"><a href="liczby10.html">Logarytm i jego własności</a></li>
+						<li class="podmenu"><a href="liczby11.html">Procenty</a></li>
+						<li class="podmenu"><a href="liczby12.html">Powtórzenie</a></li>
+						<li class="podmenu"><a href="liczby13.html">Zadania testowe</a></li>
+						<li class="podmenu"><a href="liczby14.html">To było na maturze</a></li>
+					</ul>
+					<h3 class="rodzajzad">Liczby całkowite. Liczby wymierne</h3>>
+					<ol class="powt">
+						<li class="numer" id="liczby2_1">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Uporządkuj od najmniejszej do
+								największej liczby \(x, y, z \) zaznaczone na osiach liczbowych.</p>
+							<div class="odp">
+								<div><canvas id="r1" width="280" height="100"></canvas>
+									<script>
+										var c = document.getElementById("r1");
+										var ctx = c.getContext("2d");
+										var s = r1.getAttribute("width");
+										ctx.beginPath();
+										ctx.moveTo(10, 10);
+										ctx.lineTo(s - 20, 10);
+										ctx.lineTo(10, 10);
+										ctx.stroke();
+										var k = 9;/* ile kresek wpisać o 1 więcej niż ma być*/
+										var y = (s - 20) / k;
+										for (var x = y + 0.5; x < s - 40; x += y) {
+											ctx.moveTo(x, 5);
+											ctx.lineTo(x, 15);
+											ctx.lineTo(x, 5);
+										}
+										ctx.stroke();
+										ctx.moveTo(s - 20, 10);
+										ctx.lineTo(s - 30, 5);
+										ctx.lineTo(s - 30, 15);
+										ctx.lineTo(s - 20, 10);
+										ctx.fillStyle = "#000000";
+										ctx.fill();
+										ctx.stroke();
+										ctx.font = "15px Tahoma";
+										textAlign = "center";
+										ctx.shadowColor = "#888";
+										ctx.shadowBlur = "15";
+										ctx.fillText("5", y - 4, 30);
+										ctx.strokeStyle = "#000000";
+										ctx.moveTo(y - 9, 33);
+										ctx.lineTo(y + 9, 33);
+										ctx.lineTo(y - 9, 33);
+										ctx.font = "15px Tahoma";
+										textAlign = "center";
+										ctx.shadowColor = "#888";
+										ctx.shadowBlur = "15";
+										ctx.fillText("12", y - 8, 48);
+										ctx.strokeStyle = "#000000";
+										ctx.font = "15px Tahoma";
+										textAlign = "center";
+										ctx.shadowColor = "#888";
+										ctx.shadowBlur = "15";
+										ctx.fillText("x", 4 * y - 4, 30);
+										ctx.strokeStyle = "#000000";
+										ctx.font = "15px Tahoma";
+										ctx.shadowColor = "#888";
+										ctx.shadowBlur = "15";
+										ctx.fillText("5", 7 * y - 4, 30);
+										ctx.strokeStyle = "#000000";
+										ctx.moveTo(7 * y - 5, 33);
+										ctx.lineTo(7 * y + 5, 33);
+										ctx.lineTo(7 * y - 5, 33);
+										ctx.font = "15px Tahoma";
+										ctx.shadowColor = "#888";
+										ctx.shadowBlur = "15";
+										ctx.fillText("6", 7 * y - 4, 48);
+										ctx.strokeStyle = "#000000";
+										ctx.stroke();
+
+										ctx.beginPath();
+										ctx.arc(4 * y, 10, 3, 0, 10 * Math.PI);
+										ctx.strokeStyle = "red";
+										ctx.fillStyle = "red";
+										ctx.fill();
+										ctx.stroke();
+									</script>
+								</div>
+								<div><canvas id="r2" width="280" height="100"></canvas>
+									<script>
+										var c = document.getElementById("r2");
+										var ctx = c.getContext("2d");
+										var s = r2.getAttribute("width");
+										ctx.beginPath();
+										ctx.moveTo(10, 10);
+										ctx.lineTo(s - 20, 10);
+										ctx.lineTo(10, 10);
+										ctx.stroke();
+										var k = 11;/* ile kresek wpisać o 1 więcej niż ma być*/
+										var y = (s - 20) / k;
+										for (var x = y + 0.5; x < s - 40; x += y) {
+											ctx.moveTo(x, 5);
+											ctx.lineTo(x, 15);
+											ctx.lineTo(x, 5);
+										}
+										ctx.stroke();
+										ctx.moveTo(s - 20, 10);
+										ctx.lineTo(s - 30, 5);
+										ctx.lineTo(s - 30, 15);
+										ctx.lineTo(s - 20, 10);
+										ctx.fillStyle = "#000000";
+										ctx.fill();
+										ctx.stroke();
+										ctx.font = "15px Tahoma";
+										textAlign = "center";
+										ctx.shadowColor = "#888";
+										ctx.shadowBlur = "15";
+										ctx.fillText("2", y - 4, 30);/* jeśli jednocyfrowa to -4, dla dwucyfrowej -8*/
+										ctx.strokeStyle = "#000000";
+										ctx.moveTo(y - 5, 33);
+										ctx.lineTo(y + 5, 33);
+										ctx.lineTo(y - 5, 33);
+										ctx.font = "15px Tahoma";
+										textAlign = "center";
+										ctx.shadowColor = "#888";
+										ctx.shadowBlur = "15";
+										ctx.fillText("5", y - 4, 48);
+										ctx.strokeStyle = "#000000";
+										ctx.font = "15px Tahoma";
+										textAlign = "center";
+										ctx.shadowColor = "#888";
+										ctx.shadowBlur = "15";
+										ctx.fillText("y", 7 * y - 4, 30);
+										ctx.strokeStyle = "#000000";
+										ctx.font = "15px Tahoma";
+										ctx.shadowColor = "#888";
+										ctx.shadowBlur = "15";
+										ctx.fillText("19", 9 * y - 8, 30);
+										ctx.strokeStyle = "#000000";
+										ctx.moveTo(9 * y - 9, 33);
+										ctx.lineTo(9 * y + 9, 33);
+										ctx.lineTo(9 * y - 9, 33);
+										ctx.font = "15px Tahoma";
+										ctx.shadowColor = "#888";
+										ctx.shadowBlur = "15";
+										ctx.fillText("30", 9 * y - 8, 48);
+										ctx.strokeStyle = "#000000";
+										ctx.stroke();
+
+										ctx.beginPath();
+										ctx.arc(7 * y, 10, 3, 0, 10 * Math.PI);
+										ctx.strokeStyle = "red";
+										ctx.fillStyle = "red";
+										ctx.fill();
+										ctx.stroke();
+									</script>
+								</div>
+								<div><canvas id="r3" width="280" height="100"></canvas>
+									<script>
+										var c = document.getElementById("r3");
+										var ctx = c.getContext("2d");
+										var s = r3.getAttribute("width");
+										ctx.beginPath();
+										ctx.moveTo(10, 10);
+										ctx.lineTo(s - 20, 10);
+										ctx.lineTo(10, 10);
+										ctx.stroke();
+										var k = 9;/* ile kresek wpisać o 1 więcej niż ma być*/
+										var y = (s - 20) / k;
+										for (var x = y + 0.5; x < s - 40; x += y) {
+											ctx.moveTo(x, 5);
+											ctx.lineTo(x, 15);
+											ctx.lineTo(x, 5);
+										}
+										ctx.stroke();
+										ctx.moveTo(s - 20, 10);
+										ctx.lineTo(s - 30, 5);
+										ctx.lineTo(s - 30, 15);
+										ctx.lineTo(s - 20, 10);
+										ctx.fillStyle = "#000000";
+										ctx.fill();
+										ctx.stroke();
+										ctx.font = "15px Tahoma";
+										textAlign = "center";
+										ctx.shadowColor = "#888";
+										ctx.shadowBlur = "15";
+										ctx.fillText("9", y - 4, 30);/* jeśli jednocyfrowa to -4, dla dwucyfrowej -8*/
+										ctx.strokeStyle = "#000000";
+										ctx.moveTo(y - 9, 33);
+										ctx.lineTo(y + 9, 33);
+										ctx.lineTo(y - 9, 33);
+										ctx.font = "15px Tahoma";
+										textAlign = "center";
+										ctx.shadowColor = "#888";
+										ctx.shadowBlur = "15";
+										ctx.fillText("20", y - 8, 48);
+										ctx.strokeStyle = "#000000";
+										ctx.font = "15px Tahoma";
+										textAlign = "center";
+										ctx.shadowColor = "#888";
+										ctx.shadowBlur = "15";
+										ctx.fillText("z", 3 * y - 4, 30);
+										ctx.strokeStyle = "#000000";
+										ctx.font = "15px Tahoma";
+										ctx.shadowColor = "#888";
+										ctx.shadowBlur = "15";
+										ctx.fillText("3", 7 * y - 4, 30);
+										ctx.strokeStyle = "#000000";
+										ctx.moveTo(7 * y - 5, 33);
+										ctx.lineTo(7 * y + 5, 33);
+										ctx.lineTo(7 * y - 5, 33);
+										ctx.font = "15px Tahoma";
+										ctx.shadowColor = "#888";
+										ctx.shadowBlur = "15";
+										ctx.fillText("4", 7 * y - 4, 48);
+										ctx.strokeStyle = "#000000";
+										ctx.stroke();
+
+										ctx.beginPath();
+										ctx.arc(3 * y, 10, 3, 0, 10 * Math.PI);
+										ctx.strokeStyle = "red";
+										ctx.fillStyle = "red";
+										ctx.fill();
+										ctx.stroke();
+									</script>
+								</div>
+							</div><button class="butt" id="gliczby2_1" onclick="pokaz('liczby2_1')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_1"></div>
+						</li>
+						<li class="numer" id="liczby2_2">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Oblicz.</p>
+							<div class="odp">
+								<div>a) \(3\frac{2}{5}+2\frac{1}{3}-4\frac{1}{2} \)</div>
+								<div>b) \(5-4\frac{5}{6}+2\frac{1}{8} \)</div>
+								<div>c) \(7\frac{3}{4}-2,2-(3\frac{1}{2}-1,8+5\frac{1}{4}) \)</div>
+								<div>d) \(1\frac{5}{12}-(3\frac{7}{15}-2\frac{3}{10}) \)</div>
+								<div>e) \(2\frac{1}{4}-(4\frac{1}{12}+3\frac{2}{9}-3\frac{1}{18}) \)</div>
+								<div>f) \(2\frac{3}{20}-(\frac{17}{10}-2\frac{1}{15})-3\frac{5}{6} \)</div>
+							</div><button class="butt" id="gliczby2_2" onclick="pokaz('liczby2_2')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_2"></div>
+						</li>
+						<li class="numer" id="liczby2_3">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Porównaj liczby, nie korzystając z
+								kalkulatora.</p>
+							<div class="odp">
+								<div>a) \(\frac{32}{451} \ i \ \frac{34}{451} \)
+								</div>
+								<div>b) \(\frac{13}{121} \ i \ \frac{13}{122} \)
+								</div>
+								<div>c) \(\frac{5}{6} \ i \ \frac{6}{7} \)</div>
+								<div>d) \(\frac{5}{6} \ i \ \frac{8}{9} \)</div>
+							
+								<div>e) \(\frac{5}{7} \ i \ \frac{120}{168} \)</div>
+								<div>f) \(0,125 \ i \ \frac{1}{8} \)</div>
+								<div>g) \(0,34 \ i \ \frac{34}{99} \)</div>
+								<div>h) \(-\frac{5}{6} \ i \ -\frac{6}{7} \)</div>
+							</div><button class="butt" id="gliczby2_3" onclick="pokaz('liczby2_3')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_3"></div>
+						</li>
+						<li class="numer" id="liczby2_4">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Oblicz.</p>
+							<div class="odp">
+								<div>a) \(\frac{2}{7}+\frac{5}{9} \)</div>
+								<div>b) \(\frac{1}{5}-1\frac{1}{4} \)</div>
+								<div>c) \(\frac{3}{7} \cdot 2\frac{9}{20} \)</div>
+								<div>d) \(2\frac{3}{4}:\frac{11}{10} \)</div>
+							</div><button class="butt" id="gliczby2_4" onclick="pokaz('liczby2_4')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_4"></div>
+						</li>
+						<li class="numer" id="liczby2_5">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Przedstaw podaną liczbę w postaci
+								\(\frac{m}{n} \), gdzie \(m \) i \(n \) są względnie pierwsze.</p>
+							<div class="odp">
+								<div>a) \(-8 \)</div>
+								<div>b) \(4\frac{1}{7} \)</div>
+								<div>c) \(-15,6 \)</div>
+								<div>d) \(\frac{140}{21} \)</div>
+								<div>e) \(\frac{244}{168} \)</div>
+							</div><button class="butt" id="gliczby2_5" onclick="pokaz('liczby2_5')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_5"></div>
+						</li>
+						<li class="numer" id="liczby2_6">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Oblicz.</p>
+							<div class="odp">
+								<div>
+									\((1-\frac{1}{10})(1-\frac{1}{11})(1-\frac{1}{12})(1-\frac{1}{13})\cdot _{\cdots}
+									\cdot (1-\frac{1}{17})(1-\frac{1}{18}) \)</div>
+							</div><button class="butt" id="gliczby2_6" onclick="pokaz('liczby2_6')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_6"></div>
+						</li>
+						<li class="numer" id="liczby2_7">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Wskaż największą liczbę spośród \(x,
+								y, z \). Nie korzystaj z kalkulatora.</p>
+							<div class="odp">
+								<div>\(x=\frac{48}{151}+\frac{251}{800}+\frac{110}{333} \)</div>
+								<div>\(y=\frac{301}{900}+\frac{222}{665}+\frac{134}{400} \)</div>
+								<div>\(z=\frac{81}{245}+\frac{317}{960}+\frac{199}{600} \)</div><br><br>
+								<div><b>Wskazówka:</b>
+									\(\frac{48}{151}&lt;;\frac{1}{3} \)</div>
+							</div><button class="butt" id="gliczby2_7" onclick="pokaz('liczby2_7')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_7"></div>
+						</li>
+						<li class="numer" id="liczby2_8">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Wyznacz liczbę, która na osi
+								liczbowej leży w równej odległości od liczb:</p>
+							<div class="odp">
+								<div>a) \(\frac{1}{2}\ i\ \frac{3}{4} \)</div>
+								<div>b) \(\frac{5}{7}\ i\ \frac{7}{6} \)</div>
+								<div>c) \(\frac{155}{348}\ i\ \frac{103}{232} \)</div>
+							</div><button class="butt" id="gliczby2_8" onclick="pokaz('liczby2_8')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_8"></div>
+						</li>
+						<li class="numer" id="liczby2_9">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Skróć ułamki. Wśród podanych liczb
+								wskaż największą liczbę całkowitą.</p>
+							<div class="odp">
+								<div>a) \(\frac{780}{39}, -\frac{210}{105}, \frac{669}{63}, \frac{672}{64} \)</div>
+								<div>b) \(-\frac{540}{45}, \frac{84}{98}, \frac{528}{24}, -\frac{624}{48},
+									\frac{588}{126} \)</div>
+							</div><button class="butt" id="gliczby2_9" onclick="pokaz('liczby2_9')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_9"></div>
+						</li>
+						<li class="numer" id="liczby2_10">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Podaj trzy liczby wymierne leżące
+								między liczbami:</p>
+							<div class="odp">
+								<div>a) \(\frac{4}{9} \ i \ \frac{5}{9} \)</div>
+								<div>b) \(2\frac{1}{7}\ i\ 2\frac{1}{6} \)</div>
+								<div>c) \(-3\frac{3}{10}\ i\ -3\frac{3}{11} \)</div>
+							</div><button class="butt" id="gliczby2_10" onclick="pokaz('liczby2_10')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_10"></div>
+						</li>
+						<li class="numer" id="liczby2_11">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Odczytaj wartości liczb \(a, b, c \)
+								zaznaczonych na osi liczbowej i znajdź taką liczbę \(x \), żeby spełniona była proporcja
+								\(a:c=b:x \).</p>
+							<div class="odp">
+								<div><canvas id="r4" width="800"
+										height="100"></canvas>
+									<script>
+										var c = document.getElementById("r4");
+										var ctx = c.getContext("2d");
+										var s = r4.getAttribute("width");
+										ctx.beginPath();
+										ctx.moveTo(10, 10);
+										ctx.lineTo(s - 20, 10);
+										ctx.lineTo(10, 10);
+										ctx.stroke();
+										var k = 18;/* ile kresek wpisać o 1 więcej niż ma być*/
+										var y = (s - 20) / k;
+										for (var x = y + 0.5; x < s - 40; x += y) {
+											ctx.moveTo(x, 5);
+											ctx.lineTo(x, 15);
+											ctx.lineTo(x, 5);
+										}
+										ctx.stroke();
+										ctx.moveTo(s - 20, 10);
+										ctx.lineTo(s - 30, 5);
+										ctx.lineTo(s - 30, 15);
+										ctx.lineTo(s - 20, 10);
+										ctx.fillStyle = "#000000";
+										ctx.fill();
+										ctx.stroke();
+										ctx.font = "15px Tahoma";
+										textAlign = "center";
+										ctx.shadowColor = "#888";
+										ctx.shadowBlur = "15";
+										var lg1 = 1;
+										if (lg1 = 1) {
+											ctx.fillText("1", y - 4, 30);/* jeśli jednocyfrowa to -4, dla dwucyfrowej -8*/
+											ctx.strokeStyle = "#000000";
+											ctx.moveTo(y - 5, 33);/*  -5 dla jednocyfrowych, a -9 dla dwucyfrowych */
+											ctx.lineTo(y + 5, 33);
+											ctx.lineTo(y - 5, 33);
+											ctx.fillStyle = "#000000";
+											ctx.fill();
+											ctx.stroke();
+										}
+										else if (lg1 = 2) {
+											ctx.fillText("1", y - 8, 30);/* jeśli jednocyfrowa to -4, dla dwucyfrowej -8*/
+											ctx.strokeStyle = "#000000";
+											ctx.moveTo(y - 9, 33);/*  -5 dla jednocyfrowych, a -9 dla dwucyfrowych */
+											ctx.lineTo(y + 9, 33);
+											ctx.lineTo(y - 9, 33);
+											ctx.fillStyle = "#000000";
+											ctx.fill();
+											ctx.stroke();
+										}
+										else {
+											ctx.fillText("1", y - 12, 30);/* jeśli jednocyfrowa to -4, dla dwucyfrowej -8*/
+											ctx.strokeStyle = "#000000";
+											ctx.moveTo(y - 13, 33);/*  -5 dla jednocyfrowych, a -9 dla dwucyfrowych */
+											ctx.lineTo(y + 13, 33);
+											ctx.lineTo(y - 13, 33);
+											ctx.fillStyle = "#000000";
+											ctx.fill();
+											ctx.stroke();
+										}
+										ctx.font = "15px Tahoma";
+										textAlign = "center";
+										ctx.shadowColor = "#888";
+										ctx.shadowBlur = "15";
+										var ld1 = 1;
+										if (ld1 = 1) {
+											ctx.fillText("2", y - 4, 48);
+										}
+										else if (ld1 = 2) {
+											ctx.fillText("2", y - 8, 48);
+										}
+										else {
+											ctx.fillText("2", y - 12, 48);
+										}
+										ctx.strokeStyle = "#000000";
+										ctx.font = "15px Tahoma";
+										textAlign = "center";
+										ctx.shadowColor = "#888";
+										ctx.shadowBlur = "15";
+										ctx.fillText("a", 2 * y - 4, 30);
+										ctx.strokeStyle = "#000000";
+										ctx.font = "15px Tahoma";
+										textAlign = "center";
+										ctx.shadowColor = "#888";
+										ctx.shadowBlur = "15";
+										ctx.fillText("b", 10 * y - 4, 30);
+										ctx.strokeStyle = "#000000";
+										ctx.font = "15px Tahoma";
+										textAlign = "center";
+										ctx.shadowColor = "#888";
+										ctx.shadowBlur = "15";
+										ctx.fillText("c", 11 * y - 4, 30);
+										ctx.strokeStyle = "#000000";
+										ctx.font = "20px Tahoma";
+										textAlign = "center";
+										ctx.shadowColor = "#888";
+										ctx.shadowBlur = "15";
+										ctx.fillText("1", 16 * y - 4, 35);
+										ctx.strokeStyle = "#000000";
+
+
+
+										ctx.beginPath();
+										ctx.arc(2 * y, 10, 3, 0, 10 * Math.PI);
+										ctx.moveTo(10 * y, 10);
+										ctx.arc(10 * y, 10, 3, 0, 10 * Math.PI);
+										ctx.moveTo(11 * y, 10);
+										ctx.arc(11 * y, 10, 3, 0, 10 * Math.PI);
+										ctx.strokeStyle = "red";
+										ctx.fillStyle = "red";
+										ctx.fill();
+										ctx.stroke();
+									</script>
+								</div>
+							</div><button class="butt" id="gliczby2_11" onclick="pokaz('liczby2_11')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_11"></div>
+
+						<li class="numer" id="liczby2_12">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Oblicz.</p>
+							<div class="odp">
+								<div class="col-xs-12 col-md-6 col-lg-6">a) \((1\frac{1}{2}+2\frac{1}{5})\cdot 10 \)
+								</div>
+								<div class="col-xs-12 col-md-6 col-lg-6">b) \((1\frac{1}{5}+\frac{5}{6})\cdot
+									1\frac{7}{8} \)</div>
+							</div>
+							<div class="odp">
+								<div class="col-xs-12 col-md-6 col-lg-6">c) \((\frac{14}{5}-\frac{21}{20})\cdot
+									\frac{4}{7} \)</div>
+								<div class="col-xs-12 col-md-6 col-lg-6">d) \((7\frac{1}{4}-2\frac{1}{6}):2\frac{13}{24}
+									\)</div>
+							</div>
+							<div class="odp">
+								<div class="col-xs-12 col-md-6 col-lg-6">e) \((2\frac{4}{15}-1\frac{1}{10})\cdot
+									(\frac{2}{15}+\frac{2}{21}) \)</div>
+								<div class="col-xs-12 col-md-6 col-lg-6">f) \((1\frac{1}{16}-\frac{23}{24})\cdot
+									(8+1\frac{3}{5}) \)</div>
+							</div><button class="butt" id="gliczby2_12" onclick="pokaz('liczby2_12')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_12"></div>
+						</li>
+						<li class="numer" id="liczby2_13">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Oblicz.</p>
+							<div class="odp">
+								<div>a) \(\frac{(3\frac{2}{5}-2\frac{1}{4})\cdot
+									3\frac{3}{7}}{(2\frac{3}{5}-1):2\frac{1}{3}} \)</div>
+								<div>b) \(\frac{\frac{3}{4}:1\frac{1}{2}+4}{(6\frac{1}{2}-5\frac{3}{5}):\frac{9}{5}}-2
+									\)</div>
+								<div>c) \(1,8\cdot \frac{3,3-4\frac{1}{2}:3\frac{3}{4}}{5,6:2\frac{1}{3}+2,5} \)</div>
+								<br><br><br>
+								<div>d) \(0,75+\frac{(0,75\cdot
+									\frac{4}{3}):1\frac{1}{4}}{0,72-\frac{1}{5}:1\frac{2}{3}} \)</div>
+								<div>e) \(\frac{2\frac{1}{12}+1\frac{1}{8}}{(2\frac{1}{3}+1\frac{2}{5})\cdot
+									1,5-7}:3\frac{3}{4} \)</div>
+								<div>f) \(2,125-\frac{\frac{4}{21}:\frac{2}{35}-3\frac{1}{9}\cdot
+									\frac{3}{7}}{\frac{4}{9}\cdot 0,4} \)</div>
+							</div><button class="butt" id="gliczby2_13" onclick="pokaz('liczby2_13')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_13"></div>
+						</li>
+						<li class="numer" id="liczby2_14">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Zapisz liczbę odwrotną do podanej.
+							</p>
+							<div class="odp">
+								<div>a) \(\frac{12}{35} \cdot \frac{7}{18} \)</div>
+								<div>b) \(-2\frac{3}{4} \cdot \frac{4}{3} \)</div>
+								<div>c) \(\frac{7}{15}:\frac{14}{5} \)</div>
+								<div>d) \((-\frac{5}{14}:3):\frac{10}{21} \)</div>
+								<div>e) \(\frac{1}{6}-\frac{1}{2} \)</div>
+								<div>f) \(\frac{5}{12}+\frac{5}{18} \)</div>
+							</div><button class="butt" id="gliczby2_14" onclick="pokaz('liczby2_14')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_14"></div>
+						</li>
+						<li class="numer" id="liczby2_15">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Podaj przykład liczby wymiernej \(p
+								\), która spełnia podany warunek.</p>
+							<div class="odp">
+								<div>a) \(\frac{4}{7} &lt;; p &lt;; \frac{5}{7} \)</div>
+								<div>b) \(-\frac{1}{3} &lt;; p &lt;; -\frac{1}{4} \)</div>
+								<div>c) \(-\frac{7}{11} &lt;; p &lt;; -\frac{6}{11} \)</div><br><br>
+								<div>d) \(\frac{2}{3} &lt;; p &lt;; 0,75 \)</div>
+								<div>e) \(2,01 &lt;; p &lt;; 2,02 \)</div>
+								<div>f) \(-3,1 &lt;; p &lt;; -2,99 \)</div>
+							</div><button class="butt" id="gliczby2_15" onclick="pokaz('liczby2_15')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_15"></div>
+						</li>
+						<li class="numer" id="liczby2_16">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Wyznacz wszystkie ułamki o mianowniku
+								\(13 \) większe od \(\frac{5}{9} \) i mniejsze od \(\frac{7}{9} \).</p>
+							<div class="odp"></div><button class="butt" id="gliczby2_16"
+								onclick="pokaz('liczby2_16')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_16"></div>
+						</li>
+						<li class="numer" id="liczby2_17">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Ile liczb całkowitych znajduje się na
+								osi liczbowej między liczbami</p>
+							<div class="odp">
+								<div>a) \(\frac{22222}{411} \ i \ \frac{2222}{41} \)</div>
+								<div>b) \(\frac{1432}{65} \ i \ \frac{82912}{773} \)</div>
+								<div>c) \(-\frac{1353}{7} \ i \ \frac{9256}{13} \)</div>
+							</div><button class="butt" id="gliczby2_17" onclick="pokaz('liczby2_17')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_17"></div>
+						</li>
+						<li class="numer" id="liczby2_18">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Znajdź liczbę przeciwną i liczbę
+								odwrotną do liczby \(a=\frac{-\frac{2}{3}(5-6\cdot
+								2\frac{1}{3})}{3\frac{2}{5}-2,2:\frac{2}{5}} \).</p>
+							<div class="odp"></div><button class="butt" id="gliczby2_18"
+								onclick="pokaz('liczby2_18')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_18"></div>
+
+						<li class="numer" id="liczby2_19">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a></p>
+							<div class="odp">
+								<div>a) Znajdź dwie liczby, których suma jest
+									równa \(1530 \), wiedząc, że pierwsza liczba stanowi \(\frac{13}{17} \) drugiej
+									liczby.</div>
+								<div>b) Znajdź trzy liczby, których suma jest
+									równa \(134 \), wiedząc, że pierwsza liczba stanowi \(\frac{15}{16} \) drugiej, a
+									druga \(\frac{4}{9} \) trzeciej.</div>
+							</div><button class="butt" id="gliczby2_19" onclick="pokaz('liczby2_19')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_19"></div>
+						</li>
+						<li class="numer" id="liczby2_20">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>W ciągu 5 dni 40 pracowników,
+								pracując 8 godzin dziennie, wykonało połowę pewnej pracy. Ile godzin dziennie musieliby
+								pracować, aby dokończyć pracę w ciągu 4 dni?</p>
+							<div class="odp"></div><button class="butt" id="gliczby2_20"
+								onclick="pokaz('liczby2_20')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_20"></div>
+
+						<li class="numer" id="liczby2_21">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Drut o długości \(63 \ cm \) pocięto
+								na cztery części, których stosunek długości jest równy \(1:3:5:9 \). Ile jest równa suma
+								długości dwóch najkrótszych kawałków tego drutu?</p>
+							<div class="odp"></div><button class="butt" id="gliczby2_21"
+								onclick="pokaz('liczby2_21')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_21"></div>
+
+						<li class="numer" id="liczby2_22">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)\(&#8517;\)</a>Udowodnij, że:</p>
+							<div class="odp">
+								<div>a) suma dwóch liczb wymiernych jest liczbą
+									wymierną</div>
+								<div>b) różnica dwóch liczb wymiernych jest liczbą
+									wymierną</div>
+								<div>c) iloczyn dwóch liczb wymiernych jest liczbą
+									wymierną</div>
+								<div>d) iloraz liczby wymiernej przez liczbę
+									wymierną różną od zera jest liczbą wymierną</div>
+							</div><button class="butt" id="gliczby2_22" onclick="pokaz('liczby2_22')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_22"></div>
+						</li>
+						<li class="numer" id="liczby2_23">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Kwadrat o boku \(1 \) podzielono na
+								prostokąty o polach równych kolejno \(\frac{1}{2}, \frac{1}{4}, \frac{1}{8} \) idt.</p>
+							<div> <canvas id="r5" class="rys" width="300" height="300"></canvas>
+								<script>
+									var c = document.getElementById("r5");
+									var ctx = c.getContext("2d");
+									var s = r5.getAttribute("width");
+									var h = r5.getAttribute("height");
+									ctx.beginPath();
+									ctx.moveTo(10, 10);
+									ctx.lineTo(s - 10, 10);
+									ctx.lineTo(s - 10, h - 10);
+									ctx.lineTo(10, h - 10);
+									ctx.lineTo(10, 10);
+									ctx.lineTo((s - 10) / 2, 10);
+									ctx.lineTo((s - 10) / 2, h - 10);
+									ctx.lineTo((s - 10) / 2, 10);
+									ctx.lineTo((s - 10) / 2, (h - 10) / 2);
+									ctx.lineTo(s - 10, (h - 10) / 2);
+									ctx.lineTo((s - 10) / 2, (h - 10) / 2);
+									ctx.lineTo((3 * s - 30) / 4, (h - 10) / 2);
+									ctx.lineTo((3 * s - 30) / 4, h - 10);
+									ctx.lineTo((3 * s - 30) / 4, (h - 10) / 2);
+									ctx.lineTo((3 * s - 30) / 4, (3 * h - 30) / 4);
+									ctx.lineTo(s - 10, (3 * h - 30) / 4);
+									ctx.lineTo((3 * s - 30) / 4, (3 * h - 30) / 4);
+									ctx.stroke();
+									ctx.font = "15px Tahoma";
+									textAlign = "center";
+									ctx.shadowColor = "#888";
+									ctx.shadowBlur = "15";
+									ctx.fillText("1", s / 4, (h / 2) - 5);/* jeśli jednocyfrowa to -4, dla dwucyfrowej -8*/
+									ctx.strokeStyle = "#000000";
+									ctx.moveTo((s / 4) - 3, (h / 2) - 2);
+									ctx.lineTo((s / 4) + 9, (h / 2) - 2);
+									ctx.lineTo((s / 4) - 3, (h / 2) - 2);
+									ctx.font = "15px Tahoma";
+									textAlign = "center";
+									ctx.shadowColor = "#888";
+									ctx.shadowBlur = "15";
+									ctx.fillText("2", s / 4, (h / 2) + 12);
+									ctx.strokeStyle = "#000000";
+									ctx.font = "15px Tahoma";
+									textAlign = "center";
+									ctx.shadowColor = "#888";
+									ctx.shadowBlur = "15";
+									ctx.fillText("1", 3 * s / 4, (h / 4) - 5);/* jeśli jednocyfrowa to -4, dla dwucyfrowej -8*/
+									ctx.strokeStyle = "#000000";
+									ctx.moveTo((3 * s / 4) - 3, (h / 4) - 2);
+									ctx.lineTo((3 * s / 4) + 9, (h / 4) - 2);
+									ctx.lineTo((3 * s / 4) - 3, (h / 4) - 2);
+									ctx.font = "15px Tahoma";
+									textAlign = "center";
+									ctx.shadowColor = "#888";
+									ctx.shadowBlur = "15";
+									ctx.fillText("4", 3 * s / 4, (h / 4) + 12);
+									ctx.strokeStyle = "#000000";
+									ctx.font = "15px Tahoma";
+									textAlign = "center";
+									ctx.shadowColor = "#888";
+									ctx.shadowBlur = "15";
+									ctx.fillText("1", 5 * s / 8, (3 * h / 4) - 5);/* jeśli jednocyfrowa to -4, dla dwucyfrowej -8*/
+									ctx.strokeStyle = "#000000";
+									ctx.moveTo((5 * s / 8) - 3, (3 * h / 4) - 2);
+									ctx.lineTo((5 * s / 8) + 9, (3 * h / 4) - 2);
+									ctx.lineTo((5 * s / 8) - 3, (3 * h / 4) - 2);
+									ctx.font = "15px Tahoma";
+									textAlign = "center";
+									ctx.shadowColor = "#888";
+									ctx.shadowBlur = "15";
+									ctx.fillText("8", 5 * s / 8, (3 * h / 4) + 12);
+									ctx.strokeStyle = "#000000";
+									ctx.font = "15px Tahoma";
+									textAlign = "center";
+									ctx.shadowColor = "#888";
+									ctx.shadowBlur = "15";
+									ctx.fillText("1", 7 * s / 8, (5 * h / 8) - 5);/* jeśli jednocyfrowa to -4, dla dwucyfrowej -8*/
+									ctx.strokeStyle = "#000000";
+									ctx.moveTo((7 * s / 8) - 3, (5 * h / 8) - 2);
+									ctx.lineTo((7 * s / 8) + 9, (5 * h / 8) - 2);
+									ctx.lineTo((7 * s / 8) - 3, (5 * h / 8) - 2);
+									ctx.font = "15px Tahoma";
+									textAlign = "center";
+									ctx.shadowColor = "#888";
+									ctx.shadowBlur = "15";
+									ctx.fillText("16", (7 * s / 8) - 5, (5 * h / 8) + 12);
+									ctx.strokeStyle = "#000000";
+									ctx.stroke();
+								</script>
+							</div>
+							<div class="odp">
+								<div>a) O ile suma pól czterech pierwszych
+									prostokątów otrzymanych w ten sposób różni się od pola kwadratu o boku \(1 \)?</div>
+								<div>b) O ile liczba
+									\(\frac{1}{2}+\frac{1}{4}+\frac{1}{8}+\frac{1}{16}+\frac{1}{32}+\frac{1}{64}+\frac{1}{128}+\frac{1}{256}+\frac{1}{215}
+									\) różni się od \(1 \)?</div>
+							</div><button class="butt" id="gliczby2_23" onclick="pokaz('liczby2_23')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_23"></div>
+						</li>
+						<li class="numer" id="liczby2_24">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Uporządkuj rosnąco liczby:</p>
+							<div class="odp">
+								<div>a) \(\frac{a}{b}, \frac{b}{a} \) i \(1 \), jeśli \(0 &lt;; a &lt;; b \)</div>
+								<div>b) \(\frac{a+b}{2} \) i \(b \), jeśli \(a > b \)</div>
+								<div>c) \(a, b \) i \(c \), jeśli \(a, b, c > 0, \frac{c}{a+b}=2, \frac{c}{b-a}=3 \)
+								</div>
+								<div>d) \(a \) i \(b \), jeśli \((a+2)(b-2)> ab \)</div>
+							</div><button class="butt" id="gliczby2_24" onclick="pokaz('liczby2_24')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_24"></div>
+						</li>
+						<li class="numer" id="liczby2_25">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Dla jakich całkowitych wartości \(k
+								\) wartość wyrażenia jest liczbą całkowitą?</p>
+							<div class="odp">
+								<div>a) \(\frac{2}{k} \)</div>
+								<div>b) \(\frac{5}{2k} \)</div>
+								<div>c) \(\frac{9}{k-6} \)</div>
+								<div>d) \(\frac{15}{k+2} \)</div>
+								<div>e) \(\frac{10}{7k-3} \)</div>
+							</div><button class="butt" id="gliczby2_25" onclick="pokaz('liczby2_25')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_25"></div>
+						</li>
+						<li class="numer" id="liczby2_26">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Wyznacz liczby całkowite \(k \) i \(l
+								\), które spełniają podany warunek:</p>
+							<div class="odp">
+								<div>a) \(k \cdot l=1 \)</div>
+								<div>b) \((k+2)(l-1)=3 \)</div>
+								<div>c) \(k=1+\frac{4}{l+2} \)</div>
+								<div>d) \(kl-k=l \)</div>
+								<div>e) \(k+l=0 \)</div>
+								<div>f) \(k \cdot l =0 \)</div>
+							</div><button class="butt" id="gliczby2_26" onclick="pokaz('liczby2_26')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_26"></div>
+						</li>
+						<li class="numer" id="liczby2_27">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Porówna liczby \(\frac{4}{5} \) i
+								\(\frac{4+n}{5+n} \), gdzie \(n \) jest dowolną liczbą naturalną.</p>
+							<div class="odp"></div><button class="butt" id="gliczby2_27"
+								onclick="pokaz('liczby2_27')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_27"></div>
+						</li>
+						<li class="numer" id="liczby2_28">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Wyznacz wszystkie liczby całkowite
+								\(x, y \) spełniające podany warunek.</p>
+							<div class="odp">
+								<div>a) \(4x+12y=7 \)</div>
+								<div>b) \(3x+6y=12 \)</div>
+								<div>c) \((x-3)(y+5)=1 \)</div>
+							</div><button class="butt" id="gliczby2_28" onclick="pokaz('liczby2_28')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_28"></div>
+						</li>
+						<li class="numer" id="liczby2_29">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Wyznacz wszystkie naturalne wartości
+								\(n \), dla których wartość wyrażenia jest liczbą naturalną.</p>
+							<div class="odp">
+								<div>a) \(\frac{5}{n}-1 \)</div>
+								<div>b) \(\frac{12}{n}-n \)</div>
+								<div>c) \(\frac{2n+3}{n} \)</div>
+								<div>d) \(\frac{5n-8}{n} \)</div>
+								<div>e) \(\frac{n+5}{n+1} \)</div>
+							</div><button class="butt" id="gliczby2_29" onclick="pokaz('liczby2_29')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_29"></div>
+						</li>
+						<li class="numer" id="liczby2_30">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Przeanalizuj przykład podany w ramce
+								i rozwiąż zadanie.</p>
+							<div class="well">
+								\(\frac{2k+10}{k+2}=\frac{2k+4+6}{k+2}=\frac{2(k+2)+6}{k+2}=2+\frac{6}{k+2} \)</div>
+							<br><br><br>
+							<p class="tresc">Dla jakich całkowitych wartości \(k \) wartość wyrażenia jest również
+								liczbą całkowitą?</p>
+							<div class="odp">
+								<div>a) \(\frac{k+8}{k+5} \)</div>
+								<div>b) \(\frac{k+9}{k+5} \)</div>
+								<div>c) \(\frac{2k+10}{k+2} \)</div>
+								<div>d) \(\frac{2k+6}{k-1} \)</div>
+							</div><button class="butt" id="gliczby2_30" onclick="pokaz('liczby2_30')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_30"></div>
+						</li>
+						<li class="numer" id="liczby2_31">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Cyfry \(a, b, c \) są różne i żadna
+								nie jest zerem. Jaką największą wartość ma wyrażenie
+								\(\frac{1}{a+\frac{1}{b+\frac{1}{c}}} \)?</p>
+							<div class="odp"></div><button class="butt" id="gliczby2_31"
+								onclick="pokaz('liczby2_31')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_31"></div>
+						</li>
+						<li class="numer" id="liczby2_32">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)\(&#8517;\)</a>Wykaż, nie korzystając z
+								kalkulatora, że \(\frac{777772}{777773}> \frac{999993}{999995} \)</p>
+							<div class="odp"></div><button class="butt" id="gliczby2_32"
+								onclick="pokaz('liczby2_32')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_32"></div>
+						</li>
+						<li class="numer" id="liczby2_33">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)\(&#8517;\)</a>Wykaż, że</p>
+							<div class="odp">
+								<div>
+									\(\frac{1}{10^2}+\frac{1}{11^2}+\frac{1}{12^2}+_{\cdots}+\frac{1}{999^2}>\frac{99}{1000}
+									\) </div>
+								<div class="well">
+									\(\frac{1}{n(n+1)}=\frac{1}{n}-\frac{1}{n+1} \)</div>
+							</div><button class="butt" id="gliczby2_33" onclick="pokaz('liczby2_33')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_33"></div>
+
+						<li class="numer" id="liczby2_34">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Dla jakich całkowitych wartości
+								\(k\neq5 \) ułamek \(\frac{k+5}{3k+4} \) jest skracalny?</p>
+							<div class="odp"></div><button class="butt" id="gliczby2_34"
+								onclick="pokaz('liczby2_34')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_34"></div>
+						</li>
+						<li class="numer" id="liczby2_35">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)\(&#8517;\)</a>Udowodnij, że jeśli \(a,
+								b, c \) są liczbami całkowitymi, to co najmniej jedna z liczb: \(\frac{a+b}{2},
+								\frac{b+c}{2}, \frac{a+c}{2} \) jest całkowita.</p>
+							<div class="odp"></div><button class="butt" id="gliczby2_35"
+								onclick="pokaz('liczby2_35')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_35"></div>
+						</li>
+						<li class="numer" id="liczby2_36">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Zapisano cztery kolejne liczby
+								naturalne. Różnica między odwrotnościami najmniejszej i największej z nich jest równa
+								\(0,075 \). Ile jest równa różnica między odwrotnościami dwóch pozostałych liczb?</p>
+							<div class="odp"></div><button class="butt" id="gliczby2_36"
+								onclick="pokaz('liczby2_36')">Rozwiązanie</button>
+							
+							<div id="r-liczby2_36"></div>
+						</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="./guziki.js"></script>
+</body>
+
+</html>

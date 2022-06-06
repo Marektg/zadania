@@ -1,0 +1,1037 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+	<link rel="icon" href="logo.png">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Procenty</title>
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/styl.css" />
+	<script type="text/javascript" id="MathJax-script" async
+		src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<main class="topnavi">
+			<a href="../../index.html">Strona główna</a>
+			<a href="../../srednia/srednia.html">Średnia</a>
+			<a href="../../matura/matura.html">Matura</a>
+			<a href="../../studia/studia.html">Studia</a>
+		</main>
+		<div class="basic">
+			<nav>
+				<h3>Szkoła podstawowa</h3>
+				<ul class="nav-list-group">
+					<li class="list-group-item"><a href="lnaturalne.html">Liczby naturalne</a></li>
+					<li class="list-group-item"><a href="lcalkowite.html">Liczby całkowite</a></li>
+					<li class="list-group-item"><a href="ulamki.html">Ułamki zwykłe i dziesiętne</a></li>
+					<li class="list-group-item"><a href="lniewymierne.html">Liczby niewymierne</a></li>
+					<li class="list-group-item"><a href="lrzeczywiste.html">Liczby rzeczywiste</a></li>
+					<li class="list-group-item active"><a href="procenty.html">Procenty</a></li>
+					<li class="list-group-item"><a href="potegi.html">Potęgi</a></li>
+					<li class="list-group-item"><a href="wyrazenia.html">Wyrażenia algebraiczne</a></li>
+					<li class="list-group-item"><a href="rownania.html">Równania i nierówności</a></li>
+					<li class="list-group-item"><a href="uklady.html">Układy równań</a></li>
+					<li class="list-group-item"><a href="proste.html">Proste i odcinki</a></li>
+					<li class="list-group-item"><a href="katy.html">Kąty</a></li>
+					<li class="list-group-item"><a href="wielokaty.html">Wielokąty, koła i okręgi</a></li>
+					<li class="list-group-item"><a href="uklwspol.html">Układ współrzędnych</a></li>
+					<li class="list-group-item"><a href="bryly.html">Bryły</a></li>
+					<li class="list-group-item"><a href="kombinatoryka.html">Kombinatoryka i rachunek
+							prawdopodobieństwa</a></li>
+					<li class="list-group-item"><a href="statystyka.html">Statystyka opisowa</a></li>
+				</ul>
+			</nav>
+			<div class="prawa">
+				<div class="zadania">
+
+					<h2 class="tytul"><b>Procenty</b> </h2>
+					<ul class="podmenu1">
+						<li class="podmenu" id="aktualne"><a href="procenty1.html">1</a></li>
+						<li class="podmenu"><a href="procenty2.html">2</a></li>
+						<li class="podmenu"><a href="procenty3.html">3</a></li>
+						<li class="podmenu"><a href="procenty4.html">4</a></li>
+						<li class="podmenu"><a href="procenty5.html">5</a></li>
+
+					</ul>
+					<h3 class="rodzajzad">Procenty</h3>
+
+					<ol class="powt">
+						<li class="numer" id="procenty1_1">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Czego może być więcej niż \(100\%\)?
+							</p>
+							<div class="odp">
+								<div>a) Kakao w czekoladzie</div>
+								<div id="procenty1_1b">b) Podwyżki ceny</div>
+								<div>c) Obniżki ceny </div>
+								<div>d) Wszystkie odpowiedzi są prawidłowe </div>
+							</div>
+							<button class="butt" id="gprocenty1_1"
+								onclick="pokazprocenty1_1()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_1() {
+									var dprocenty1_1 = document.getElementById("r-procenty1_1");
+									var rprocenty1_1 = document.createElement("img");
+									rprocenty1_1.setAttribute('src', 'roz/procenty1_1.png');
+									rprocenty1_1.setAttribute('class' , 'img-fluid');
+									dprocenty1_1.appendChild(rprocenty1_1);
+									var uprocenty1_1 = document.getElementById("gprocenty1_1");
+									uprocenty1_1.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_1.setAttribute("onclick", "usunprocenty1_1()");
+									var zpoprocenty1_1 = document.getElementById("procenty1_1b");
+									zpoprocenty1_1.setAttribute('class', 'ok');
+								}
+								function usunprocenty1_1() {
+									var dprocenty1_1 = document.getElementById("r-procenty1_1");
+									dprocenty1_1.innerHTML = null;
+									var uprocenty1_1a = document.getElementById("gprocenty1_1");
+									uprocenty1_1a.innerHTML = "Rozwiązanie";
+									uprocenty1_1a.setAttribute("onclick", "pokazprocenty1_1()");
+									var zpoprocenty1_1 = document.getElementById("procenty1_1b");
+									zpoprocenty1_1.setAttribute('class', 'col-xs-12 col-md-6 col-lg-6');
+								}
+							</script>
+							<div id="r-procenty1_1"></div>
+						</li>
+						<li class="numer" id="procenty1_2">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Kasia wydała \(\frac{3}{4}\)
+								wszystkich oszczędności ze skarbonki na zakup nowego laptopa. Ile procent pieniędzy
+								zostało jej w skarbonce?</p>
+							<div class="odp">
+								<div>a) \(20\%\)</div>
+								<div id="procenty1_2b">b) \(25\%\)</div>
+								<div>c) \(75\%\)</div>
+								<div>d) \(50\%\)</div>
+							</div><button class="butt" id="gprocenty1_2"
+								onclick="pokazprocenty1_2()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_2() {
+									var dprocenty1_2 = document.getElementById("r-procenty1_2");
+									var rprocenty1_2 = document.createElement("img");
+									rprocenty1_2.setAttribute('src', 'roz/procenty1_2.png');
+									rprocenty1_2.setAttribute('class' , 'img-fluid');
+									dprocenty1_2.appendChild(rprocenty1_2);
+									var uprocenty1_2 = document.getElementById("gprocenty1_2");
+									uprocenty1_2.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_2.setAttribute("onclick", "usunprocenty1_2()");
+									var zpoprocenty1_2 = document.getElementById("procenty1_2b");
+									zpoprocenty1_2.setAttribute('class', 'ok');
+								}
+								function usunprocenty1_2() {
+									var dprocenty1_2 = document.getElementById("r-procenty1_2");
+									dprocenty1_2.innerHTML = null;
+									var uprocenty1_2a = document.getElementById("gprocenty1_2");
+									uprocenty1_2a.innerHTML = "Rozwiązanie";
+									uprocenty1_2a.setAttribute("onclick", "pokazprocenty1_2()");
+									var zpoprocenty1_2 = document.getElementById("procenty1_2b");
+									zpoprocenty1_2.setAttribute('class', 'null');
+								}
+							</script>
+							<div id="r-procenty1_2"></div>
+						</li>
+						<li class="numer" id="procenty1_3">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>\(0,018\) to:</p>
+							<div class="odp">
+								<div>a) \(0,9\%\)</div>
+								<div>b) \(9\%\)</div>
+								<div id="procenty1_3c">c) \(1,8\%\)</div>
+								<div>d) \(18\%\)</div>
+							</div><button class="butt" id="gprocenty1_3"
+								onclick="pokazprocenty1_3()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_3() {
+									var dprocenty1_3 = document.getElementById("r-procenty1_3");
+									var rprocenty1_3 = document.createElement("img");
+									rprocenty1_3.setAttribute('src', 'roz/procenty1_3.png');
+									rprocenty1_3.setAttribute('class' , 'img-fluid');
+									dprocenty1_3.appendChild(rprocenty1_3);
+									var uprocenty1_3 = document.getElementById("gprocenty1_3");
+									uprocenty1_3.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_3.setAttribute("onclick", "usunprocenty1_3()");
+									var zpoprocenty1_3 = document.getElementById("procenty1_3c");
+									zpoprocenty1_3.setAttribute('class', 'ok');
+								}
+								function usunprocenty1_3() {
+									var dprocenty1_3 = document.getElementById("r-procenty1_3");
+									dprocenty1_3.innerHTML = null;
+									var uprocenty1_3a = document.getElementById("gprocenty1_3");
+									uprocenty1_3a.innerHTML = "Rozwiązanie";
+									uprocenty1_3a.setAttribute("onclick", "pokazprocenty1_3()");
+									var zpoprocenty1_3 = document.getElementById("procenty1_3c");
+									zpoprocenty1_3.setAttribute('class', 'null');
+								}
+							</script>
+							<div id="r-procenty1_3"></div>
+						</li>
+						<li class="numer" id="procenty1_4">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Jakim procentem liczby \(20\) jest
+								liczba \(40\)?</p>
+							<div class="odp">
+								<div>a) \(20\%\)</div>
+								<div>b) \(50\%\)</div>
+								<div>c) \(100\%\)</div>
+								<div id="procenty1_4d">d) \(200\%\)</div>
+							</div><button class="butt" id="gprocenty1_4"
+								onclick="pokazprocenty1_4()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_4() {
+									var dprocenty1_4 = document.getElementById("r-procenty1_4");
+									var rprocenty1_4 = document.createElement("img");
+									rprocenty1_4.setAttribute('src', 'roz/procenty1_4.png');
+									rprocenty1_4.setAttribute('class' , 'img-fluid');
+									dprocenty1_4.appendChild(rprocenty1_4);
+									var uprocenty1_4 = document.getElementById("gprocenty1_4");
+									uprocenty1_4.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_4.setAttribute("onclick", "usunprocenty1_4()");
+									var zpoprocenty1_4 = document.getElementById("procenty1_4d");
+									zpoprocenty1_4.setAttribute('class', 'ok');
+								}
+								function usunprocenty1_4() {
+									var dprocenty1_4 = document.getElementById("r-procenty1_4");
+									dprocenty1_4.innerHTML = null;
+									var uprocenty1_4a = document.getElementById("gprocenty1_4");
+									uprocenty1_4a.innerHTML = "Rozwiązanie";
+									uprocenty1_4a.setAttribute("onclick", "pokazprocenty1_4()");
+									var zpoprocenty1_4 = document.getElementById("procenty1_4d");
+									zpoprocenty1_4.setAttribute('class', 'null');
+								}
+							</script>
+							<div id="r-procenty1_4"></div>
+						</li>
+						<li class="numer" id="procenty1_5">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Cena bluzy w promocji \(-40\%\)
+								wynosi \(276\) zł. Ile wynosiła cena bluzy przed promocją?</p>
+							<div class="odp"></div><button class="butt" id="gprocenty1_5"
+								onclick="pokazprocenty1_5()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_5() {
+									var dprocenty1_5 = document.getElementById("r-procenty1_5");
+									var rprocenty1_5 = document.createElement("img");
+									rprocenty1_5.setAttribute('src', 'roz/procenty1_5.png');
+									rprocenty1_5.setAttribute('class' , 'img-fluid');
+									dprocenty1_5.appendChild(rprocenty1_5);
+									var uprocenty1_5 = document.getElementById("gprocenty1_5");
+									uprocenty1_5.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_5.setAttribute("onclick", "usunprocenty1_5()");
+								}
+								function usunprocenty1_5() {
+									var dprocenty1_5 = document.getElementById("r-procenty1_5");
+									dprocenty1_5.innerHTML = null;
+									var uprocenty1_5a = document.getElementById("gprocenty1_5");
+									uprocenty1_5a.innerHTML = "Rozwiązanie";
+									uprocenty1_5a.setAttribute("onclick", "pokazprocenty1_5()");
+								}
+							</script>
+							<div id="r-procenty1_5"></div>
+						</li>
+						<li class="numer" id="procenty1_6">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Cena podkoszulki wynosiła \(300\) zł.
+								Sklep wprowadził promocję \(-40\%\) na wszystkie towary. Ile wynosi cena podkoszulki w
+								trakcie promocji?</p>
+							<div class="odp"></div><button class="butt" id="gprocenty1_6"
+								onclick="pokazprocenty1_6()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_6() {
+									var dprocenty1_6 = document.getElementById("r-procenty1_6");
+									var rprocenty1_6 = document.createElement("img");
+									rprocenty1_6.setAttribute('src', 'roz/procenty1_6.png');
+									rprocenty1_6.setAttribute('class' , 'img-fluid');
+									dprocenty1_6.appendChild(rprocenty1_6);
+									var uprocenty1_6 = document.getElementById("gprocenty1_6");
+									uprocenty1_6.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_6.setAttribute("onclick", "usunprocenty1_6()");
+								}
+								function usunprocenty1_6() {
+									var dprocenty1_6 = document.getElementById("r-procenty1_6");
+									dprocenty1_6.innerHTML = null;
+									var uprocenty1_6a = document.getElementById("gprocenty1_6");
+									uprocenty1_6a.innerHTML = "Rozwiązanie";
+									uprocenty1_6a.setAttribute("onclick", "pokazprocenty1_6()");
+								}
+							</script>
+							<div id="r-procenty1_6"></div>
+						</li>
+						<li class="numer" id="procenty1_7">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Cenę koszuli wynoszącą \(380\) zł
+								obniżono o \(20\%\), a następnie podwyższono o \(25\%\). Oblicz aktualną cenę koszuli.
+							</p>
+							<div class="odp"></div><button class="butt" id="gprocenty1_7"
+								onclick="pokazprocenty1_7()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_7() {
+									var dprocenty1_7 = document.getElementById("r-procenty1_7");
+									var rprocenty1_7 = document.createElement("img");
+									rprocenty1_7.setAttribute('src', 'roz/procenty1_7.png');
+									rprocenty1_7.setAttribute('class' , 'img-fluid');
+									dprocenty1_7.appendChild(rprocenty1_7);
+									var uprocenty1_7 = document.getElementById("gprocenty1_7");
+									uprocenty1_7.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_7.setAttribute("onclick", "usunprocenty1_7()");
+								}
+								function usunprocenty1_7() {
+									var dprocenty1_7 = document.getElementById("r-procenty1_7");
+									dprocenty1_7.innerHTML = null;
+									var uprocenty1_7a = document.getElementById("gprocenty1_7");
+									uprocenty1_7a.innerHTML = "Rozwiązanie";
+									uprocenty1_7a.setAttribute("onclick", "pokazprocenty1_7()");
+								}
+							</script>
+							<div id="r-procenty1_7"></div>
+						</li>
+						<li class="numer" id="procenty1_8">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Cena spodni w promocji \(-50\%\)
+								wynosi \(170\) zł. Ile wynosiła cena spodni przed promocją?</p>
+							<div class="odp"></div><button class="butt" id="gprocenty1_8"
+								onclick="pokazprocenty1_8()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_8() {
+									var dprocenty1_8 = document.getElementById("r-procenty1_8");
+									var rprocenty1_8 = document.createElement("img");
+									rprocenty1_8.setAttribute('src', 'roz/procenty1_8.png');
+									rprocenty1_8.setAttribute('class' , 'img-fluid');
+									dprocenty1_8.appendChild(rprocenty1_8);
+									var uprocenty1_8 = document.getElementById("gprocenty1_8");
+									uprocenty1_8.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_8.setAttribute("onclick", "usunprocenty1_8()");
+								}
+								function usunprocenty1_8() {
+									var dprocenty1_8 = document.getElementById("r-procenty1_8");
+									dprocenty1_8.innerHTML = null;
+									var uprocenty1_8a = document.getElementById("gprocenty1_8");
+									uprocenty1_8a.innerHTML = "Rozwiązanie";
+									uprocenty1_8a.setAttribute("onclick", "pokazprocenty1_8()");
+								}
+							</script>
+							<div id="r-procenty1_8"></div>
+						</li>
+						<li class="numer" id="procenty1_9">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>\(32\) GB pamięci USB, czyli \(20\%\)
+								zajmuje zapisana muzyka. Jaką pojemność ma to urządzenie?</p>
+							<div class="odp"></div><button class="butt" id="gprocenty1_9"
+								onclick="pokazprocenty1_9()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_9() {
+									var dprocenty1_9 = document.getElementById("r-procenty1_9");
+									var rprocenty1_9 = document.createElement("img");
+									rprocenty1_9.setAttribute('src', 'roz/procenty1_9.png');
+									rprocenty1_9.setAttribute('class' , 'img-fluid');
+									dprocenty1_9.appendChild(rprocenty1_9);
+									var uprocenty1_9 = document.getElementById("gprocenty1_9");
+									uprocenty1_9.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_9.setAttribute("onclick", "usunprocenty1_9()");
+								}
+								function usunprocenty1_9() {
+									var dprocenty1_9 = document.getElementById("r-procenty1_9");
+									dprocenty1_9.innerHTML = null;
+									var uprocenty1_9a = document.getElementById("gprocenty1_9");
+									uprocenty1_9a.innerHTML = "Rozwiązanie";
+									uprocenty1_9a.setAttribute("onclick", "pokazprocenty1_9()");
+								}
+							</script>
+							<div id="r-procenty1_9"></div>
+						</li>
+						<li class="numer" id="procenty1_10">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Biuro podróży podało, że aż \(620\)
+								osób, czyli \(20\%\) klientów biura, odwiedziło Egipt. Ile osób korzystało z usług tego
+								biura?</p>
+							<div class="odp"></div><button class="butt" id="gprocenty1_10"
+								onclick="pokazprocenty1_10()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_10() {
+									var dprocenty1_10 = document.getElementById("r-procenty1_10");
+									var rprocenty1_10 = document.createElement("img");
+									rprocenty1_10.setAttribute('src', 'roz/procenty1_10.png');
+									rprocenty1_10.setAttribute('class' , 'img-fluid');
+									rdprocenty1_10.appendChild(rprocenty1_10);
+									var uprocenty1_10 = document.getElementById("gprocenty1_10");
+									uprocenty1_10.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_10.setAttribute("onclick", "usunprocenty1_10()");
+								}
+								function usunprocenty1_10() {
+									var dprocenty1_10 = document.getElementById("r-procenty1_10");
+									dprocenty1_10.innerHTML = null;
+									var uprocenty1_10a = document.getElementById("gprocenty1_10");
+									uprocenty1_10a.innerHTML = "Rozwiązanie";
+									uprocenty1_10a.setAttribute("onclick", "pokazprocenty1_10()");
+								}
+							</script>
+							<div id="r-procenty1_10"></div>
+						</li>
+						<li class="numer" id="procenty1_11">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Do banku wpłacamy \(6500\) zł na
+								lokatę oszczędnościową z oprocentowaniem \(1\%\) w skali roku (pomijamy podatek od
+								odsetek). Odsetki doliczamy do lokaty. Jaką kwotę mamy na lokacie po roku? </p>
+							<div class="odp"></div><button class="butt" id="gprocenty1_11"
+								onclick="pokazprocenty1_11()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_11() {
+									var dprocenty1_11 = document.getElementById("r-procenty1_11");
+									var rprocenty1_11 = document.createElement("img");
+									rprocenty1_11.setAttribute('src', 'roz/procenty1_11.png');
+									rprocenty1_11.setAttribute('class' , 'img-fluid');
+									rdprocenty1_11.appendChild(rprocenty1_11);
+									var uprocenty1_11 = document.getElementById("gprocenty1_11");
+									uprocenty1_11.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_11.setAttribute("onclick", "usunprocenty1_11()");
+								}
+								function usunprocenty1_11() {
+									var dprocenty1_11 = document.getElementById("r-procenty1_11");
+									dprocenty1_11.innerHTML = null;
+									var uprocenty1_11a = document.getElementById("gprocenty1_11");
+									uprocenty1_11a.innerHTML = "Rozwiązanie";
+									uprocenty1_11a.setAttribute("onclick", "pokazprocenty1_11()");
+								}
+							</script>
+							<div id="r-procenty1_11"></div>
+						</li>
+						<li class="numer" id="procenty1_12">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Sonia pożyczyła starszemu bratu
+								\(80\) zł na rok z oprocentowaniem \(5\%\) w skali roku. Ile brat będzie musiał oddać
+								pieniędzy po roku?</p>
+							<div class="odp"></div><button class="butt" id="gprocenty1_12"
+								onclick="pokazprocenty1_12()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_12() {
+									var dprocenty1_12 = document.getElementById("r-procenty1_12");
+									var rprocenty1_12 = document.createElement("img");
+									rprocenty1_12.setAttribute('src', 'roz/procenty1_12.png');
+									rprocenty1_12.setAttribute('class' , 'img-fluid');
+									rdprocenty1_12.appendChild(rprocenty1_12);
+									var uprocenty1_12 = document.getElementById("gprocenty1_12");
+									uprocenty1_12.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_12.setAttribute("onclick", "usunprocenty1_12()");
+								}
+								function usunprocenty1_12() {
+									var dprocenty1_12 = document.getElementById("r-procenty1_12");
+									dprocenty1_12.innerHTML = null;
+									var uprocenty1_12a = document.getElementById("gprocenty1_12");
+									uprocenty1_12a.innerHTML = "Rozwiązanie";
+									uprocenty1_12a.setAttribute("onclick", "pokazprocenty1_12()");
+								}
+							</script>
+							<div id="r-procenty1_12"></div>
+						</li>
+						<li class="numer" id="procenty1_13">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Do banku wpłacamy \(500\) zł na
+								lokatę oszczędnościową z oprocentowaniem \(7\%\) w skali roku (pomijamy podatek od
+								odsetek). Odsetki doliczamy do lokaty. Jaką kwotę mamy na lokacie po pół roku? </p>
+							<div class="odp"></div><button class="butt" id="gprocenty1_13"
+								onclick="pokazprocenty1_13()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_13() {
+									var dprocenty1_13 = document.getElementById("r-procenty1_13");
+									var rprocenty1_13 = document.createElement("img");
+									rprocenty1_13.setAttribute('src', 'roz/procenty1_13.png');
+									rprocenty1_13.setAttribute('class' , 'img-fluid');
+									rdprocenty1_13.appendChild(rprocenty1_13);
+									var uprocenty1_13 = document.getElementById("gprocenty1_13");
+									uprocenty1_13.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_13.setAttribute("onclick", "usunprocenty1_13()");
+								}
+								function usunprocenty1_13() {
+									var dprocenty1_13 = document.getElementById("r-procenty1_13");
+									dprocenty1_13.innerHTML = null;
+									var uprocenty1_13a = document.getElementById("gprocenty1_13");
+									uprocenty1_13a.innerHTML = "Rozwiązanie";
+									uprocenty1_13a.setAttribute("onclick", "pokazprocenty1_13()");
+								}
+							</script>
+							<div id="r-procenty1_13"></div>
+						</li>
+						<li class="numer" id="procenty1_14">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Po roku (po doliczeniu odsetek) na
+								lokacie z oprocentowaniem \(5\%\) w skali roku mamy \(5565\) zł. Na jaką kwotę była
+								założona ta lokata?</p>
+							<div class="odp"></div><button class="butt" id="gprocenty1_14"
+								onclick="pokazprocenty1_14()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_14() {
+									var dprocenty1_14 = document.getElementById("r-procenty1_14");
+									var rprocenty1_14 = document.createElement("img");
+									rprocenty1_14.setAttribute('src', 'roz/procenty1_14.png');
+									rprocenty1_14.setAttribute('class' , 'img-fluid');
+									rdprocenty1_14.appendChild(rprocenty1_14);
+									var uprocenty1_14 = document.getElementById("gprocenty1_14");
+									uprocenty1_14.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_14.setAttribute("onclick", "usunprocenty1_14()");
+								}
+								function usunprocenty1_14() {
+									var dprocenty1_14 = document.getElementById("r-procenty1_14");
+									dprocenty1_14.innerHTML = null;
+									var uprocenty1_14a = document.getElementById("gprocenty1_14");
+									uprocenty1_14a.innerHTML = "Rozwiązanie";
+									uprocenty1_14a.setAttribute("onclick", "pokazprocenty1_14()");
+								}
+							</script>
+							<div id="r-procenty1_14"></div>
+						</li>
+						<li class="numer" id="procenty1_15">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Po roku (po doliczeniu odsetek) na
+								lokacie z oprocentowaniem \(2\%\) w skali roku mamy \(1224\) zł. Na jaką kwotę była
+								założona ta lokata?</p>
+							<div class="odp"></div><button class="butt" id="gprocenty1_15"
+								onclick="pokazprocenty1_15()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_15() {
+									var dprocenty1_15 = document.getElementById("r-procenty1_15");
+									var rprocenty1_15 = document.createElement("img");
+									rprocenty1_15.setAttribute('src', 'roz/procenty1_15.png');
+									rprocenty1_15.setAttribute('class' , 'img-fluid');
+									rdprocenty1_15.appendChild(rprocenty1_15);
+									var uprocenty1_15 = document.getElementById("gprocenty1_15");
+									uprocenty1_15.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_15.setAttribute("onclick", "usunprocenty1_15()");
+								}
+								function usunprocenty1_15() {
+									var dprocenty1_15 = document.getElementById("r-procenty1_15");
+									dprocenty1_15.innerHTML = null;
+									var uprocenty1_15a = document.getElementById("gprocenty1_15");
+									uprocenty1_15a.innerHTML = "Rozwiązanie";
+									uprocenty1_15a.setAttribute("onclick", "pokazprocenty1_15()");
+								}
+							</script>
+							<div id="r-procenty1_15"></div>
+						</li>
+						<li class="numer" id="procenty1_16">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>W szkole uczy się \(828\) uczniów.
+								Liczba dziewcząt stanowi \(84\%\) liczby chłopców. Oblicz, ile dziewcząt i ilu chłopców
+								uczy się w tej szkole.</p>
+							<div class="odp"></div><button class="butt" id="gprocenty1_16"
+								onclick="pokazprocenty1_16()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_16() {
+									var dprocenty1_16 = document.getElementById("r-procenty1_16");
+									var rprocenty1_16 = document.createElement("img");
+									rprocenty1_16.setAttribute('src', 'roz/procenty1_16.png');
+									rprocenty1_16.setAttribute('class' , 'img-fluid');
+									rdprocenty1_16.appendChild(rprocenty1_16);
+									var uprocenty1_16 = document.getElementById("gprocenty1_16");
+									uprocenty1_16.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_16.setAttribute("onclick", "usunprocenty1_16()");
+								}
+								function usunprocenty1_16() {
+									var dprocenty1_16 = document.getElementById("r-procenty1_16");
+									dprocenty1_16.innerHTML = null;
+									var uprocenty1_16a = document.getElementById("gprocenty1_16");
+									uprocenty1_16a.innerHTML = "Rozwiązanie";
+									uprocenty1_16a.setAttribute("onclick", "pokazprocenty1_16()");
+								}
+							</script>
+							<div id="r-procenty1_16"></div>
+						</li>
+						<li class="numer" id="procenty1_17">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>W szkole uczy się \(1312\) uczniów.
+								Liczba chłopców stanowi \(64\%\) liczby dziewcząt. Oblicz, ile dziewcząt i ilu chłopców
+								uczy się w tej szkole.</p>
+							<div class="odp"></div><button class="butt" id="gprocenty1_17"
+								onclick="pokazprocenty1_17()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_17() {
+									var dprocenty1_17 = document.getElementById("r-procenty1_17");
+									var rprocenty1_17 = document.createElement("img");
+									rprocenty1_17.setAttribute('src', 'roz/procenty1_17.png');
+									rprocenty1_17.setAttribute('class' , 'img-fluid');
+									rdprocenty1_17.appendChild(rprocenty1_17);
+									var uprocenty1_17 = document.getElementById("gprocenty1_17");
+									uprocenty1_17.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_17.setAttribute("onclick", "usunprocenty1_17()");
+								}
+								function usunprocenty1_17() {
+									var dprocenty1_17 = document.getElementById("r-procenty1_17");
+									dprocenty1_17.innerHTML = null;
+									var uprocenty1_17a = document.getElementById("gprocenty1_17");
+									uprocenty1_17a.innerHTML = "Rozwiązanie";
+									uprocenty1_17a.setAttribute("onclick", "pokazprocenty1_17()");
+								}
+							</script>
+							<div id="r-procenty1_17"></div>
+						</li>
+						<li class="numer" id="procenty1_18">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>W szkole uczy się \(1008\) uczniów.
+								Liczba chłopców stanowi \(80\%\) liczby dziewcząt. Oblicz, ile dziewcząt i ilu chłopców
+								uczy się w tej szkole.</p>
+							<div class="odp"></div><button class="butt" id="gprocenty1_18"
+								onclick="pokazprocenty1_18()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_18() {
+									var dprocenty1_18 = document.getElementById("r-procenty1_18");
+									var rprocenty1_18 = document.createElement("img");
+									rprocenty1_18.setAttribute('src', 'roz/procenty1_18.png');
+									rprocenty1_18.setAttribute('class' , 'img-fluid');
+									rdprocenty1_18.appendChild(rprocenty1_18);
+									var uprocenty1_18 = document.getElementById("gprocenty1_18");
+									uprocenty1_18.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_18.setAttribute("onclick", "usunprocenty1_18()");
+								}
+								function usunprocenty1_18() {
+									var dprocenty1_18 = document.getElementById("r-procenty1_18");
+									dprocenty1_18.innerHTML = null;
+									var uprocenty1_18a = document.getElementById("gprocenty1_18");
+									uprocenty1_18a.innerHTML = "Rozwiązanie";
+									uprocenty1_18a.setAttribute("onclick", "pokazprocenty1_18()");
+								}
+							</script>
+							<div id="r-procenty1_18"></div>
+						</li>
+						<li class="numer" id="procenty1_19">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Liczba, której \(160\%\) jest równe
+								\(4800\) to: </p>
+							<div class="odp">
+								<div>a) \(2280\)</div>
+								<div id="procenty1_19b">b) \(3000\)</div>
+								<div>c) \(6000\)</div>
+								<div>d) 7680</div>
+							</div><button class="butt" id="gprocenty1_19"
+								onclick="pokazprocenty1_19()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_19() {
+									var dprocenty1_19 = document.getElementById("r-procenty1_19");
+									var rprocenty1_19 = document.createElement("img");
+									rprocenty1_19.setAttribute('src', 'roz/procenty1_19.png');
+									rprocenty1_19.setAttribute('class' , 'img-fluid');
+									rdprocenty1_19.appendChild(rprocenty1_19);
+									var uprocenty1_19 = document.getElementById("gprocenty1_19");
+									uprocenty1_19.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_19.setAttribute("onclick", "usunprocenty1_19()");
+									var zpoprocenty1_19 = document.getElementById("procenty1_19b");
+									zpoprocenty1_19.setAttribute('class', 'ok');
+								}
+								function usunprocenty1_19() {
+									var dprocenty1_19 = document.getElementById("r-procenty1_19");
+									dprocenty1_19.innerHTML = null;
+									var uprocenty1_19a = document.getElementById("gprocenty1_19");
+									uprocenty1_19a.innerHTML = "Rozwiązanie";
+									uprocenty1_19a.setAttribute("onclick", "pokazprocenty1_19()");
+									var zpoprocenty1_19 = document.getElementById("procenty1_19b");
+									zpoprocenty1_19.setAttribute('class', 'null');
+								}
+							</script>
+							<div id="r-procenty1_19"></div>
+						</li>
+						<li class="numer" id="procenty1_20">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Do zrobienia \(8\) naleśników
+								potrzeba \(200\)g mąki oraz \(100\)ml mleka. Jeżeli chcielibyśmy zrobić porcję \(6\)
+								naleśników, to ile mąki byśmy potrzebowali? </p>
+							<div class="odp">
+								<div class="col-xs-12 col-md-6 col-lg-6">a) \(140\)g</div>
+								<div class="col-xs-12 col-md-6 col-lg-6">b) \(150\)g</div>
+							</div>
+							<div class="odp">
+								<div class="col-xs-12 col-md-6 col-lg-6">c) \(225\)g</div>
+								<div class="col-xs-12 col-md-6 col-lg-6">d) Wszystkie odpowiedzi są nieprawidłowe</div>
+							</div><button class="butt" id="gprocenty1_20"
+								onclick="pokazprocenty1_20()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_20() {
+									var dprocenty1_20 = document.getElementById("r-procenty1_20");
+									var rprocenty1_20 = document.createElement("img");
+									rprocenty1_20.setAttribute('src', 'roz/procenty1_20.png');
+									rprocenty1_20.setAttribute('class' , 'img-fluid');
+									rdprocenty1_20.appendChild(rprocenty1_20);
+									var uprocenty1_20 = document.getElementById("gprocenty1_20");
+									uprocenty1_20.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_20.setAttribute("onclick", "usunprocenty1_20()");
+								}
+								function usunprocenty1_20() {
+									var dprocenty1_20 = document.getElementById("r-procenty1_20");
+									dprocenty1_20.innerHTML = null;
+									var uprocenty1_20a = document.getElementById("gprocenty1_20");
+									uprocenty1_20a.innerHTML = "Rozwiązanie";
+									uprocenty1_20a.setAttribute("onclick", "pokazprocenty1_20()");
+								}
+							</script>
+							<div id="r-procenty1_20"></div>
+						</li>
+						<li class="numer" id="procenty1_21">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Czynsz w kamienicy podwyższono o
+								\(25\%\) i teraz Pani Maria musi płacić \(600\)zł miesięcznie. Ile czynszu płaciła przed
+								podwyżką? </p>
+							<div class="odp">
+								<div>a) \(400\) zł</div>
+								<div>b) \(450\) zł</div>
+								<div>c) \(480\) zł</div>
+								<div>d) \(500\) zł</div>
+							</div><button class="butt" id="gprocenty1_21"
+								onclick="pokazprocenty1_21()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_21() {
+									var dprocenty1_21 = document.getElementById("r-procenty1_21");
+									var rprocenty1_21 = document.createElement("img");
+									rprocenty1_21.setAttribute('src', 'roz/procenty1_21.png');
+									rprocenty1_21.setAttribute('class' , 'img-fluid');
+									rdprocenty1_21.appendChild(rprocenty1_21);
+									var uprocenty1_21 = document.getElementById("gprocenty1_21");
+									uprocenty1_21.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_21.setAttribute("onclick", "usunprocenty1_21()");
+								}
+								function usunprocenty1_21() {
+									var dprocenty1_21 = document.getElementById("r-procenty1_21");
+									dprocenty1_21.innerHTML = null;
+									var uprocenty1_21a = document.getElementById("gprocenty1_21");
+									uprocenty1_21a.innerHTML = "Rozwiązanie";
+									uprocenty1_21a.setAttribute("onclick", "pokazprocenty1_21()");
+								}
+							</script>
+							<div id="r-procenty1_21"></div>
+						</li>
+						<li class="numer" id="procenty1_22">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>W klasie jest \(24\) uczniów, z czego
+								\(\frac{5}{8}\) stanowią osoby o piwnych oczach. Osób o niebieskich oczach jest \(60\%\)
+								mniej od osób o piwnych oczach. Osoby, które mają inny kolor oczu niż piwne lub
+								niebieskie stanowią: </p>
+							<div class="odp">
+								<div class="col-xs-12 col-md-6 col-lg-6">a) Mniej niż \(10\%\) całej klasy</div>
+								<div class="col-xs-12 col-md-6 col-lg-6">b) \(12,5\%\) klasy</div>
+							</div>
+							<div class="odp">
+								<div class="col-xs-12 col-md-6 col-lg-6">c) \(16\frac{2}{3}\%\) klasy</div>
+								<div class="col-xs-12 col-md-6 col-lg-6">d) \(20\%\) klasy</div>
+							</div><button class="butt" id="gprocenty1_22"
+								onclick="pokazprocenty1_22()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_22() {
+									var dprocenty1_22 = document.getElementById("r-procenty1_22");
+									var rprocenty1_22 = document.createElement("img");
+									rprocenty1_22.setAttribute('src', 'roz/procenty1_22.png');
+									rprocenty1_22.setAttribute('class' , 'img-fluid');
+									rdprocenty1_22.appendChild(rprocenty1_22);
+									var uprocenty1_22 = document.getElementById("gprocenty1_22");
+									uprocenty1_22.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_22.setAttribute("onclick", "usunprocenty1_22()");
+								}
+								function usunprocenty1_22() {
+									var dprocenty1_22 = document.getElementById("r-procenty1_22");
+									dprocenty1_22.innerHTML = null;
+									var uprocenty1_22a = document.getElementById("gprocenty1_22");
+									uprocenty1_22a.innerHTML = "Rozwiązanie";
+									uprocenty1_22a.setAttribute("onclick", "pokazprocenty1_22()");
+								}
+							</script>
+							<div id="r-procenty1_22"></div>
+						</li>
+						<li class="numer" id="procenty1_23">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Czy to prawda, że suma \(38\%\)
+								liczby \(41\) oraz \(38\%\) liczby \(18\) jest równa \(38\%\) liczby \(59\)? </p>
+							<div class="odp"></div><button class="butt" id="gprocenty1_23"
+								onclick="pokazprocenty1_23()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_23() {
+									var dprocenty1_23 = document.getElementById("r-procenty1_23");
+									var rprocenty1_23 = document.createElement("img");
+									rprocenty1_23.setAttribute('src', 'roz/procenty1_23.png');
+									rprocenty1_23.setAttribute('class' , 'img-fluid');
+									rdprocenty1_23.appendChild(rprocenty1_23);
+									var uprocenty1_23 = document.getElementById("gprocenty1_23");
+									uprocenty1_23.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_23.setAttribute("onclick", "usunprocenty1_23()");
+								}
+								function usunprocenty1_23() {
+									var dprocenty1_23 = document.getElementById("r-procenty1_23");
+									dprocenty1_23.innerHTML = null;
+									var uprocenty1_23a = document.getElementById("gprocenty1_23");
+									uprocenty1_23a.innerHTML = "Rozwiązanie";
+									uprocenty1_23a.setAttribute("onclick", "pokazprocenty1_23()");
+								}
+							</script>
+							<div id="r-procenty1_23"></div>
+						</li>
+						<li class="numer" id="procenty1_24">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Prawda czy fałsz?<br>
+								Jeżeli w szkolnym turnieju najlepszy strzelec drużyny zielonych zdobył 12 bramek, a
+								drużyny czerwonych zaledwie 3 bramki, to snajper drużyny zielonych zdobył 300% bramek
+								więcej względem strzelca czerwonych. </p>
+							<div class="odp"></div><button class="butt" id="gprocenty1_24"
+								onclick="pokazprocenty1_24()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_24() {
+									var dprocenty1_24 = document.getElementById("r-procenty1_24");
+									var rprocenty1_24 = document.createElement("img");
+									rprocenty1_24.setAttribute('src', 'roz/procenty1_24.png');
+									rprocenty1_24.setAttribute('class' , 'img-fluid');
+									rdprocenty1_24.appendChild(rprocenty1_24);
+									var uprocenty1_24 = document.getElementById("gprocenty1_24");
+									uprocenty1_24.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_24.setAttribute("onclick", "usunprocenty1_24()");
+								}
+								function usunprocenty1_24() {
+									var dprocenty1_24 = document.getElementById("r-procenty1_24");
+									dprocenty1_24.innerHTML = null;
+									var uprocenty1_24a = document.getElementById("gprocenty1_24");
+									uprocenty1_24a.innerHTML = "Rozwiązanie";
+									uprocenty1_24a.setAttribute("onclick", "pokazprocenty1_24()");
+								}
+							</script>
+							<div id="r-procenty1_24"></div>
+						</li>
+						<li class="numer" id="procenty1_25">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>W biurze zatrudniano do tej pory
+								cztery osoby, których średnia pensja wynosiła \(4000\)zł. Po zatrudnieniu nowego
+								pracownika średnia pensja wzrosła o \(2,5\%\). Ile zarabia nowy pracownik?</p>
+							<div class="odp">
+								<div>a) \(4100\) zł</div>
+								<div>b) \(4200\) zł</div>
+								<div>c) \(4400\) zł</div>
+								<div>d) \(4500\) zł</div>
+							</div><button class="butt" id="gprocenty1_25"
+								onclick="pokazprocenty1_25()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_25() {
+									var dprocenty1_25 = document.getElementById("r-procenty1_25");
+									var rprocenty1_25 = document.createElement("img");
+									rprocenty1_25.setAttribute('src', 'roz/procenty1_25.png');
+									rprocenty1_25.setAttribute('class' , 'img-fluid');
+									rdprocenty1_25.appendChild(rprocenty1_25);
+									var uprocenty1_25 = document.getElementById("gprocenty1_25");
+									uprocenty1_25.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_25.setAttribute("onclick", "usunprocenty1_25()");
+								}
+								function usunprocenty1_25() {
+									var dprocenty1_25 = document.getElementById("r-procenty1_25");
+									dprocenty1_25.innerHTML = null;
+									var uprocenty1_25a = document.getElementById("gprocenty1_25");
+									uprocenty1_25a.innerHTML = "Rozwiązanie";
+									uprocenty1_25a.setAttribute("onclick", "pokazprocenty1_25()");
+								}
+							</script>
+							<div id="r-procenty1_25"></div>
+						</li>
+						<li class="numer" id="procenty1_26">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Grzyby w \(90\%\) składają się z
+								wody. Jeżeli po wysuszeniu (czyli pozbyciu się z nich \(100\%\) wody) zostało nam \(20\)
+								dag grzybów, to przed suszeniem mieliśmy ich: </p>
+							<div class="odp">
+								<div>a) \(0,18\) kg</div>
+								<div>b) \(0,2\) kg</div>
+								<div>c) \(1,8\) kg</div>
+								<div>d) \(2\) kg</div>
+							</div><button class="butt" id="gprocenty1_26"
+								onclick="pokazprocenty1_26()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_26() {
+									var dprocenty1_26 = document.getElementById("r-procenty1_26");
+									var rprocenty1_26 = document.createElement("img");
+									rprocenty1_26.setAttribute('src', 'roz/procenty1_26.png');
+									rprocenty1_26.setAttribute('class' , 'img-fluid');
+									rdprocenty1_26.appendChild(rprocenty1_26);
+									var uprocenty1_26 = document.getElementById("gprocenty1_26");
+									uprocenty1_26.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_26.setAttribute("onclick", "usunprocenty1_26()");
+								}
+								function usunprocenty1_26() {
+									var dprocenty1_26 = document.getElementById("r-procenty1_26");
+									dprocenty1_26.innerHTML = null;
+									var uprocenty1_26a = document.getElementById("gprocenty1_26");
+									uprocenty1_26a.innerHTML = "Rozwiązanie";
+									uprocenty1_26a.setAttribute("onclick", "pokazprocenty1_26()");
+								}
+							</script>
+							<div id="r-procenty1_26"></div>
+						</li>
+						<li class="numer" id="procenty1_27">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Zanim zaczniemy matematyczne
+								zmagania, to mam dla Ciebie małą zagadkę związaną z procentami. Co oznacza napis \(2\%\)
+								na standardowym opakowaniu mleka?</p>
+							<div class="odp">
+								<div class="col-xs-12 col-md-6 col-lg-6">a) Że w mleku mamy \(2\%\) wapnia</div>
+								<div class="col-xs-12 col-md-6 col-lg-6">b) Że w mleku mamy \(2\%\) tłuszczu</div>
+							</div>
+							<div class="odp">
+								<div class="col-xs-12 col-md-6 col-lg-6">c) Że mamy \(2\%\) mleka i \(98\%\) wody i
+									innych składników</div>
+								<div class="col-xs-12 col-md-6 col-lg-6">d) Że mleko zostało skoncentrowane w stopniu
+									\(2\%\)</div>
+							</div><button class="butt" id="gprocenty1_27"
+								onclick="pokazprocenty1_27()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_27() {
+									var dprocenty1_27 = document.getElementById("r-procenty1_27");
+									var rprocenty1_27 = document.createElement("img");
+									rprocenty1_27.setAttribute('src', 'roz/procenty1_27.png');
+									rprocenty1_27.setAttribute('class' , 'img-fluid');
+									rdprocenty1_27.appendChild(rprocenty1_27);
+									var uprocenty1_27 = document.getElementById("gprocenty1_27");
+									uprocenty1_27.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_27.setAttribute("onclick", "usunprocenty1_27()");
+								}
+								function usunprocenty1_27() {
+									var dprocenty1_27 = document.getElementById("r-procenty1_27");
+									dprocenty1_27.innerHTML = null;
+									var uprocenty1_27a = document.getElementById("gprocenty1_27");
+									uprocenty1_27a.innerHTML = "Rozwiązanie";
+									uprocenty1_27a.setAttribute("onclick", "pokazprocenty1_27()");
+								}
+							</script>
+							<div id="r-procenty1_27"></div>
+						</li>
+						<li class="numer" id="procenty1_28">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Promil jest:</p>
+							<div class="odp">
+								<div class="col-xs-12 col-md-6 col-lg-6">a) Dziesięć razy mniejszy od procenta</div>
+								<div class="col-xs-12 col-md-6 col-lg-6">b) Sto razy mniejszy od procenta</div>
+							</div>
+							<div class="odp">
+								<div class="col-xs-12 col-md-6 col-lg-6">c) Dziesięć razy większy od procenta</div>
+								<div class="col-xs-12 col-md-6 col-lg-6">d) Sto razy większy od procenta</div>
+							</div><button class="butt" id="gprocenty1_28"
+								onclick="pokazprocenty1_28()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_28() {
+									var dprocenty1_28 = document.getElementById("r-procenty1_28");
+									var rprocenty1_28 = document.createElement("img");
+									rprocenty1_28.setAttribute('src', 'roz/procenty1_28.png');
+									rprocenty1_28.setAttribute('class' , 'img-fluid');
+									rdprocenty1_28.appendChild(rprocenty1_28);
+									var uprocenty1_28 = document.getElementById("gprocenty1_28");
+									uprocenty1_28.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_28.setAttribute("onclick", "usunprocenty1_28()");
+								}
+								function usunprocenty1_28() {
+									var dprocenty1_28 = document.getElementById("r-procenty1_28");
+									dprocenty1_28.innerHTML = null;
+									var uprocenty1_28a = document.getElementById("gprocenty1_28");
+									uprocenty1_28a.innerHTML = "Rozwiązanie";
+									uprocenty1_28a.setAttribute("onclick", "pokazprocenty1_28()");
+								}
+							</script>
+							<div id="r-procenty1_28"></div>
+						</li>
+						<li class="numer" id="procenty1_29">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>W mieszance studenckiej jest \(35\)g
+								orzechów laskowych, \(25\)g rodzynek, \(15\)g orzechów nerkowca i \(5\)g pestek
+								słonecznika. Ile procent tej mieszanki stanowią wszystkie orzechy?</p>
+							<div class="odp">
+								<div class="col-xs-12 col-md-6 col-lg-6">a) \(50\%\)</div>
+								<div class="col-xs-12 col-md-6 col-lg-6">b) \(62,5\%\)</div>
+							</div>
+							<div class="odp">
+								<div class="col-xs-12 col-md-6 col-lg-6">c) Około \(67\%\)</div>
+								<div class="col-xs-12 col-md-6 col-lg-6">d) \(70\%\)</div>
+							</div><button class="butt" id="gprocenty1_29"
+								onclick="pokazprocenty1_29()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_29() {
+									var dprocenty1_29 = document.getElementById("r-procenty1_29");
+									var rprocenty1_29 = document.createElement("img");
+									rprocenty1_29.setAttribute('src', 'roz/procenty1_29.png');
+									rprocenty1_29.setAttribute('class' , 'img-fluid');
+									rdprocenty1_29.appendChild(rprocenty1_29);
+									var uprocenty1_29 = document.getElementById("gprocenty1_29");
+									uprocenty1_29.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_29.setAttribute("onclick", "usunprocenty1_29()");
+								}
+								function usunprocenty1_29() {
+									var dprocenty1_29 = document.getElementById("r-procenty1_29");
+									dprocenty1_29.innerHTML = null;
+									var uprocenty1_29a = document.getElementById("gprocenty1_29");
+									uprocenty1_29a.innerHTML = "Rozwiązanie";
+									uprocenty1_29a.setAttribute("onclick", "pokazprocenty1_29()");
+								}
+							</script>
+							<div id="r-procenty1_29"></div>
+						</li>
+						<li class="numer" id="procenty1_30">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>\(25\%\) pewnej liczby to \(8\). O
+								jakiej liczbie mowa? </p>
+							<div class="odp">
+								<div>a) \(\frac{1}{4}\)</div>
+								<div>b) \(2\)</div>
+								<div>c) \(32\)</div>
+								<div>d) \(36\)</div>
+							</div><button class="butt" id="gprocenty1_30"
+								onclick="pokazprocenty1_30()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_30() {
+									var dprocenty1_30 = document.getElementById("r-procenty1_30");
+									var rprocenty1_30 = document.createElement("img");
+									rprocenty1_30.setAttribute('src', 'roz/procenty1_30.png');
+									rprocenty1_30.setAttribute('class' , 'img-fluid');
+									rdprocenty1_30.appendChild(rprocenty1_30);
+									var uprocenty1_30 = document.getElementById("gprocenty1_30");
+									uprocenty1_30.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_30.setAttribute("onclick", "usunprocenty1_30()");
+								}
+								function usunprocenty1_30() {
+									var dprocenty1_30 = document.getElementById("r-procenty1_30");
+									dprocenty1_30.innerHTML = null;
+									var uprocenty1_30a = document.getElementById("gprocenty1_30");
+									uprocenty1_30a.innerHTML = "Rozwiązanie";
+									uprocenty1_30a.setAttribute("onclick", "pokazprocenty1_30()");
+								}
+							</script>
+							<div id="r-procenty1_30"></div>
+						</li>
+						<li class="numer" id="procenty1_31">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Oblicz \(20\%\) wartości wyrażenia:
+							</p>
+							<div class="odp">
+								<div class="col-xs-12 col-md-12 col-lg5 col-lg-offset-3">\(\frac{24:0,3-12,5\cdot
+									\frac{2}{5}}{\frac{1}{6}\cdot 40+48:0,9}\)</div>
+							</div><button class="butt" id="gprocenty1_31"
+								onclick="pokazprocenty1_31()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_31() {
+									var dprocenty1_31 = document.getElementById("r-procenty1_31");
+									var rprocenty1_31 = document.createElement("img");
+									rprocenty1_31.setAttribute('src', 'roz/procenty1_31.png');
+									rprocenty1_31.setAttribute('class' , 'img-fluid');
+									rdprocenty1_31.appendChild(rprocenty1_31);
+									var uprocenty1_31 = document.getElementById("gprocenty1_31");
+									uprocenty1_31.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_31.setAttribute("onclick", "usunprocenty1_31()");
+								}
+								function usunprocenty1_31() {
+									var dprocenty1_31 = document.getElementById("r-procenty1_31");
+									dprocenty1_31.innerHTML = null;
+									var uprocenty1_31a = document.getElementById("gprocenty1_31");
+									uprocenty1_31a.innerHTML = "Rozwiązanie";
+									uprocenty1_31a.setAttribute("onclick", "pokazprocenty1_31()");
+								}
+							</script>
+							<div id="r-procenty1_31"></div>
+						</li>
+						<li class="numer" id="procenty1_32">
+							<p class="tresc"><a href="#" class="up">\(&#8657;\)</a>Oblicz jaka to liczba, której
+								\(60\%\)jest równa wartości wyrażenia:</p>
+							<div class="odp">
+								<div class="col-xs-12 col-md-12 col-lg5 col-lg-offset-3">
+									\([(6-\frac{3}{4}):(7\frac{3}{4}-\frac{1}{2})+2\frac{8}{29})]\cdot 1\frac{1}{3}\)
+								</div>
+							</div><button class="butt" id="gprocenty1_32"
+								onclick="pokazprocenty1_32()">Rozwiązanie</button>
+							<script>
+								function pokazprocenty1_32() {
+									var dprocenty1_32 = document.getElementById("r-procenty1_32");
+									var rprocenty1_32 = document.createElement("img");
+									rprocenty1_32.setAttribute('src', 'roz/procenty1_32.png');
+									rprocenty1_32.setAttribute('class' , 'img-fluid');
+									rdprocenty1_32.appendChild(rprocenty1_32);
+									var uprocenty1_32 = document.getElementById("gprocenty1_32");
+									uprocenty1_32.innerHTML = "Ukryj rozwiązanie";
+									uprocenty1_32.setAttribute("onclick", "usunprocenty1_32()");
+								}
+								function usunprocenty1_32() {
+									var dprocenty1_32 = document.getElementById("r-procenty1_32");
+									dprocenty1_32.innerHTML = null;
+									var uprocenty1_32a = document.getElementById("gprocenty1_32");
+									uprocenty1_32a.innerHTML = "Rozwiązanie";
+									uprocenty1_32a.setAttribute("onclick", "pokazprocenty1_32()");
+								}
+							</script>
+							<div id="r-procenty1_32"></div>
+						</li>
+
+
+
+
+
+				</div>
+			</div>
+		</div>
+
+</body>
+
+</html>
