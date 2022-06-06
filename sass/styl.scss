@@ -125,17 +125,19 @@ list-style-position: inside;
 list-style-type: decimal;
 }
 .tresc{
-	font-size: 20px;
+	font-size: 24px;
 	color: black;
 }
 .odp {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+	font-size: 20px;
 
 }
 .odp> div {
-	margin: 15px ;
+	
+		margin: 15px ;
 }
 .odp> div::first-letter {
     text-transform: uppercase;

@@ -119,26 +119,68 @@
                             <div id="r-zil1_1"></div>
                         </li>
                         <li class="numer" id="zil1_2">
-                            <p class="tresc"><a href="#" class="up">(&#8657;)</a></p>
-                            <div class="odp"></div>
+                            <p class="tresc"><a href="#" class="up">(&#8657;)</a>Opisz słowami następujące zbiory:</p>
+                            <div class="odp">
+                                <div>a) \(A=\{10,20,30,40,_{\dots},90\}\)</div>
+                                <div>b) \(B=\{1,2,3,4,5,6,10,12,15,20,30,60\}\)</div>
+                                <div>c) \(C=\{1,2,4,7,14,28\}\)</div>
+                                <div>d) \(D=\{12,16,20,24,_{\dots},96\}\)</div>
+                                <div>e) \(E=\{1,8,27,64,_{\dots},1000\}\)</div>
+                                <div>f) \(F=\{1,\sqrt{2},\sqrt{3},2,\sqrt{5},_{\dots},3\}\)</div>
+                            </div>
                             <button class="butt" id="gzil1_2" onclick="pokaz('zil1_2')">Rozwiązanie</button>
                             <div id="r-zil1_2"></div>
                         </li>
                         <li class="numer" id="zil1_3">
-                            <p class="tresc"><a href="#" class="up">(&#8657;)</a></p>
-                            <div class="odp"></div>
+                            <p class="tresc"><a href="#" class="up">(&#8657;)</a>Dany jest zbiór \(A\), gdzie \(A=\{1,2,3,4\}\).</p>
+                            <div class="odp">
+                                <div>a) Wypisz wszystkie podzbiory jednoelementowe, dwuelementowe i trzyelementowe zbioru \(A\)</div>
+                                <div>b) Podaj podzbiór czteroelementowy zbioru \(A\)</div>
+                                <div>c) Ile jest wszystkich podzbiorów zbioru \(A\)</div>
+                            </div>
                             <button class="butt" id="gzil1_3" onclick="pokaz('zil1_3')">Rozwiązanie</button>
                             <div id="r-zil1_3"></div>
                         </li>
                         <li class="numer" id="zil1_4">
-                            <p class="tresc"><a href="#" class="up">(&#8657;)</a></p>
-                            <div class="odp"></div>
+                            <p class="tresc"><a href="#" class="up">(&#8657;)</a>Wyznacz zbiory \(A\cup B, A\cap B, A-B, B-A\), jeśli:</p>
+                            <div class="odp">
+                                <div>a) \(A=\{-2,-1,0,1,5\}\), \(B=\{1,3,8\}\)</div>
+                                <div>b) \(A=\{5,7,9,11\}\), \(B=\{7,9\}\)</div>
+                                <div>c) \(A=\{1,2,3,4\}\), \(B=\{2,3,4,5,6\}\)</div>
+                                <div>d) \(A=\{3,4,5\}\), \(B=\{3,4,5,6,7\}\)</div>
+                                <div>e) \(A=\{-1,-2,-3\}\), \(B=\{1,2,3\}\)</div>
+                                <div>f) \(A=\{5,4,3,2,1\}\), \(B=\{1,2,3,4,5\}\)</div>
+                            </div>
                             <button class="butt" id="gzil1_4" onclick="pokaz('zil1_4')">Rozwiązanie</button>
                             <div id="r-zil1_4"></div>
                         </li>
                         <li class="numer" id="zil1_5">
-                            <p class="tresc"><a href="#" class="up">(&#8657;)</a></p>
-                            <div class="odp"></div>
+                            <p class="tresc"><a href="#" class="up">(&#8657;)</a>Na rysunku przedstawione są figury geometryczne i relacje zachodzące między nimi, gdzie \(A\) - kwadrat, \(B\) - trójkąt, \(C\) - koło, \(D\) - okrąg. Na osobnych rysunkach w zeszycie przedstaw zbiory zapisane nad rysunkiem.</p>
+                            <div class="odp">
+                                <div>a)  \(A\cup B,\  A-B,\  B-A\) 
+                                    <canvas class="rys" id="zil1_5a" width="300" height="300"></canvas>
+                                    <script>
+                                        var c = document.getElementById("zil1_5a");
+                                            var ctx = c.getContext("2d");
+                                            var s = zil1_5a.getAttribute("width");
+                                            var h = zil1_5a.getAttribute("height");
+                                            ctx.beginPath();
+                                            ctx.rect(100,100,200,200);
+                                            ctx.fillStyle = "gray";
+                                            ctx.fill();
+                                            ctx.strokeStyle = "gray";
+                                            ctx.stroke();
+                                            ctx.moveTo(50,50);
+                                            ctx.lineTo(150,150);
+                                            ctx.lineTo(250,50);
+                                            ctx.lineTo(50,50);
+                                            ctx.stroke();
+
+                                    </script>
+                                    <img class="rys" src="./zil1_5a.png" width="300px"></div>
+                                <div>b) \(B\cap C,\  B-C,\  C-B\) <img class="rys" src="./zil1_5b.png" width="300px"></div>
+                                <div>c) \((A\cap B)\cup D,\  (D\cup A)-B\) <img class="rys" src="./zil1_5c.png" width="300px"></div>
+                            </div>
                             <button class="butt" id="gzil1_5" onclick="pokaz('zil1_5')">Rozwiązanie</button>
                             <div id="r-zil1_5"></div>
                         </li>
